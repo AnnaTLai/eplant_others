@@ -1,5 +1,5 @@
 (function() {
-	
+
 	/**
 		* Eplant.View class
 		* By Hans Yu
@@ -25,7 +25,7 @@
 	Eplant.View = function(name, viewName, hierarchy, magnification, description, citation, activeIconImageURL, availableIconImageURL, unavailableIconImageURL) {
 		/* Call parent constructor */
 		ZUI.View.call(this);
-		
+
 		/* Store properties */
 		this.name = name;				// Name of the View visible to the user
 		this.viewName = viewName;
@@ -43,9 +43,9 @@
 		this.relatedTabId = null;				// Associated Tab, must define if appropriate
 		this.errorLoadingMessageDom = null;
 		this.viewGlobalConfigs = {
-			
+
 		};			// Configs needed to be stored globally
-		
+
 		this.Xhrs = {};
 		/* Title of the view
 			this.viewTitle = new ZUI.ViewObject({
@@ -66,16 +66,16 @@
 			$(this.labelDom).empty();
 			this.viewNameDom = document.createElement("span");
 			var text = this.name;
-			
+
 			if (this.hierarchy==="genetic element"&&this.geneticElement){
 				var labelText = this.geneticElement.identifier;
 				if(this.geneticElement&&this.geneticElement.aliases && this.geneticElement.aliases.length && this.geneticElement.aliases[0].length) {
-					
+
 					labelText += " / " + this.geneticElement.aliases.join(", ");
 				}
 				text+=': '+labelText;
 			}
-			
+
 			/*if(this.geneticElement.isRelated){
 				text += ", "+this.geneticElement.identifier+" correlates to "+this.geneticElement.relatedGene.identifier+" with an r-value of "+this.geneticElement.rValueToRelatedGene;
 			}*/
@@ -85,20 +85,20 @@
 		this.viewInstruction = Eplant.ViewInstructions[this.name];
 	};
 	ZUI.Util.inheritClass(ZUI.View, Eplant.View);	// Inherit parent prototype
-	
+
 	/**
 		* Default active callback method.
 		*
 		* @override
 	*/
 	Eplant.View.prototype.active = function() {
-		
+
 		/* Append View to History */
 		if (!Eplant.history.activeItem || Eplant.history.activeItem.view != this) {
 			var historyItem = new Eplant.History.Item(this);
 			Eplant.history.addItem(historyItem);
 		}
-		
+
 		if(this.downloadRawData)
 		{
 			$("#downloadIcon").show();
@@ -106,7 +106,7 @@
 		else{
 			$("#downloadIcon").hide();
 		}
-		
+
 		if(Eplant.activeSpecies&&Eplant.citations[Eplant.activeSpecies.scientificName]&&Eplant.citations[Eplant.activeSpecies.scientificName][this.name])
 		{
 			$("#citationIcon").show();
@@ -114,35 +114,35 @@
 		else{
 			$("#citationIcon").hide();
 		}
-		
-		
+
+
 		if(this.zoomIn){
 			$("#zoomIn").show();
 			}else{
-			
+
 			$("#zoomIn").hide();
 		}
-		
+
 		if(this.zoomOut){
 			$("#zoomOut").show();
 			}else{
-			
+
 			$("#zoomOut").hide();
 		}
-		
+
 		/* Restore cursor */
 		ZUI.container.style.cursor = "default";
-		
+
 		/* Restore camera */
 		ZUI.camera.setPosition(0, 0);
 		ZUI.camera.setDistance(500);
-		
+
 		/* Attach ViewSpecificUIButtons */
 		for (var n = 0; n < this.viewSpecificUIButtons.length; n++) {
 			var viewSpecificUIButton = this.viewSpecificUIButtons[n];
 			viewSpecificUIButton.attach();
 		}
-		
+
 		if(this.viewMode)
 		{
 			Eplant.switchViewMode(this.viewMode);
@@ -159,21 +159,21 @@
 				$($('#ZUI_container')).append(this.getErrorLoaddingMessageDom());
 			}
 		}
-		
+
 	};
-	
+
 	Eplant.View.prototype.getLabelSvg = function() {
 		return '<text display="inline" fill="black" stroke="" stroke-width="0.5" stroke-miterlimit="10" font-family="\'Helvetica\'" font-size="20" y="20" x="0">'+$(this.labelDom).text()+'</text>';
 	};
-	
+
 	Eplant.View.prototype.getErrorLoaddingMessageDom = function() {
 		if(!this.errorLoadingMessageDom){
 			if(this.reloadingMessageDom){
 				$(this.reloadingMessageDom).detach();
 				this.reloadingMessageDom=null;
 			}
-			
-			
+
+
 			this.errorLoadingMessageDom = document.createElement("div");
 			$(this.errorLoadingMessageDom).css({
 				"position": "absolute",
@@ -195,7 +195,7 @@
 			});
 			$(holder).text(this.errorLoadingMessage);
 			$(this.errorLoadingMessageDom).append(holder);
-			
+
 			var tryAgainButton = document.createElement("div");
 			$(tryAgainButton).css({
 				top: '60%',
@@ -214,10 +214,10 @@
 				this.errorLoadingMessage=null;
 				$(this.errorLoadingMessageDom).replaceWith(this.getReloadingMessageDom());
 				this.errorLoadingMessageDom=null;
-				
+
 				/*$(this.errorLoadingMessageDom).detach();
 					var errorInfo=this.name +" is reloading, please come back after it is done.";
-					
+
 					var dialog = window.top.art.dialog({
 					content: errorInfo,
 					width: 600,
@@ -230,21 +230,21 @@
 			},this));
 			$(this.errorLoadingMessageDom).append(tryAgainButton);
 		}
-		
+
 		return this.errorLoadingMessageDom;
 	};
-	
+
 	Eplant.View.prototype.loadFail = function() {
 		/* Set load status */
 		this.errorLoadingMessage="The sample database is not responding. Try again later.";
 						this.loadFinish();
 
 	};
-	
-	
+
+
 	Eplant.View.prototype.getReloadingMessageDom = function() {
 		if(!this.reloadingMessageDom){
-			
+
 			this.reloadingMessageDom = document.createElement("div");
 			$(this.reloadingMessageDom).css({
 				"position": "absolute",
@@ -267,7 +267,7 @@
 			$(holder).html("Reloading<br><img src='img/loading.gif'></img>");
 			$(this.reloadingMessageDom).append(holder);
 		}
-		
+
 		return this.reloadingMessageDom;
 	};
 	/**
@@ -276,14 +276,14 @@
 		* @override
 	*/
 	Eplant.View.prototype.inactive = function() {
-		
+
 		$(".qtip").qtip("hide");
 		/* Detach ViewSpecificUIButtons */
 		for (var n = 0; n < this.viewSpecificUIButtons.length; n++) {
 			var viewSpecificUIButton = this.viewSpecificUIButtons[n];
 			viewSpecificUIButton.detach();
 		}
-		
+
 		if(this.labelDom){
 			$(this.labelDom).detach();
 		}
@@ -291,13 +291,13 @@
 			Eplant.instructionDialog.close();
 			Eplant.instructionDialog=null;
 		}
-		
+
 		if(this.errorLoadingMessageDom){
 			$(this.errorLoadingMessageDom).detach();
 		}
-		
+
 	};
-	
+
 	/**
 		* Default beforeInactive callback method.
 		*
@@ -310,7 +310,7 @@
 		}
 		this.saveGlobalConfigs();
 	};
-	
+
 	/**
 		* Default afterActive callback method.
 		*
@@ -320,7 +320,7 @@
 		this.applyGlobalConfigs();
 		if(Eplant.showViewIntruction&&!Eplant.RSVPOn){//&&!Eplant.viewInstructions[this.magnification]){
 			var viewInstructionHolder = $('<div>');
-			
+
 			var content = null;
 			if(this.viewInstruction){
 				content = $('<div>').addClass('viewInstruction').html(this.viewInstruction).appendTo(viewInstructionHolder);;
@@ -329,7 +329,7 @@
 			{
 				content = $('<div>').addClass('viewInstruction').html(Eplant.ViewInstructions['Experimental Viewer']).appendTo(viewInstructionHolder);
 				//Eplant.viewInstructions[35] = true;
-				
+
 			}
 			if(content){
 				var viewInstructionControlLink = $('<a>').html('<img src="img/on/fyi.png" style="margin-right: 10px;">Click here to turn off new user info popups. They can be turned on again from the options menu.');
@@ -340,17 +340,17 @@
 					if(this.instructionDialog){
 						this.instructionDialog.close();
 					}
-					
+
 				},this));
 				var viewInstructionControl = $('<div>').addClass('viewInstructionControl').append(viewInstructionControlLink).appendTo(viewInstructionHolder);
 				this.instructionDialog = DialogManager.artDialogBottom(viewInstructionHolder[0]);
 			}
-			
+
 		}
-		
+
 	};
-	
-	
+
+
 	/**
 		* Default initializeGlobalConfigs callback method.
 		*
@@ -367,7 +367,7 @@
 			}
 		}
 	};
-	
+
 	/**
 		* Default applyGlobalConfigs callback method.
 		*
@@ -393,11 +393,11 @@
 				}
 			}
 		}
-		
-		
-		
+
+
+
 	};
-	
+
 	/**
 		* Default saveGlobalConfigs callback method.
 		*
@@ -424,10 +424,10 @@
 				}
 			}
 		}
-		
-		
+
+
 	};
-	
+
 	/**
 		* Default method for drawing the View's frame.
 		*
@@ -435,11 +435,11 @@
 	*/
 	Eplant.View.prototype.draw = function() {
 		//this.viewTitle.draw();
-		
+
 		/* Update camera */
 		ZUI.camera.update();
 	};
-	
+
 	/**
 		* Default method for removing the View.
 		*
@@ -449,7 +449,7 @@
 		/* Clear ViewObjects array */
 		//this.viewTitle.remove();
 		this.viewObjects = [];
-		
+
 		if(this.Xhrs){
 			for (var xhrName in this.Xhrs) {
 				var xhr = this.Xhrs[xhrName];
@@ -477,21 +477,21 @@
 			delete this.domContainer;
 		}
 	};
-	
+
 	/**
 		* Saves the current session.
 		* Should be overrided if needed.
 	*/
 	Eplant.View.prototype.saveSession = function() {
 	};
-	
+
 	/**
 		* Loads saved session.
 		* Should be overrided if needed.
 	*/
 	Eplant.View.prototype.loadSession = function(sessionData) {
 	};
-	
+
 	/**
 		* This method should be called when the View finishes loading.
 		* If no loading is required, call this method in the constructor.
@@ -499,19 +499,19 @@
 	Eplant.View.prototype.loadFinish = function() {
 		/* Set load status */
 		this.isLoadedData = true;
-		
+
 		if(this.reloadingMessageDom){
 			if(this.errorLoadingMessage){
 				$(Eplant.ViewModes[this.viewMode]).append(this.getErrorLoaddingMessageDom());
 			}
 			$(this.reloadingMessageDom).remove();
 		}
-		
+
 		/* Fire event to signal loading is finished */
 		var event = new ZUI.Event("view-loaded", this, null);
 		ZUI.fireEvent(event);
 	};
-	
+
 	/**
 		* Default method for grabbing the View's screen.
 		*
@@ -520,7 +520,7 @@
 	Eplant.View.prototype.getViewScreen = function() {
 		return ZUI.canvas.toDataURL();
 	};
-	
+
 	/**
 		* Returns the default exit-out animation configuration.
 		*
@@ -540,7 +540,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default enter-out animation configuration.
 		*
@@ -563,7 +563,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default exit-in animation configuration.
 		*
@@ -583,7 +583,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default enter-in animation configuration.
 		*
@@ -606,7 +606,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default exit-right animation configuration.
 		*
@@ -624,7 +624,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default enter-right animation configuration.
 		*
@@ -645,7 +645,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default exit-left animation configuration.
 		*
@@ -663,7 +663,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default enter-left animation configuration.
 		*
@@ -684,7 +684,7 @@
 			}
 		};
 	};
-	
+
 	/**
 		* Returns the default exit-right animation configuration.
 		*
@@ -697,7 +697,7 @@
 			duration: 1000
 		};
 	};
-	
+
 	/**
 		* Returns the default enter-right animation configuration.
 		*
@@ -710,7 +710,7 @@
 			duration: 1000
 		};
 	};
-	
+
 	/**
 		* Returns the default exit-left animation configuration.
 		*
@@ -723,7 +723,7 @@
 			duration: 1000
 		};
 	};
-	
+
 	/**
 		* Returns the default enter-left animation configuration.
 		*
@@ -736,6 +736,6 @@
 			duration: 1000
 		};
 	};
-	
-	
+
+
 })();

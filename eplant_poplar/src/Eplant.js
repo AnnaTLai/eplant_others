@@ -1,5 +1,5 @@
 (function() {
-  
+
   /**
     * Eplant namespace
     * By Hans Yu
@@ -9,7 +9,7 @@
     * @namespace
   */
   Eplant = {};
-  
+
   /* Constants */
   Eplant.ServiceUrl = 'cgi-bin/'; // Base services url
   Eplant.Year = "2017";
@@ -54,9 +54,9 @@
   Eplant.minColor = "#0000FF"; // Minimum color
   Eplant.midColor = "#FFFF00"; // Middle color
   Eplant.maxColor = "#FF0000"; // Maximum color
-  
+
   Eplant.citations = {};
-  
+
   Eplant.viewInstructions={};
   Eplant.globalColorMode = "absolute";
   Eplant.viewColorMode = "absolute";
@@ -70,22 +70,22 @@
   Eplant.isMaskEnabled = true; // Whether masking is enabled
   Eplant.MoleculeViewTooltip = null;
   Eplant.updatingColors = false;
-  
+
   Eplant.loadingDialog = null;
-  
+
   Eplant.viewPortTopOffset=84;
   /**
     * Initializes ePlant
   */
   Eplant.initialize = function() {
     Eplant.loadSharedResources();
-    
+
     /* Initialize ZUI */
         //BEN CHANGED
-    //width and height refer to the browser width and height at time of page load and are never updated. 
+    //width and height refer to the browser width and height at time of page load and are never updated.
     //This causes the views to extend off screen and prevents centering
 
-    //these are copied out of the resize function, they correctly size the views accounting for the left side panel 
+    //these are copied out of the resize function, they correctly size the views accounting for the left side panel
     var $left = $('#left');
     var ZUI_width = $(window).width() - $left.width() + $left.outerWidth(true) - $left.innerWidth();
     var ZUI_height = $(window).height() - 75;
@@ -99,7 +99,7 @@
       width: ZUI_width, //BEN CHANGED
       height: ZUI_height, //BEN CHANGED
     });
-    
+
     Eplant.EFPViewsCount = 0;
     Eplant.geneticElementViewsCount = 0;
     /* Initialize View modules */
@@ -112,14 +112,14 @@
       if (View.initialize) {
         View.initialize();
       }
-      
-      
+
+
     }
     Eplant.eachEFPViewAsPercent = 1/Eplant.EFPViewsCount;
     Eplant.eachGeneticViewAsPercent = 1/Eplant.geneticElementViewsCount;
-    
-    
-    
+
+
+
     /* Sort Views by magnification (ascending) */
     var sortedViewNames = [];
     for (var ViewName in Eplant.Views) {
@@ -138,21 +138,21 @@
         if (ViewName === "SpeciesView") {
           continue;
         }
-        
+
         var View = Eplant.Views[sortedViewNames[n]];
-        
+
         /* Skip eFP experimental views */
         if (View.magnification === 35) {
           continue;
         }
-        
+
         /* Append line break if magnification level is higher
           if (Math.floor(View.magnification) > Math.floor(lastMagnification)) {
           var br = document.createElement("br");
           $("#navigationContainer").append(br);
         }*/
         lastMagnification = View.magnification;
-        
+
         /* Create and append icon */
         var icon = document.createElement("div");
         icon.id = ViewName + "Icon";
@@ -165,13 +165,13 @@
           icon.setAttribute("data-dropdown", "#dropdown-experiment");
         }*/
         icon.onclick = function() {
-          
+
           /* Get icon id */
           var id = this.id;
-          
+
           /* Get View name */
           var ViewName = id.substring(0, id.length - 4);
-          
+
           /* Get View */
           var view = null;
           if (Eplant.Views[ViewName].hierarchy == "ePlant") {
@@ -182,7 +182,7 @@
             if (!Eplant.activeSpecies.activeGeneticElement) return; //BEN CHANGED
             view = Eplant.activeSpecies.activeGeneticElement.views[ViewName];
           }
-          
+
           /* Set View to activeView */
           if (view && view.isLoadedData) {
             if(ViewName=="ExperimentView")
@@ -211,26 +211,26 @@
     }
     /* Get ViewSpecificUIButtons container */
     Eplant.viewSpecificUIButtonsContainer = document.getElementById("viewSpecificUI");
-    
+
     // Initialize history tracker
     this.history = new Eplant.History();
-    
+
     /* Load Views */
     Eplant.loadViews();
-    
-    
-    
+
+
+
     /* Bind Events */
     Eplant.bindUIEvents();
     Eplant.bindEvents();
-    
+
     /* Find and set the entry View
       for (var ViewName in Eplant.views) {
       var view = Eplant.views[ViewName];
       if (view.isEntryView) {    // Found
       //Set active view
       ZUI.changeActiveView(view);
-      
+
       //End search
       break;
       }
@@ -245,20 +245,20 @@
     }
     $(".hiddenInSpeciesView").css("visibility", "visible");
     $(".hiddenInSpeciesView").css("opacity", "1");
-    
+
     Eplant.resizeIconDock();
     Eplant.updateIconDock();
     Eplant.resize();
     Eplant.loadUrlData();
     TabManager.initialize();
-    
-    
-    
+
+
+
     /* Load species data */
     Eplant.loadSpecies();
     Eplant.loadCitations();
   };
-  
+
   Eplant.loadSharedResources = function(){
     if(!Eplant.BaseViews.EFPView.GeneDistributionChart.svgDom){
       $.get("data/experiment/GeneDistributionChart.svg", function(data) {
@@ -272,9 +272,9 @@
       Eplant.expressionAnglerViewNameMap= data;
     });
   };
-  
-  
-  
+
+
+
   Eplant.getUrlParameter = function(name) {
     return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
   };
@@ -288,7 +288,7 @@
       url += hasQueryString ? '&' : '?';
       url += 'ActiveSpecies=' + Eplant.activeSpecies.scientificName.replace(/ /g,"%20");
       hasQueryString=true;
-      
+
       geneIdentifiers = $.map(Eplant.activeSpecies.displayGeneticElements,function(value, index) {
         return value.identifier;
       }).join(',');
@@ -307,18 +307,18 @@
     }
     if(Eplant.activeView)
     {
-      
+
       url += hasQueryString ? '&' : '?';
       url+= 'ActiveView='  + Eplant.getViewName(Eplant.activeView);
       hasQueryString=true;
     }
     return url;
   };
-  
+
   //BEN CHANGED (race condition for dynamic links)
   // Loads dynamic links
   Eplant.loadUrlData = function() {
-    
+
     var ActiveSpeciesToLoaded = Eplant.getUrlParameter('ActiveSpecies');
     var GeneListString = Eplant.getUrlParameter('Genes'), GeneListToLoaded;
     if (GeneListString) {
@@ -333,14 +333,14 @@
 
           Eplant.setActiveSpecies(Eplant.getSpeciesByScientificName(ActiveSpeciesToLoaded));
           Eplant.queryIdentifier(GeneListToLoaded);
-          
+
           var eventListener = new ZUI.EventListener("load-species", null, function(event, eventData, listenerData) {
             Eplant.setActiveSpecies(Eplant.species[0]);
           }, {});
           ZUI.addEventListener(eventListener);
           ZUI.removeEventListener(chromosomeLoad);
         });
-        
+
         ZUI.addEventListener(chromosomeLoad);
       }, {});
       ZUI.addEventListener(eventListener);
@@ -374,11 +374,11 @@
       console.log('view-loaded listener added')
       ZUI.addEventListener(geneAdded);
       //if (ActiveView === 'HomeView' && Eplant.views["HomeView"]) Eplant.views["HomeView"].loadFinish(); //the home view finishes doing all of it's stuff before this gets called
-      
+
     }
   }
-  
-  
+
+
   /**
     * Searches the active View of ePlant.
     *
@@ -422,7 +422,7 @@
           Eplant.searchForActiveView(viewName, cb); //BEN CHANGED (cb)
         }, 500);
       }
-      
+
     }
   };
   Eplant.loadCitations = function() {
@@ -432,9 +432,9 @@
       url: "data/citations.json",
       dataType: "json"
     }).done(Eplant.loadCitationsCallback);
-    
+
   };
-  
+
   Eplant.loadCitationsCallback = function(response) {
     if (Eplant.species && Eplant.species.length > 1) {
       Eplant.citations={};
@@ -442,10 +442,10 @@
         var species = Eplant.species[j];
         Eplant.citations[species.scientificName] = {};
         for(var i =0;i<response.length;i++){
-          
+
           var citation = response[i];
           var content = '';
-          
+
           if(citation.source) content+="<br><br>" + citation.source;
           if(citation.notes) content+="<br><br>" + citation.notes;
           if(citation.URL) content+="<br><br>" + citation.URL;
@@ -460,17 +460,17 @@
           content += "<br><br>This image was generated with the " + citation.view + " at bar.utoronto.ca/eplant by "+Eplant.AuthoursW+" "+Eplant.Year+".";
           Eplant.citations[species.scientificName][citation.view] = content;
         }
-        
-        
+
+
       }
     }
     else{
       setTimeout(function(){ Eplant.loadCitationsCallback(response) }, 3000);
     }
-    
+
   };
-  
-  
+
+
   /* Show citation via popup */
   Eplant.showCitation = function() {
     var containerElement = document.createElement("div");
@@ -495,9 +495,9 @@
       close: $.proxy(function() {
         $(this).remove();
       }, containerElement)
-      
+
     })
-    
+
     var obj = {
       dialog: dialog,
     };
@@ -507,7 +507,7 @@
       dataType: "json"
       }).done($.proxy(function(response) {
       var content = '';
-      
+
       if(response.source) content+="<br><br>" + response.source;
       if(response.notes) content+="<br><br>" + response.notes;
       if(response.URL) content+="<br><br>" + response.URL;
@@ -523,13 +523,13 @@
     }, obj));*/
     var content = "";
     if(Eplant.activeView.citation){
-      
+
       if(Eplant.activeView.infoHtml){
         content = Eplant.activeView.citation.replace("{INFOHTML}","<br><br>"+Eplant.activeView.infoHtml);
       }else{
         content = Eplant.activeView.citation.replace("{INFOHTML}","");
       }
-      
+
     }else{
       var content = "";
       if(Eplant.activeView.infoHtml){
@@ -537,7 +537,7 @@
       }else{
         content = Eplant.citations[Eplant.activeSpecies.scientificName][Eplant.activeView.name].replace("{INFOHTML}","");
       }
-        
+
     }
     dialog.content(content);
   };
@@ -555,14 +555,14 @@
       width:"95%"
     });
   };
-  
+
   Eplant.phenotypeClick = function() {
     DialogManager.artDialogUrl('MutantPhenotypeSelector',{
       close: function () {
         var mutantPhenotypeSelectorGenes = art.dialog.data('mutantPhenotypeSelectorGenes');
         if (mutantPhenotypeSelectorGenes !== undefined) Eplant.queryIdentifier(mutantPhenotypeSelectorGenes.split(','));
         art.dialog.removeData('mutantPhenotypeSelectorGenes');
-        
+
       },
       width:"95%"
     });
@@ -578,12 +578,12 @@
           if (index-1>=0) {
             var geneticElement = Eplant.activeSpecies.displayGeneticElements[index - 1];
             geneticElement.species.setActiveGeneticElement(geneticElement);
-            
+
           }
           else {
             var geneticElement = Eplant.activeSpecies.displayGeneticElements[Eplant.activeSpecies.displayGeneticElements.length-1];
             geneticElement.species.setActiveGeneticElement(geneticElement);
-            
+
           }
         }
       }
@@ -593,16 +593,16 @@
           if (Eplant.activeSpecies.displayGeneticElements.length > index+1) {
             var geneticElement = Eplant.activeSpecies.displayGeneticElements[index + 1];
             geneticElement.species.setActiveGeneticElement(geneticElement);
-            
+
           }
           else {
             var geneticElement = Eplant.activeSpecies.displayGeneticElements[0];
             geneticElement.species.setActiveGeneticElement(geneticElement);
-            
+
           }
         }
       }
-      
+
     });
     $("#genePanel_holder").mCustomScrollbar({
       theme:"inset"/*,
@@ -618,7 +618,7 @@
         onTotalScrollBack: function(){$('#top_fade').hide();},
         onTotalScroll: function(){$('#bottom_fade').hide();}
       }*/
-      
+
     });
     /* Genetic element identifier auto-complete */
     $("#enterIdentifier").autocomplete({
@@ -658,10 +658,10 @@
         $("#enterIdentifier").autocomplete("close");
       }
     });;
-    
+
     /* Query genetic element identifier */
     $("#queryIdentifier").click(function() {
-      
+
       Eplant.queryIdentifier();
     });
     $("#enterIdentifier").keyup(function(event) {
@@ -670,7 +670,7 @@
       }
     });
     //$("#enterIdentifier").clearSearch();
-    
+
     /* Example genetic element identifier query */
     $("#getExample").click(function() {
       $("#enterIdentifier").val(Eplant.activeSpecies.exampleQuery);
@@ -684,69 +684,69 @@
     $("#saveSession").click(function() {
       // TODO
     });
-    
+
     /* Load session button */
     $("#loadSession").click(function() {
       // TODO
     });
-    
+
     /* Zoom in button */
-    
+
     $("#zoomIn").click(function() {
-      
+
       if (Eplant.activeView.zoomIn) {
         Eplant.activeView.zoomIn();
-        
+
       }
     });
-    
+
     $("#zoomIn").mousedown(function() {
-      
+
       Eplant.zoomTimeout = setInterval(function() {
         if (Eplant.activeView.zoomIn) {
           Eplant.activeView.zoomIn();
-          
+
         }
       }, 100);
-      
+
       return false;
     });
-    
-    
+
+
     $("#zoomIn").mouseup(function() {
       clearInterval(Eplant.zoomTimeout);
       return false;
     });
-    
+
     $('#zoomIn').mouseout(function() {
       clearInterval(Eplant.zoomTimeout);
       return false;
     });
-    
-    
+
+
     /* Zoom out button */
     $("#zoomOut").click(function() {
-      
+
       if (Eplant.activeView.zoomOut) {
         Eplant.activeView.zoomOut();
-        
+
       }
     });
-    
-    
+
+
     $("#zoomOut").mousedown(function(event) {
       Eplant.zoomTimeout = setInterval(function() {
         if (Eplant.activeView.zoomOut) {
           Eplant.activeView.zoomOut();
-          
+
         }
       }, 100);
-      
+
       return false;
     });
-    
-    
-    
+
+
+
     $("#zoomOut").mouseup(function(event) {
       clearInterval(Eplant.zoomTimeout);
       return false;
@@ -755,13 +755,13 @@
       clearInterval(Eplant.zoomTimeout);
       return false;
     });
-    
-    
+
+
     // History dialog button
     $("#historyIcon").click(function() {
       var historyDialog = new Eplant.HistoryDialog();
     });
-    
+
     // History back button
     $("#historyBackIcon").click(function() {
       // Go back if possible
@@ -769,7 +769,7 @@
         Eplant.history.goBack();
       }
     });
-    
+
     // History forward button
     $("#historyForwardIcon").click(function() {
       // Go forward if possible
@@ -777,7 +777,7 @@
         Eplant.history.goForward();
       }
     });
-    
+
     // show url link with current eplant state
     $("#showUrl").click(function() {
       var url = Eplant.urlForCurrentState();
@@ -794,7 +794,7 @@
         title: "Save Current Settings"
       })
     });
-    
+
     /* Toggle view change animation button */
     $("#viewChangeAnimationIcon").click(function() {
       Eplant.isAnimateActiveViewChange = !Eplant.isAnimateActiveViewChange;
@@ -806,7 +806,7 @@
         $("#viewChangeAnimationIcon span").html("Zoom transitions off");
       }
     });
-    
+
     $("#viewIntructionIcon").click(function() {
       Eplant.showViewIntruction = !Eplant.showViewIntruction;
       if (Eplant.showViewIntruction) {
@@ -817,9 +817,9 @@
         $("#viewIntructionIcon span").html("New user popups off");
       }
     });
-    
-    
-    
+
+
+
     /* Toggle tooltip button */
     $("#tooltipIcon").click(function() {
       Eplant.isTooltipOn = !Eplant.isTooltipOn;
@@ -849,21 +849,21 @@
         $( '.hint--top' ).tooltip( "option", "disabled", true );
       }
     });
-    
+
     /* Get image button */
     $("#getImageIcon").click(function() {
       //var dataURL = ZUI.activeView.getViewScreen();
       Eplant.screenShotForCurrent();
     });
-    
+
     $("#palleteIcon").click(function() {
       var paletteDialog = new Eplant.PaletteDialog();
     });
-    
+
     $("#colorModeIcon").click(function() {
       var globalColorModeDialog = new Eplant.GlobalColorModeDialog();
     });
-    
+
     /* Get Citation button */
     $("#citationIcon").click(function() {
       if(Eplant.activeView.showCitation){
@@ -871,11 +871,11 @@
         }else{
         Eplant.showCitation();
       }
-      
+
     });
-    
+
     $("#downloadIcon").click(function() {
-      
+
       if(Eplant.activeView&&Eplant.activeView.downloadRawData){
         Eplant.activeView.downloadRawData()
       }
@@ -883,8 +883,8 @@
         alert("No loaded information available.")
       }
     });
-    
-    
+
+
     /* Remove dialogs button
       $("#removeDialogsIcon").click(function() {
       for (var n = 0; n < Eplant.species.length; n++) {
@@ -913,7 +913,7 @@
     });
     $("#dropdown-rsvp li").click(function() {
       var radio = $('input[type="radio"]',this);
-      
+
       $(this).closest('#dropdown-rsvp').find('input[type="radio"]').removeProp('checked');
       radio.prop('checked','checked');
       if (Eplant.RSVPOn) {
@@ -951,10 +951,10 @@
     });
     /*$("#dropdown-color-mode li").click(function() {
       var radio = $('input[type="radio"]',this);
-      
+
       $(this).closest('#dropdown-color-mode').find('input[type="radio"]').removeProp('checked');
       radio.prop('checked','checked');
-      
+
       var mode = radio.val()
       Eplant.globalColorMode = mode;
       if(Eplant.globalColorMode ==="customAbsolute"){
@@ -968,11 +968,11 @@
       var event = new ZUI.Event("update-colors", Eplant, null);
       ZUI.fireEvent(event);
       });
-      
+
       $("#dropdown-color-mode .customAbsoluteValue").click(function(e) {
       e.stopPropagation();
     });*/
-    
+
     $("#viewColorMode").on('click', function() {
       var img = $("img", this);
       if (Eplant.viewColorMode === "absolute") {
@@ -987,21 +987,21 @@
         img.attr("src","img/efpmode-absolute.png");
         $("#dropdown-color-mode .customAbsoluteValue").val(Eplant.customGlobalMax);
       }
-      
+
       var event = new ZUI.Event("update-colors", Eplant, null);
       ZUI.fireEvent(event);
     });
-    
-    
+
+
     $("#RSVPIcon").click(function() {
       if (Eplant.RSVPOn) {
         $("#RSVPIcon").css("color", "#989898");
         Eplant.RSVPOn = false;
         //$("#RSVPSpeed").slider( "disable" );
-        
-        
+
+
         $('#viewPort').css({'pointer-events' : 'auto'});
-        
+
         if(Eplant.RSVPOnMode===1){
           $( "body" ).undelegate( '.eplant-geneticElementPanel-item', "mouseover");
         }
@@ -1013,10 +1013,10 @@
         $("#RSVPIcon").css("color", "#000");
         Eplant.RSVPOn = true;
         //$("#RSVPSpeed").slider( "enable" );
-        
-        
+
+
         $('#viewPort').css({'pointer-events' : 'none'});
-        
+
         if(Eplant.RSVPOnMode===2){
           Eplant.RSVPSpeed = 100;
         }
@@ -1035,7 +1035,7 @@
         else {
           Eplant.RSVPMode(0);
         }
-        
+
       }
     });
     /*
@@ -1062,7 +1062,7 @@
       Eplant.activeSpecies.views['HeatMapView'].refreshHeatMap();
     });
     $("#heatmapModeIcon").click(function() {
-      
+
       Eplant.geneticElementPanelMapOn = !Eplant.geneticElementPanelMapOn;
       if(Eplant.geneticElementPanelMapOn){
         $("#heatmapModeIcon img").attr("src", "img/on/heatMapMode.png");
@@ -1079,7 +1079,7 @@
     $("#smallMultipleIcon").click(function() {
       Eplant.smallMultipleOn=!Eplant.smallMultipleOn;
       Eplant.CreateSmallMultiples();
-      
+
     });
     /* about page dialog click */
     $("#getAbout").on('click', function () {
@@ -1099,24 +1099,24 @@
     $("#phenotypeButton").on('click', function () {
       Eplant.phenotypeClick();
     });
-    
+
     $('#genePanel_list').sortable({
       start: function (event, ui) {
         ui.item.data('originIndex', ui.item.index());
       },
-      
+
       //update Eplant.activeSpecies.geneticElements
       update: function (event, ui) {
         var children = $('#genePanel_list').children();
         var originIndex = ui.item.data('originIndex');
         ui.item.removeData('originIndex');
         var currentIndex = ui.item.index();
-        
+
         if (currentIndex != originIndex) {
-          
+
           tempGene = Eplant.activeSpecies.displayGeneticElements[originIndex];
           Eplant.activeSpecies.displayGeneticElements.splice(originIndex, 1);
-          
+
           Eplant.activeSpecies.displayGeneticElements.splice(currentIndex, 0, tempGene);
         }
         Eplant.activeSpecies.views['HeatMapView'].refreshHeatMap();
@@ -1134,7 +1134,7 @@
       },
       tooltipClass:'left'
     });
-    
+
     $( '.hint--bottom' ).tooltip({
       position: {
         my: 'left center', at: 'right+5 center'
@@ -1154,7 +1154,7 @@
         $('.left').animate({
           marginLeft: "0px"
         }, 500);
-        
+
         $('.leftColumn').animate({
           width: left
         }, 500);
@@ -1168,10 +1168,10 @@
           marginLeft: left,
           width: $(window).width()-Eplant.viewPortLeftOffset+"px"
         }, 500);
-        
-        
+
+
         $(".toggleArrow").attr('src',"img/arrow-left-clear-bg.png");
-        
+
         Eplant.sidebarOpen = true;
         $(":animated").promise().done(function() {
           var evt = document.createEvent('UIEvents');
@@ -1179,7 +1179,7 @@
           window.dispatchEvent(evt);
           respondCanvas();
         });
-        
+
       }
       else {
         Eplant.viewPortLeftOffset =68;
@@ -1202,14 +1202,14 @@
         }, 500);
         $(".toggleArrow").attr('src',"img/arrow-right-clear-bg.png");
         Eplant.sidebarOpen = false;
-        
+
         $(":animated").promise().done(function() {
           var evt = document.createEvent('UIEvents');
           evt.initUIEvent('resize', true, false,window,0);
           window.dispatchEvent(evt);
           respondCanvas();
         });
-        
+
       }
     });
     /*$(document).mousemove(function(e){
@@ -1218,9 +1218,9 @@
     });*/
     document.onmousemove = function handleMouseMove(event) {
       var dot, eventDoc, doc, body, pageX, pageY;
-      
+
       event = event || window.event; // IE-ism
-      
+
       // If pageX/Y aren't available and clientX/Y are,
       // calculate pageX/Y - logic taken from jQuery.
       // (This is to support old IE)
@@ -1228,7 +1228,7 @@
         eventDoc = (event.target && event.target.ownerDocument) || document;
         doc = eventDoc.documentElement;
         body = eventDoc.body;
-        
+
         event.pageX = event.clientX +
         (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
         (doc && doc.clientLeft || body && body.clientLeft || 0);
@@ -1241,7 +1241,7 @@
       // Use event.pageX / event.pageY here
     }
   };
-  
+
   /**
   */
   Eplant.RSVPMode = function(index) {
@@ -1262,9 +1262,9 @@
       }
     }
   };
-  
+
   Eplant.CreateSmallMultiples = function() {
-    
+
     if (Eplant.smallMultipleOn) {
       if(Eplant.activeView.isEFPView){
         if (Eplant.RSVPOn){
@@ -1277,12 +1277,12 @@
         var viewName = Eplant.activeView.viewName;
         var genes = Eplant.activeSpecies.displayGeneticElements;
         for (var i= 0; i <genes.length; i++){
-          
+
           var isActive = genes[i].identifier === Eplant.activeSpecies.activeGeneticElement.identifier;
           var view = genes[i].views[viewName];
           var top = Math.floor(i/3)*30+3+"%";
           var left = i%3*30+3+"%";
-          
+
           var domHolder = document.createElement("div");
           $(domHolder).css({
             width:"27%",
@@ -1292,14 +1292,14 @@
             left:left
           });
           $(domHolder).attr("data-identifier",genes[i].identifier);
-          
+
           var domImgHolder = document.createElement("div");
           $(domImgHolder).addClass("smallMultiplesSvgImage");
           $(domImgHolder).css({
             "height":"80%",
             'position': 'relative'
           });
-          
+
           var img =$(view.svgImage).clone();
           $(img).attr("data-identifier",genes[i].identifier);
           $(img).css({"top":"auto","cursor":"pointer",'height':'100%'});
@@ -1311,16 +1311,16 @@
             Eplant.changeActiveView(selectedGene.views[Eplant.activeView.viewName]);
           });
           $(domImgHolder).append(img);
-          
-          
+
+
           var geneTitle = document.createElement("div");
           $(geneTitle).addClass("smallMultiplesGeneTitle");
           $(geneTitle).css({
             "text-align":"center"
-            
+
           });
           $(geneTitle).text(genes[i].identifier);
-          
+
           if(isActive){
             $(domImgHolder).css({"border":"1px solid #99cc00"});
             $(geneTitle).css({"color":"#99cc00"});
@@ -1333,14 +1333,14 @@
           $(domHolder).append(domImgHolder);
           $("#SmallMultipleHolder").append(domHolder);
         }
-        
-        
+
+
       }
       else{
         Eplant.smallMultipleOn = false;
         $("#smallMultipleIcon img").attr("src", "img/off/smallMultiples.png");
         $("#SmallMultipleContainer").hide();
-        
+
         var errorInfo='This feature is only available for eFP viewers.';
         var dialog = window.top.art.dialog({
           content: errorInfo,
@@ -1351,7 +1351,7 @@
           lock: true
         });
       }
-      
+
     }
     else {
       $("#smallMultipleIcon img").attr("src", "img/off/smallMultiples.png");
@@ -1366,12 +1366,12 @@
         }
       Eplant.smallMultipleOriginalHolder=null; */
       $("#SmallMultipleHolder").empty();
-      
+
     }
     Eplant.changeActiveViewTab();
   };
   Eplant.UpdateSmallMultiplesActiveGene = function() {
-    
+
     if (Eplant.smallMultipleOn&&Eplant.activeView.isEFPView){
       $("#smallMultipleIcon img").attr("src", "img/on/smallMultiples.png");
       $("#SmallMultipleContainer").show();
@@ -1383,7 +1383,7 @@
         var isActive = $(child).attr("data-identifier") === Eplant.activeSpecies.activeGeneticElement.identifier;
         var geneTitle = $(".smallMultiplesGeneTitle",child);
         var img = $(".smallMultiplesSvgImage",child);
-        
+
         if(isActive){
           $(img).css({"border":"1px solid #99cc00"});
           $(geneTitle).css({"color":"#99cc00"});
@@ -1392,81 +1392,81 @@
           $(img).css({"border":"1px solid #aaaaaa"});
           $(geneTitle).css({"color":"#aaaaaa"});
         }
-        
+
       }
-      
-      
-      
-      
+
+
+
+
     }
-    
-    
+
+
   };
-  
+
   /**
     * Bind events for ePlant.
   */
   Eplant.bindEvents = function() {
     $(window).resize(Eplant.resize);
-    
+
     /* Update*/
     var eventListener = new ZUI.EventListener("update-colors", Eplant, function(event, eventData, listenerData) {
       Eplant.queue.clearWithId("ColorUpdate");
       Eplant.updatingColors = true;
-      
+
       Eplant.activeSpecies.updateGlobalMax();
       for (i= 0; i <Eplant.activeSpecies.displayGeneticElements.length; i++){
         Eplant.queue.add(function(){
           this.updateEFPViews();
           this.refreshHeatmap();
-          
-          
+
+
         },Eplant.activeSpecies.displayGeneticElements[i],null,"ColorUpdate");
-        
+
       }
       Eplant.queue.add(function(){
         // Eplant.activeSpecies.views['HeatMapView'].refreshHeatMap(); // Asher
         Eplant.updatingColors = false;
-        
+
       },Eplant.activeSpecies.views['HeatMapView'],null,"ColorUpdate");
-      
+
       if(Eplant.activeView.magnification ===35){
         Eplant.experimentSelectList.getSidebar().done($.proxy(function(domSideBar){
           $('#efp_experiement_list').css('width','150px');
           $('#efp_container').css('margin-left','150px');
           Eplant.experimentSelectList.updateActive(this.viewName);
         },Eplant.activeView));
-        
+
       }
       Eplant.queue.add(Eplant.updateGeneticElementPanel,this);
       Eplant.queue.add(Eplant.CreateSmallMultiples,this);
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update speciesLabel when the activeSpecies changes */
     var eventListener = new ZUI.EventListener("update-activeSpecies", Eplant, function(event, eventData, listenerData) {
       $("#speciesLabel").html(Eplant.activeSpecies.scientificName);
       $("#left").removeClass("hideleft");
       $("#leftToggle").removeClass("hideleft");
-      
+
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update View icon when the View finishes loading */
     var eventListener = new ZUI.EventListener("view-loaded", null, function(event, eventData, listenerData) {
       /* Get View */
-      
+
       var view = event.target;
-      
+
       if(view.geneticElement){
         //Eplant.queue.add(view.geneticElement.getDom, view.geneticElement);
         view.geneticElement.getDom();
         if(view.geneticElement.isLoadedViewsData){
           Eplant.updateGeneticElementPanel();
-          
+
         }
       }
-      
+
       /* Determine whether the View is represented in the icon dock */
       var isInIconDock = false;
       if (view.hierarchy == "ePlant") {
@@ -1480,20 +1480,20 @@
           isInIconDock = true;
         }
       }
-      
+
       /* Update icon if applicable */
       if (isInIconDock) {
         Eplant.updateIconDock();
       }
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update View icon dock when activeSpecies changes */
     var eventListener = new ZUI.EventListener("update-activeSpecies", Eplant, function(event, eventData, listenerData) {
       Eplant.updateIconDock();
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update View icon dock when the activeView changes */
     var eventListener = new ZUI.EventListener("update-activeView", Eplant, function(event, eventData, listenerData) {
       Eplant.updateIconDock();
@@ -1501,7 +1501,7 @@
       Eplant.CreateSmallMultiples();
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     // Update history icons when the activeItem of the history changes
     var eventListener = new ZUI.EventListener("update-history-activeItem", Eplant.history, function(event, eventData, listenerData) {
       if (Eplant.history.isBackPossible()) {
@@ -1516,24 +1516,24 @@
       }
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when the activeSpecies changes */
     var eventListener = new ZUI.EventListener("update-activeSpecies", Eplant, function(event, eventData, listenerData) {
       Eplant.updateGeneticElementPanel();
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when the activeGeneticElement of activeSpecies changes */
     var eventListener = new ZUI.EventListener("update-activeGeneticElement", null, function(event, eventData, listenerData) {
       /* Get Species */
       var geneticElement = event.target;
       if(geneticElement){
         var species = event.target.species;
-        
+
         if (species == Eplant.activeSpecies) {
           Eplant.updateIconDock();
         }
-        
+
         /* Check if Species is the activeSpecies */
         if (species == Eplant.activeSpecies) {
           Eplant.updateGeneticElementPanel();
@@ -1542,11 +1542,11 @@
           }
         }
         Eplant.UpdateSmallMultiplesActiveGene();
-        
+
       }
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when the activeGeneticElement of activeSpecies changes */
     var eventListener = new ZUI.EventListener("remove-geneticElement", null, function(event, eventData, listenerData) {
       /* Get Species */
@@ -1561,15 +1561,15 @@
         species.setActiveGeneticElement(species.displayGeneticElements[species.displayGeneticElements.length-1]);
         $("#wordCloudIcon img").attr('data-hint',"Word Cloud. A minimum of 5 genes must be loaded to use this tool.");
         Eplant.wordCloudButtonOn = false;
-        
+
         $("#wordCloudIcon img").attr("src", "img/off/wordCloud.png");
       }
       else{
         Eplant.changeActiveView(Eplant.views['HomeView']);
         species.activeGeneticElement = null;
-        
+
         Eplant.wordCloudButtonOn = false;
-        
+
         $("#wordCloudIcon img").attr("src", "img/off/wordCloud.png");
         $("#wordCloudIcon img").attr('data-hint',"Word Cloud. A minimum of 5 genes must be loaded to use this tool.");
       }
@@ -1582,23 +1582,23 @@
         Eplant.updateIconDock();
       }
 
-      
+
       Eplant.CreateSmallMultiples();
       TabManager.removeIdentifier(event.target.identifier);
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when the activeGeneticElement of activeSpecies changes */
     var eventListener = new ZUI.EventListener("add-geneticElement", null, function(event, eventData, listenerData) {
-      
+
       /* Get Species */
       var species = event.target.species;
       var geneticElement = event.target;
-      
-      
+
+
       // Poplar
       //Eplant.activeSpecies.views['HeatMapView'].addNewRow(geneticElement);
-      
+
       if(species.displayGeneticElements.length > 4){
         $("#wordCloudIcon img").attr('data-hint', "Create a word cloud based on semantic terms from gene descriptions");
         Eplant.wordCloudButtonOn = true;
@@ -1612,31 +1612,31 @@
       Eplant.CreateSmallMultiples();
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when views of a GeneticElement of the activeSpecies are loaded */
     var eventListener = new ZUI.EventListener("load-views", null, function(event, eventData, listenerData) {
       /* Get Species */
       $("#citationIcon").show();
-      
+
       var species = event.target.species;
-      
+
       //BEN CHANGED (added the if, prevents a newly loaded gene from taking you away from what you are already doing but allows the first one to auto open)
       if (!Eplant.activeSpecies.activeGeneticElement) species.setActiveGeneticElement(event.target);
-      
-      
+
+
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when views of a GeneticElement of the activeSpecies are loaded */
     var eventListener = new ZUI.EventListener("load-efp-views", null, function(event, eventData, listenerData) {
       /* Get Species */
       var species = event.target.species;
-      
+
       //species.views['HeatMapView'].loadFinish();
-      
-      
-      
-      
+
+
+
+
       Eplant.queue.add(function(){
         event.target.updateMax();
         //event.target.updateEFPViews();
@@ -1650,9 +1650,9 @@
             var geneticElement = species.geneticElements[n];
             geneticElement.updateEFPViews();
           }
-        }    
+        }
       },Eplant,null,event.target.identifier+"_Loading");
-      
+
       Eplant.queue.add(function(){
         for (var ViewName in species.views) {
           /* Get View constructor */
@@ -1662,44 +1662,44 @@
           }
         }
       },Eplant,null,event.target.identifier+"_Loading");
-      
-      
+
+
       Eplant.queue.add(function(){
         if(Eplant.activeView.name === "Welcome Screen"){
           Eplant.searchForActiveView('PlantView'); //Poplar
         }
         else if(Eplant.activeView.name === "Plant Viewer"){
-          
+
         }
         //Eplant.activeSpecies.views['HeatMapView'].addNewRow(event.target) // Poplar
       },Eplant,null,event.target.identifier+"_Loading");
-      
+
       /* Check if Species is the activeSpecies */
       if (species == Eplant.activeSpecies) {
         //Eplant.updateGeneticElementPanel();
       }
       event.target.species.setActiveGeneticElement(event.target);
-      
+
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when the GeneticElementDialog of a GeneticElement of the activeSpecies is updated */
     var eventListener = new ZUI.EventListener("update-geneticElementDialog", null, function(event, eventData, listenerData) {
       /* Get Species */
       var species = event.target.species;
-      
+
       /* Check if Species is the activeSpecies */
       if (species == Eplant.activeSpecies) {
         Eplant.updateGeneticElementPanel();
       }
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     /* Update GeneticElement panel when tags change */
     var eventListener = new ZUI.EventListener("update-annotationTags", null, function(event, eventData, listenerData) {
       /* Get GeneticElement */
       var geneticElement = event.target;
-      
+
       /* Update if Species is the activeSpecies */
       if (geneticElement.species == Eplant.activeSpecies) {
         Eplant.updateGeneticElementPanel();
@@ -1710,15 +1710,15 @@
       Eplant.setActiveSpecies(Eplant.species[0]);
     }, {});
     ZUI.addEventListener(eventListener);
-    
+
     var eventListener = new ZUI.EventListener("genes-all-loaded", null, function(event, eventData, listenerData) {
-    
+
       Eplant.activeSpecies.updateGlobalMax();
 
     }, {});
     ZUI.addEventListener(eventListener);
   };
-  
+
   /**
     * Queries the identifier in the input box.
   */
@@ -1728,7 +1728,7 @@
     var truncTerms = [];
     if (array) {
       terms = array;
-      
+
     }
     else {
       if ($("#enterIdentifier").val() == '' || $("#enterIdentifier").val() == $("#enterIdentifier")[0].defaultValue) {
@@ -1740,11 +1740,11 @@
         terms = $("#enterIdentifier").val().split(new RegExp(separators.join('|'), 'g')).filter(function(el) {return el.length != 0});
         // Poplar
         //truncTerms = terms.filter(function(el) {return el.indexOf('.') != -1});
-        
+
       }
-      
+
     }
-    
+
     if(truncTerms.length>0){
       truncTerms = $.map(truncTerms,function(value, index) {
         return value.split('.')[0];
@@ -1763,37 +1763,37 @@
     for (var n = 0; n < terms.length; n++) {
       var term = terms[n].trim();
       Eplant.activeSpecies.loadGeneticElementByIdentifier(term);
-      
-      
+
+
     }
     $("#enterIdentifier").val('');
     //Eplant.updateGeneticElementPanel();
-    
+
   };
-  
+
   /**
     * Load Views at the hierarchy level of ePlant.
   */
   Eplant.loadViews = function() {
     /* Set up Object wrapper */
     Eplant.views = {};
-    
+
     /* Loop through Eplant.Views namespace */
     for (var ViewName in Eplant.Views) {
       /* Get View constructor */
       var View = Eplant.Views[ViewName];
-      
+
       /* Skip if View hierarchy is not at the level of genetic element */
       if (View.hierarchy != "ePlant") continue;
-      
+
       /* Create View */
       Eplant.views[ViewName] = new View(this);
     }
-    
+
     /* Set flag for view loading */
     this.isLoadedViews = true;
   };
-  
+
   /**
     * Loads all Species for ePlant
   */
@@ -1804,7 +1804,7 @@
         for (var n = 0; n < response.length; n++) {
           /* Get data for this species */
           var speciesData = response[n];
-          
+
           /* Create Species */
           var species = new Eplant.Species({
             scientificName: speciesData.scientificName,
@@ -1812,21 +1812,21 @@
             exampleQuery: speciesData.exampleQuery
           });
           species.loadViews();
-          
+
           /* Add Species to ePlant */
           Eplant.addSpecies(species);
         }
-        
+
         /* Set Species load status */
         Eplant.isLoadedSpecies = true;
-        
+
         /* Fire event for loading chromosomes */
         var event = new ZUI.Event("load-species", Eplant, null);
         ZUI.fireEvent(event);
       }, this));
     }
   };
-  
+
   /**
     * Adds a Species to ePlant
     *
@@ -1835,12 +1835,12 @@
   Eplant.addSpecies = function(species) {
     /* Add Species to array */
     Eplant.species.push(species);
-    
+
     /* Fire event for updating the Species array */
     var event = new ZUI.Event("update-species", Eplant, null);
     ZUI.fireEvent(event);
   };
-  
+
   /**
     * Removes a Species from ePlant
     *
@@ -1849,16 +1849,16 @@
   Eplant.removeSpecies = function(species) {
     /* Clean up Species */
     species.remove();
-    
+
     /* Remove Species from array */
     var index = Eplant.species.indexOf(species);
     if (index > -1) Eplant.species.splice(index, 1);
-    
+
     /* Fire event for updating the Species array */
     var event = new ZUI.Event("update-species", Eplant, null);
     ZUI.fireEvent(event);
   };
-  
+
   /**
     * Gets the Species with the specified scientific name.
     *
@@ -1873,11 +1873,11 @@
         return species;
       }
     }
-    
+
     /* Not found */
     return null;
   };
-  
+
   /**
     * Sets ePlant's activeSpecies.
     *
@@ -1888,23 +1888,23 @@
     if (Eplant.activeSpecies && Eplant.activeSpecies.activeGeneticElement && Eplant.activeSpecies.activeGeneticElement.geneticElementDialog) {
       Eplant.activeSpecies.activeGeneticElement.geneticElementDialog.unselect();
     }
-    
+
     /* Set activeSpecies */
     Eplant.activeSpecies = species;
-    
+
     /* Fire event for updating activeSpecies */
     var event = new ZUI.Event("update-activeSpecies", Eplant, null);
     ZUI.fireEvent(event);
-    
+
     /* Select GeneticElementDialog of new active Species' activeGeneticElement */
     if (Eplant.activeSpecies.activeGeneticElement && Eplant.activeSpecies.activeGeneticElement.geneticElementDialog) {
       Eplant.activeSpecies.activeGeneticElement.geneticElementDialog.select();
     }
   };
-  
-  
-  
-  
+
+
+
+
   /**
     * gets the active View of a tab.
     *
@@ -1914,7 +1914,7 @@
   Eplant.getTabActiveView = function(tabId) {
     return Eplant.activeViews[tabId];
   }
-  
+
   /**
     * gets the active View of a tab.
     *
@@ -1926,23 +1926,23 @@
       tabId = Eplant.activeTabId;
     }
     Eplant.activeViews[tabId] = activeView;
-    
+
   }
-  
+
   /**
     * deletes the active View of a tab.
     *
     * @param {string} tab id.
   */
   Eplant.deleteTabActiveView = function(tabId) {
-    
+
     if (Eplant.activeViews.hasOwnProperty(tabId)) {
       delete Eplant.activeViews[tabId];
     }
-    
-    
+
+
   }
-  
+
   /**
     * Changes the active View of ePlant.
     *
@@ -2090,7 +2090,7 @@
       ZUI.fireEvent(event);
     }
   };
-  
+
   Eplant.changeActiveViewTab = function(tabId) {
     if(!tabId){
       tabId = Eplant.activeTabId;
@@ -2105,7 +2105,7 @@
         tabName += ": "+Eplant.activeView.geneticElement.identifier;
       }
     }
-    
+
     if (tabId) {
       var $active = $("#tabs  #tabUl").find("[aria-controls='" + tabId + "']");
       $(".fullTab", $active).text(tabName);
@@ -2117,13 +2117,13 @@
     * Updates the View icon dock.
   */
   Eplant.updateIconDock = function() {
-    
+
     for (var ViewName in Eplant.Views) {
       /* Get constructor */
       var View = Eplant.Views[ViewName];
       $("#"+ViewName+"Icon").removeClass("selected");
       $("#"+ViewName+"Icon").removeClass("disabled");
-      
+
       /* Get the active view instance */
       var view = null;
       if (View.hierarchy == "ePlant") {
@@ -2146,8 +2146,8 @@
           view = Eplant.activeSpecies.activeGeneticElement.views[ViewName];
         }
       }
-      
-      
+
+
       if(ViewName === "ExperimentView"){
         if (Eplant.activeView.magnification === 35) {
           $("#" + ViewName + "Icon").addClass("selected");
@@ -2178,7 +2178,7 @@
               $("#" + ViewName + "Icon").addClass("selected");
               $("#" + ViewName + "Icon").children("img").attr("src", View.activeIconImageURL);
             }
-            
+
           }
           else if (view.isLoadedData) {
             if(view.hierarchy == "species" && Eplant.activeSpecies)
@@ -2203,13 +2203,13 @@
           $("#"+ViewName+"Icon").addClass("disabled");
         }
       }
-      
-      
-      
-      
+
+
+
+
     }
   };
-  
+
   Eplant.updateDownloadingMessage = function(isLoading) {
     if(isLoading){
       $("#enterIdentifier").attr('placeholder', 'Downloading...');// '+loadingGenesString+'...');
@@ -2218,7 +2218,7 @@
           Eplant.updateDownloadingMessage(false);
         }, 3000);
       }
-      
+
     }
     else {
       if ($("#enterIdentifier").attr('placeholder').indexOf('Downloading')>-1) {
@@ -2236,19 +2236,19 @@
     if (!Eplant.activeSpecies) {
       return;
     }
-    
-    
+
+
     /* Get panel DOM container */
     var domPanel = document.getElementById("genePanel_list");
-    
+
     /* Clear old panel content */
     //$(domPanel).empty();
-    
+
     /* Clear old identifier query */
     Eplant.identifierQuery = [];
-    
+
     /* Populate panel */
-    
+
     var allLoaded = true;
     var loaded = 0;
     var notLoaded = 0;
@@ -2256,11 +2256,11 @@
     for (var n = 0; n < Eplant.activeSpecies.displayGeneticElements.length; n++) {
       /* Get GeneticElement */
       var geneticElement = Eplant.activeSpecies.displayGeneticElements[n];
-      
+
       var domItem = geneticElement.getDom();
-      
+
       //$(domPanel).append(domItem);
-      
+
       /* Pass if views not loaded */
       if (!geneticElement.isLoadedViewsData) {
         allLoaded = false;
@@ -2270,15 +2270,15 @@
       else{
         loaded++;
       }
-      
+
       /* add loaded genetic elements */
       //Eplant.identifierQuery.push(geneticElement.identifier);
-      
-      
-      
+
+
+
       /* Append item to panel */
       $(domPanel).append(domItem);
-      
+
     }
     var loadingGenesString = loadingGenesString.replace(/(^,)|(,$)/g, "")
     if(loaded ===0 ){
@@ -2291,14 +2291,14 @@
       $('#genePanel_label').html(loaded+' genes currently loaded');
     }
     if (!allLoaded) {
-      
+
       if (notLoaded ===1 ){
         $('#genePanel_loading_label').html(notLoaded+' gene currently loading');
       }
       else{
         $('#genePanel_loading_label').html(notLoaded+' genes currently loading');
       }
-      
+
     }
     else {
       $('#genePanel_loading_label').html('');
@@ -2309,10 +2309,10 @@
         Eplant.genesAllLoaded=true;
       }
     }
-    
-    
+
+
   };
-  
+
   /**
     * Updates history icons.
   */
@@ -2328,7 +2328,7 @@
       $("#historyForwardIcon img").attr("src", "img/unavailable/history-forward.png");
     }
   };
-  
+
   /**
     * Gets the constructor name of a View.
     *
@@ -2344,7 +2344,7 @@
     }
     return null;
   };
-  
+
   /**
     * Resize icons in the Icon Dock
     *
@@ -2381,11 +2381,11 @@
         if (iconNum + Eplant.iconIndex < Eplant.iconList.length) {
         $('#navigationContainer').css("margin-bottom", "60px");
         $('#iconBottomArrow').show();
-        
+
         } else {
         $('#navigationContainer').css("margin-bottom", "0px");
         $('#iconBottomArrow').hide();
-        
+
         }
         Eplant.visibleIcons = iconNum;
       */
@@ -2396,7 +2396,7 @@
         newMargin = 5;
       }
       for (i = 0; i < Eplant.iconList.length; i++) {
-        
+
         $(Eplant.iconList[i]).css({
           'width': newWidth,
           'height': newWidth,
@@ -2407,11 +2407,11 @@
           'height': newWidth
         });
       }
-      
+
     }
     else {
       /*for (i = 0; i < Eplant.iconList.length; i++) {
-        
+
         $(Eplant.iconList[i]).show();
       }*/
       /*$('#navigationContainer').css({
@@ -2423,7 +2423,7 @@
         $('#navigationContainer').css("margin-top", 0);
       $('#navigationContainer').css("margin-bottom", 0);*/
       for (i = 0; i < Eplant.iconList.length; i++) {
-        
+
         $(Eplant.iconList[i]).css({
           'width': '',
           'height':'',
@@ -2437,7 +2437,7 @@
     }
   };
   Eplant.resize = function() {
-    
+
     var $left = $('#left');
     var leftMargin =$left.width()+$left.outerWidth(true)-$left.innerWidth();
     var height = $(window).height() - 75;
@@ -2461,7 +2461,7 @@
     else{
       $('div#genePanel_content').height('');
     }
-    
+
     $('div.tab').width(width);
     $('div#ZUI_container').width(width);
     $('div.tab').css('margin-left',leftMargin );
@@ -2479,7 +2479,7 @@
       list[i]._reset();
     };
   }
-  
+
   Eplant.wordWrap = function(str, maxWidth) {
     function testWhite(x) {
       var white = new RegExp(/^\s$/);
@@ -2502,44 +2502,44 @@
         res.push([str.slice(0, maxWidth), newLineStr].join(''));
         str = str.slice(maxWidth);
       }
-      
+
       if (str.length < maxWidth)
       done = true;
     } while (!done);
     res.push(str);
     return res;
-    
-    
+
+
   }
   Eplant.showLoading = function(str) {
     var domContainer = document.createElement("div");
-    
+
     $(domContainer).append(/*'<img src="img/loading.gif"/><br/>'+*/str);
     var options = {};
     options.content = domContainer;
     options.lock = true;
-    options.background = '#000'; 
+    options.background = '#000';
     options.opacity = 0.6;
     options.width = 320;
-    options.window = 'top'; 
-    options.fixed= true; 
+    options.window = 'top';
+    options.fixed= true;
     options.drag= false;
     options.resize= false;
     options.init= function() {
       this.DOM.content.css({"overflow":"visible"})
     };
-    
+
     /*options.cancel = $.proxy(function(event, ui) {
       this.close();
     }, this);*/
     Eplant.loadingDialog  = window.top.art.dialog(options);
-    
-  }  
+
+  }
   Eplant.hideLoading = function() {
     if(Eplant.loadingDialog ){
       Eplant.loadingDialog.close();
       Eplant.loadingDialog =null;
     }
   }
-  
+
 })();

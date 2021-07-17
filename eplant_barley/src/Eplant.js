@@ -82,11 +82,11 @@
     Eplant.loadSharedResources();
 
     /* Initialize ZUI */
-    
-  //width and height refer to the browser width and height at time of page load and are never updated. 
+
+  //width and height refer to the browser width and height at time of page load and are never updated.
   //This causes the views to extend off screen and prevents centering
 
-  //these are copied out of the resize function, they correctly size the views accounting for the left side panel 
+  //these are copied out of the resize function, they correctly size the views accounting for the left side panel
   var $left = $('#left');
   var ZUI_width = $(window).width() - $left.width() + $left.outerWidth(true) - $left.innerWidth();
   var ZUI_height = $(window).height() - 75;
@@ -105,6 +105,7 @@
     Eplant.geneticElementViewsCount = 0;
     /* Initialize View modules */
     for (var ViewName in Eplant.Views) {
+      console.log("loading the views from Eplant.js" + ViewName)
       /* Get View constructor */
       var View = Eplant.Views[ViewName];
       if (View.isEFPView) Eplant.EFPViewsCount++;
@@ -198,7 +199,7 @@
               Eplant.searchForActiveView("AtGenExpressView");
             } else if (ViewName == "LinkoutView") {
               view.show();
-            } 
+            }
             //BEN CHANGED
             else if (ViewName != 'HeatMapView') {
               Eplant.changeActiveView(view);
@@ -235,7 +236,7 @@
     	if (view.isEntryView) {    // Found
     	//Set active view
     	ZUI.changeActiveView(view);
-    	
+
     	//End search
     	break;
     	}
@@ -319,7 +320,7 @@
 
   // Loads dynamic links
   Eplant.loadUrlData = function() {
-    
+
     var ActiveSpeciesToLoaded = Eplant.getUrlParameter('ActiveSpecies');
     var GeneListString = Eplant.getUrlParameter('Genes'), GeneListToLoaded;
     if (GeneListString) {
@@ -334,14 +335,14 @@
 
           Eplant.setActiveSpecies(Eplant.getSpeciesByScientificName(ActiveSpeciesToLoaded));
           Eplant.queryIdentifier(GeneListToLoaded);
-          
+
           var eventListener = new ZUI.EventListener("load-species", null, function(event, eventData, listenerData) {
             Eplant.setActiveSpecies(Eplant.species[0]);
           }, {});
           ZUI.addEventListener(eventListener);
           ZUI.removeEventListener(chromosomeLoad);
         });
-        
+
         ZUI.addEventListener(chromosomeLoad);
       }, {});
       ZUI.addEventListener(eventListener);
@@ -375,7 +376,7 @@
       console.log('view-loaded listener added')
       ZUI.addEventListener(geneAdded);
       //if (ActiveView === 'HomeView' && Eplant.views["HomeView"]) Eplant.views["HomeView"].loadFinish(); //the home view finishes doing all of it's stuff before this gets called
-      
+
     }
   }
 
@@ -396,9 +397,9 @@
     } else {
       var view = null;
 
-      
+
       var View = Eplant.Views[viewName];
-      // Get the active view instance 
+      // Get the active view instance
 
       if (View.hierarchy == "ePlant") {
         view = Eplant.views[viewName];
@@ -424,7 +425,7 @@
           Eplant.searchForActiveView(viewName, cb);
         }, 500);
       }
-      
+
     }
   };
 
@@ -510,7 +511,7 @@
     	dataType: "json"
     	}).done($.proxy(function(response) {
     	var content = '';
-    	
+
     	if(response.source) content+="<br><br>" + response.source;
     	if(response.notes) content+="<br><br>" + response.notes;
     	if(response.URL) content+="<br><br>" + response.URL;
@@ -942,10 +943,10 @@
     });
     /*$("#dropdown-color-mode li").click(function() {
     	var radio = $('input[type="radio"]',this);
-    	
+
     	$(this).closest('#dropdown-color-mode').find('input[type="radio"]').removeProp('checked');
     	radio.prop('checked','checked');
-    	
+
     	var mode = radio.val()
     	Eplant.globalColorMode = mode;
     	if(Eplant.globalColorMode ==="customAbsolute"){
@@ -959,7 +960,7 @@
     	var event = new ZUI.Event("update-colors", Eplant, null);
     	ZUI.fireEvent(event);
     	});
-    	
+
     	$("#dropdown-color-mode .customAbsoluteValue").click(function(e) {
     	e.stopPropagation();
     });*/
@@ -2356,11 +2357,11 @@
       	if (iconNum + Eplant.iconIndex < Eplant.iconList.length) {
       	$('#navigationContainer').css("margin-bottom", "60px");
       	$('#iconBottomArrow').show();
-      	
+
       	} else {
       	$('#navigationContainer').css("margin-bottom", "0px");
       	$('#iconBottomArrow').hide();
-      	
+
       	}
       	Eplant.visibleIcons = iconNum;
       */
@@ -2385,7 +2386,7 @@
 
     } else {
       /*for (i = 0; i < Eplant.iconList.length; i++) {
-      	
+
       	$(Eplant.iconList[i]).show();
       }*/
       /*$('#navigationContainer').css({
