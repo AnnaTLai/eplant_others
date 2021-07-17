@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<specimen name="Zea mays B73">- 
+  <view db="maize_leaf_gradient" img="maize_leaf_gradient_image.tga" name="all">
+    <coords graphHeight="83" graphWidth="169" graphX="4" graphY="143" legendX="0" legendY="300"/>
+    <extra coords="160,7,280,7,280,27,160,27" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No"/>
+    <info>
+      <li>Data were provided by Lin Wang and Thomas Brutnell at Boyce Thomas Institute for Plant Research. </li>
+      <li>Data were normalized using the RPKM method.</li></info>- 
+    <group name="Maize Leaf Gradient">
+      <control sample="MAIZE_CTRL"/>
+      <tissue colorKey="#e1e410" id="LeafDistal1" name="M1">
+        <link url="http://base link"/>
+        <area coords="7,220,64,220,64,275,7,275"/>
+        <sample name="M1"/></tissue>- 
+      <tissue colorKey="#cfd10e" id="LeafDistal2" name="M2">
+        <link url="http://base link"/>
+        <area coords="64,216,114,216,115,283,64,283"/>
+        <sample name="M2"/></tissue>- 
+      <tissue colorKey="#d0dd02" id="LeafDistal3" name="M3">
+        <link url="http://base link"/>
+        <area coords="115,217,167,217,167,291,115,291"/>
+        <sample name="M3"/></tissue>- 
+      <tissue colorKey="#b4d404" id="LeafDistal4" name="M4">
+        <link url="http://base link"/>
+        <area coords="167,210,219,210,218,299,167,299"/>
+        <sample name="M4"/></tissue>- 
+      <tissue colorKey="#9dc101" id="LeafDistal5" name="M5">
+        <link url="http://base link"/>
+        <area coords="219,212,270,212,270,299,219,299"/>
+        <sample name="M5"/></tissue>- 
+      <tissue colorKey="#8fa600" id="LeafDistal6" name="M6">
+        <link url="http://base link"/>
+        <area coords="271,214,323,214,323,304,271,304"/>
+        <sample name="M6"/></tissue>- 
+      <tissue colorKey="#449400" id="LeafDistal7" name="M7">
+        <link url="http://base link"/>
+        <area coords="323,215,375,215,375,302,323,302"/>
+        <sample name="M7"/></tissue>- 
+      <tissue colorKey="#317b00" id="LeafDistal8" name="M8">
+        <link url="http://base link"/>
+        <area coords="375,219,426,219,426,297,375,297"/>
+        <sample name="M8"/></tissue>- 
+      <tissue colorKey="#216b00" id="LeafDistal9" name="M9">
+        <link url="http://base link"/>
+        <area coords="426,220,479,220,479,295,426,295"/>
+        <sample name="M9"/></tissue>- 
+      <tissue colorKey="#266502" id="LeafDistal10" name="M10">
+        <link url="http://base link"/>
+        <area coords="479,222,530,222,530,288,479,288"/>
+        <sample name="M10"/></tissue>- 
+      <tissue colorKey="#225b01" id="LeafDistal11" name="M11">
+        <link url="http://base link"/>
+        <area coords="530,225,582,225,582,282,530,282"/>
+        <sample name="M11"/></tissue>- 
+      <tissue colorKey="#1e5201" id="LeafDistal12" name="M12">
+        <link url="http://base link"/>
+        <area coords="582,221,635,221,635,280,582,280"/>
+        <sample name="M12"/></tissue>- 
+      <tissue colorKey="#1c4c01" id="LeafDistal13" name="M13">
+        <link url="http://base link"/>
+        <area coords="635,233,687,233,687,273,635,273"/>
+        <sample name="M13"/></tissue>- 
+      <tissue colorKey="#1b4901" id="LeafDistal14" name="M14">
+        <link url="http://base link"/>
+        <area coords="687,239,739,239,739,272,687,272"/>
+        <sample name="M14"/></tissue>- 
+      <tissue colorKey="#364901" id="LeafDistal15" name="M15">
+        <link url="http://base link"/>
+        <area coords="739,247,792,247,792,273,739,273"/>
+        <sample name="M15"/></tissue>
+    </group>
+  </view>
+</specimen>

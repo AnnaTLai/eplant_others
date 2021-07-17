@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Zea mays B73">
+	<info>
+		<li>Data from R. Sekhon et al., (2011) The Plant Journal 66(4):553-565. </li>
+		<li>Data were Nimblegen derived, normalized using RMA and provided as linearized data. All samples were taken in triplicate. </li>
+		<li>Based on the original maize eFP browser by R.Patel with images from the Kaeppler group at the University of Wisconsin - Madison.</li>
+		<li>Vectorized image redrawn and programmed by Delvin So</li>
+	</info>
+	<view db="maize_RMA_linear" img="Sekhon_et_al_Atlas_image.tga" name="all">
+		<coords graphHeight="59" graphWidth="140" graphX="411" graphY="730" legendX="220" legendY="610" /> 
+		<extra coords="160,7,280,7,280,27,160,27" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" />
+		<extra coords="88,26,261,25,262,43,88,43" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="18,787,317,787,317,799,18,799" link="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04527.x/abstract" name="Sekhon et al., The Plant Journal 66(4): 553 - 563" parameters="No" /> 
+		<extra coords="97,42,278,41,278,58,97,58" link="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04527.x/abstract" name="Sekhon et al., The Plant Journal 66(4): 553 - 563" parameters="No" />
+		<group name="Maize - Kaeppler">
+			<control sample="MAIZE_CTRL" /> 
+			<tissue colorKey="#f4c0c0" id="Germinating_Seed_24h" name="Germinating Seed 24h. PO:0009001 kernel; PO:imbibition.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="20,173,73,173,73,276,20,276" /> 
+				<sample name="24H_Germinating Seed_R1" />
+				<sample name="24H_Germinating Seed_R2" />
+				<sample name="24H_Germinating Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#d6d6b7" id="Coleoptile_6DAS_GH" name="Coleoptile 6DAS GH. PO:0025287 seedling coleoptile; PO:0007045 coleoptile emergence.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="108,92,143,93,143,132,108,132" /> 
+				<sample name="6DAS_GH_Coleoptile_R1" />
+				<sample name="6DAS_GH_Coleoptile_R2" />
+				<sample name="6DAS_GH_Coleoptile_R3" /> 
+			</tissue>
+			<tissue colorKey="#bbc0b1" id="Coleoptile_6DAS_Primary_Root" name="Coleoptile 6DAS Primary Root. PO:0020127 primary root; PO:0007015 radical emergence.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="81,152,124,152,123,276,81,276" /> 
+				<sample name="6DAS_GH_Primary Root_R1" />
+				<sample name="6DAS_GH_Primary Root_R2" />
+				<sample name="6DAS_GH_Primary Root_R3" /> 
+			</tissue>
+			<tissue colorKey="#cbb798" id="Stem_and_SAM_V1" name="Stem and SAM (V1). PO:0020142 stem internode; PO:0020148 shoot apical meristem; PO:0007106 LP.03 three leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="169,101,204,101,204,135,169,135" /> 
+				<sample name="V1_Stem and SAM_R1" />
+				<sample name="V1_Stem and SAM_R2" />
+				<sample name="V1_Stem and SAM_R3" /> 
+			</tissue>
+			<tissue colorKey="#baa88b" id="Stem_and_SAM_V3" name="Stem and SAM (V3). PO:0020142 stem internode; PO:0020148 shoot apical meristem; PO:0007065 LP.05 five leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="283,97,320,96,320,137,283,137" /> 
+				<sample name="V3_Stem and SAM_R1" />
+				<sample name="V3_Stem and SAM_R2" />
+				<sample name="V3_Stem and SAM_R3" /> 
+			</tissue>
+			<tissue colorKey="#a7967c" id="Stem_and_SAM_V4" name="Stem and SAM (V4). PO:0020148 shoot apical meristem; PO:0020142 internode; PO:0007123 leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="353,94,392,95,391,137,353,137" /> 
+				<sample name="V4_Stem and SAM_R1" />
+				<sample name="V4_Stem and SAM_R2" />
+				<sample name="V4_Stem and SAM_R3" /> 
+			</tissue>
+			<tissue colorKey="#908066" id="Shoot_tip_V5" name="Shoot tip (V5). PO:0000037 shoot apex; PO:0009025 vascular PO:0006340 adult leaf; PO:0001052 2 leaf expansion stage; PO:0020040 leaf PO:0020104 leaf sheath; PO:0007063 LP.07 7 leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="410,79,476,78,477,145,410,145" /> 
+				<sample name="V5_Shoot Tip_R1" />
+				<sample name="V5_Shoot Tip_R2" />
+				<sample name="V5_Shoot Tip_R3" /> 
+			</tissue>
+			<tissue colorKey="#c6d6e1" id="First_Internode_V5" name="First Internode (V5). PO:0020142 stem internode; PO:0021004 inflorescence initiation stage; PO:0007063 seven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="477,132,518,133,518,158,477,158" /> 
+				<sample name="V5_First Internode_R1" />
+				<sample name="V5_First Internode_R2" />
+				<sample name="V5_First Internode_R3" /> 
+			</tissue>
+			<tissue colorKey="#b2c2cd" id="First_Internode_V7" name="First Internode (V7). PO:0020142 stem internode; PO:0021004 inflorescence initiation stage; PO:0007101 LP.09 nine leaves visible">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="594,112,631,112,631,142,594,142" /> 
+				<sample name="V7_First Internode_R1" />
+				<sample name="V7_First Internode_R2" />
+				<sample name="V7_First Internode_R3" />  
+			</tissue>
+			<tissue colorKey="#a2b1bc" id="Fourth_Internode_V9" name="Fourth Internode (V9). PO:0020142 stem internode; PO:0001083 inflorescence development stages; PO:0007116 LP.11 eleven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="659,99,722,99,722,149,659,149" /> 
+				<sample name="V9_Fourth Internode_R1" />
+				<sample name="V9_Fourth Internode_R2" />
+				<sample name="V9_Fourth Internode_R3" /> 
+			</tissue>
+			<tissue colorKey="#bcd9be" id="Immature_Tassel_V13" name="Immature Tassel (V13). PO:0020126 tassel; PO:0001007 pollen developmental stages; PO:0007104 LP.15 fifteen leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="710,6,744,6,744,98,710,98" /> 
+				<sample name="V13_Immature Tassel_R1" />
+				<sample name="V13_Immature Tassel_R2" />
+				<sample name="V13_Immature Tassel_R3" /> 
+			</tissue>
+			<tissue colorKey="#a7c1a8" id="Meiotic_Tassel_V18" name="Meiotic Tassel (V18). PO:0020126 tassel; PO:0001009 D pollen mother cell meiosis stage; PO:0007072 LP.18 eighteen leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="746,6,779,5,779,120,746,120" /> 
+				<sample name="V18_Meiotic Tassel_R1" />
+				<sample name="V18_Meiotic Tassel_R2" />
+				<sample name="V18_Meiotic Tassel_R3" /> 
+			</tissue>
+			<tissue colorKey="#f2f06b" id="Anthers_R1" name="Anthers (R1). PO:0006310 tassel floret; PO:0009066 anther; PO:0001007 pollen developmental stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="811,35,883,35,883,123,811,123" /> 
+				<sample name="R1_Anthers_R1" />
+				<sample name="R1_Anthers_R2" />
+				<sample name="R1_Anthers_R3" /> 
+			</tissue>
+			<tissue colorKey="#a7dfac" id="Whole_Seedling_VE" name="Whole Seedling (VE). PO:0006341 primary shoot; PO:0007094 LP.01 one leaf visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="41,428,130,428,130,565,41,565" /> 
+				<sample name="VE_Whole Seedling_R1" />
+				<sample name="VE_Whole Seedling_R2" />
+				<sample name="VE_Whole Seedling_R3" /> 
+			</tissue>
+			<tissue colorKey="#b0b5a6" id="Primary_Root_VE" name="Primary Root (VE). PO:0020127 primary root; PO:0007112 1 main shoot growth.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="81,579,92,594,45,663,31,636" /> 
+				<sample name="VE_Primary Root_R1" />
+				<sample name="VE_Primary Root_R2" />
+				<sample name="VE_Primary Root_R3" /> 
+			</tissue>
+			<tissue colorKey="#85cd8b" id="Pooled_Leaves_V1" name="Pooled Leaves (V1). PO:0006339 juvenile leaf; PO:0009025 vascular leaf; PO:0001052 2 leaf expansion stage; PO:0001053 3 leaf fully expanded; PO:0007106 LP.03 three leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="172,443,211,443,211,548,172,548" /> 
+				<sample name="V1_Pooled Leaves_R1" />
+				<sample name="V1_Pooled Leaves_R2" />
+				<sample name="V1_Pooled Leaves_R3" /> 
+			</tissue>
+			<tissue colorKey="#9da492" id="Primary_Root_V1" name="Primary Root (V1). PO:0020127 primary root; PO:0007106 LP.03 three leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="149,542,178,542,178,651,149,651" /> 
+				<sample name="V1_GH_Primary Root_R1" />
+				<sample name="V1_GH_Primary Root_R2" />
+				<sample name="V1_GH_Primary Root_R3" /> 
+			</tissue>
+			<tissue colorKey="#64c86d" id="Topmost_Leaf_V3" name="Topmost Leaf (V3). PO:0006339 juvenile leaf; PO:0009025 vascular leaf; PO:0001052 2 leaf expansion stage; PO:0007065 LP.05 five leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="240,456,378,456,378,499,240,499" /> 
+				<sample name="V3_Topmost Leaf_R1" />
+				<sample name="V3_Topmost Leaf_R2" />
+				<sample name="V3_Topmost Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#56fe65" id="First_Leaf_V3" name="First Leaf (V3). PO:0006339 juvenile leaf; PO:0009025 vascular leaf; PO:0001053 3 leaf fully expanded; PO:0007065 LP.05 five leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="264,544,361,544,359,601,264,601" /> 
+				<sample name="V3_First Leaf and Sheath_R1" />
+				<sample name="V3_First Leaf and Sheath_R2" />
+				<sample name="V3_First Leaf and Sheath_R3" /> 
+			</tissue>
+			<tissue colorKey="#5ebc61" id="Tip_of_Stage_2_leaf_V5" name="Tip of Stage 2 leaf (V5). PO:0006339 juvenile leaf; PO:0008018 transition leaf; PO:0009025 vascular leaf; PO:0025142 leaf tip; PO:0001052 2 leaf expansion stage; PO:0007063 LP.07 seven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="437,442,476,442,476,492,437,492" /> 
+				<sample name="V5_Tip of stage-2 Leaf_R1" />
+				<sample name="V5_Tip of stage-2 Leaf_R2" />
+				<sample name="V5_Tip of stage-2 Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#51b75a" id="Base_of_Stage_2_leaf_V5" name="Base of Stage 2 leaf (V5). PO:0006340 adult leaf; PO:0008018 transition leaf; PO:0009025 vascular leaf; PO:0020040 leaf base; PO:0001052 2 leaf expansion stage; PO:0007063 LP.07 seven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="435,546,491,546,491,592,435,592" /> 
+				<sample name="V5_Base of stage-2 Leaf_R1" />
+				<sample name="V5_Base of stage-2 Leaf_R2" />
+				<sample name="V5_Base of stage-2 Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#4ab453" id="Tip_of_Stage_2_leaf_V7" name="Tip of Stage 2 leaf (V7). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0025142 leaf tip; PO:0001052 2 leaf expansion stage; PO:0007101 LP.09 nine leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="602,446,641,446,641,487,602,487" /> 
+				<sample name="V7_Tip of stage-2 Leaf_R1" />
+				<sample name="V7_Tip of stage-2 Leaf_R2" />
+				<sample name="V7_Tip of stage-2 Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#44a64c" id="Base_of_Stage_2_leaf_V7" name="Base of Stage 2 leaf (V7). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0020040 leaf base; PO:0001052 2 leaf expansion stage; PO:0007101 LP.09 nine leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="600,555,654,552,654,598,600,598" /> 
+				<sample name="V7_Base of stage-2 Leaf_R1" />
+				<sample name="V7_Base of stage-2 Leaf_R2" />
+				<sample name="V7_Base of stage-2 Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#34983d" id="Eighth_Leaf_V9" name="Eighth Leaf (V9). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0001053 3 leaf fully expanded; PO:0007116 LP.11 eleven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="652,571,739,571,739,634,652,634" /> 
+				<sample name="V9_Eighth Leaf_R1" />
+				<sample name="V9_Eighth Leaf_R2" />
+				<sample name="V9_Eighth Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#2f8737" id="Eleventh_Leaf_V9" name="Eleventh Leaf (V9). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0001052 2 leaf expansion stage; PO:0007116 LP.11 eleven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="654,501,744,501,744,568,654,568" /> 
+				<sample name="V9_Eleventh Leaf_R1" />
+				<sample name="V9_Eleventh Leaf_R2" />
+				<sample name="V9_Eleventh Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#27722e" id="Thirteenth_Leaf_V9" name="Thirteenth Leaf (V9). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0020040 leaf base; PO:0001052 2 leaf expansion stage; PO:0007116 LP.11 eleven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="652,441,734,441,732,498,652,498" /> 
+				<sample name="V9_Thirteenth Leaf_R1" />
+				<sample name="V9_Thirteenth Leaf_R2" />
+				<sample name="V9_Thirteenth Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#1f5a24" id="Immature_Leaf_V9" name="Immature Leaf (V9). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0001052 2 leaf expansion stage; PO:0007116 LP.11 eleven leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="635,402,733,403,733,430,635,430" /> 
+				<sample name="V9_Immature Leaves_R1" />
+				<sample name="V9_Immature Leaves_R2" />
+				<sample name="V9_Immature Leaves_R3" /> 
+			</tissue>
+			<tissue colorKey="#15501a" id="Thirteenth_Leaf_VT" name="Thirteenth Leaf (VT). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0020040 leaf base; PO:0001053 3 leaf fully expanded; PO:0007003 IL.03 full inflorescence length reached; PO:0007072 LP.18 eighteen leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="742,427,837,427,834,472,741,471" /> 
+				<sample name="VT_Thirteenth Leaf_R1" />
+				<sample name="VT_Thirteenth Leaf_R2" />
+				<sample name="VT_Thirteenth Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#e1f990" id="Immature_Cob_V18" name="Immature Cob (V18). PO:0006505 central spike of ear; PO:0007006 IL.00 inflorescence just visible; PO:0007072 LP.18 eighteen leaves visible.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="750,486,788,486,788,566,750,566" /> 
+				<sample name="V18_Immature Cob_R1" />
+				<sample name="V18_Immature Cob_R2" />
+				<sample name="V18_Immature Cob_R3" /> 
+			</tissue>
+			<tissue colorKey="#f6f779" id="Prepollination_Cob_R1" name="Pre-pollination Cob (R1). PO:0006505 central spike of ear; PO:0007016 4 flowering">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="812,475,846,475,845,570,812,569" /> 
+				<sample name="R1_Pre-pollination Cob_R1" />
+				<sample name="R1_Pre-pollination Cob_R2" />
+				<sample name="R1_Pre-pollination Cob_R3" /> 
+			</tissue>
+			<tissue colorKey="#acf849" id="Silks_R1" name="Silks (R1). PO:0006354 ear floret; PO:0009074 style; PO:0007016 4 flowering.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="845,454,897,454,897,502,845,502" /> 
+				<sample name="R1_Silks_R1" />
+				<sample name="R1_Silks_R2" />
+				<sample name="R1_Silks_R3" /> 
+			</tissue>
+			<tissue colorKey="#325111" id="Thirteenth_Leaf_R2" name="Thirteenth Leaf (R2). PO:0006340 adult leaf; PO:0009025 vascular leaf; PO:0020040 leaf base; PO:0001053 3 leaf fully expanded; PO:0007001 FR.01 early stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="876,406,963,442,944,482,876,482" /> 
+				<sample name="R2_Thirteenth Leaf_R1" />
+				<sample name="R2_Thirteenth Leaf_R2" />
+				<sample name="R2_Thirteenth Leaf_R3" /> 
+			</tissue>
+			<tissue colorKey="#7cf850" id="Innermost_Husk_R1" name="Innermost Husk (R1). PO:0009054 inflorescence bract; PO:0020136 Zea ear; PO:0007026 FL.00 first flower(s) open.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="900,505,931,506,928,593,900,593" /> 
+				<sample name="R1_Innermost Husk_R1" />
+				<sample name="R1_Innermost Husk_R2" />
+				<sample name="R1_Innermost Husk_R3" /> 
+			</tissue>
+			<tissue colorKey="#64f730" id="Innermost_Husk_R2" name="Innermost Husk (R2). PO:0009054 inflorescence bract; PO:0020136 Zea ear; PO:0007001 FR.01 early stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="929,507,960,530,953,531,944,571" /> 
+				<sample name="R2_Innermost Husk_R1" />
+				<sample name="R2_Innermost Husk_R2" />
+				<sample name="R2_Innermost Husk_R3" /> 
+			</tissue>
+			<tissue colorKey="#55d727" id="Outer_Husk_R2" name="Outer Husk (R2). PO:0009054 inflorescence bract; PO:0020136 Zea ear; PO:0007001 FR.01 early stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="947,530,959,943,953,590,947,590" /> 
+				<sample name="R2_Outer Husk_R1" />
+				<sample name="R2_Outer Husk_R2" />
+				<sample name="R2_Outer Husk_R3" /> 
+			</tissue>
+			<tissue colorKey="#fcf5a6" id="Embryo_16DAP" name="Embryo 16DAP. PO:0009009 plant embryo; PO:0001095 true leaf formation; PO:0007001 FR.01 early stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="814,610,830,610,830,642,814,642" /> 
+				<sample name="16DAP_Embryo_R1" />
+				<sample name="16DAP_Embryo_R2" />
+				<sample name="16DAP_Embryo_R3" /> 
+			</tissue>
+			<tissue colorKey="#faf295" id="Embryo_18DAP" name="Embryo 18DAP. PO:0009009 plant embryo; PO:0001095 true leaf formation; PO:0007031 FR.02 mid stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="848,610,865,610,865,641,848,641" /> 
+				<sample name="18DAP_Embryo_R1" />
+				<sample name="18DAP_Embryo_R2" />
+				<sample name="18DAP_Embryo_R3" /> 
+			</tissue>
+			<tissue colorKey="#faf184" id="Embryo_20DAP" name="Embryo 20DAP. PO:0009009 plant embryo; PO:0001095 true leaf formation; PO:0007031 FR.02 mid stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="881,609,905,609,905,643,881,643" /> 
+				<sample name="20DAP_Embryo_R1" />
+				<sample name="20DAP_Embryo_R2" />
+				<sample name="20DAP_Embryo_R3" /> 
+			</tissue>
+			<tissue colorKey="#f9ee70" id="Embryo_22DAP" name="Embryo 22DAP. PO:0009009 plant embryo; PO:0001095 true leaf formation; PO:0007031 FR.02 mid stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="919,607,944,607,943,642,919,642" /> 
+				<sample name="22DAP_Embryo_R1" />
+				<sample name="22DAP_Embryo_R2" />
+				<sample name="22DAP_Embryo_R3" />
+			</tissue>
+			<tissue colorKey="#f9ec5b" id="Embryo_24DAP" name="Embryo 24DAP. PO:0009009 plant embryo; PO:0001095 true leaf formation; PO:0007031 FR.02 mid stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="952,604,978,604,977,642,952,642" /> 
+				<sample name="24DAP_Embryo_R1" />
+				<sample name="24DAP_Embryo_R2" />
+				<sample name="24DAP_Embryo_R3" /> 
+			</tissue>
+			<tissue colorKey="#fff77a" id="Endosperm_12DAP" name="Endosperm 12DAP. PO:0009089 endosperm; PO:0007001 FR.01 early stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="737,656,758,656,758,676,737,676" /> 
+				<sample name="12DAP_Endosperm_R1" />
+				<sample name="12DAP_Endosperm_R2" />
+				<sample name="12DAP_Endosperm_R3" />
+			</tissue>
+			<tissue colorKey="#ffea60" id="Endosperm_14DAP" name="Endosperm 14DAP. PO:0009089 endosperm; PO:0007001 FR.01 early stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="770,654,793,654,794,678,770,678" /> 
+				<sample name="14DAP_Endosperm_R1" />
+				<sample name="14DAP_Endosperm_R2" />
+				<sample name="14DAP_Endosperm_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffe953" id="Endosperm_16DAP" name="Endosperm 16DAP. PO:0009089 endosperm; PO:0007001 FR.01 early stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="804,650,830,650,830,676,804,676" /> 
+				<sample name="16DAP_Endosperm_R1" />
+				<sample name="16DAP_Endosperm_R2" />
+				<sample name="16DAP_Endosperm_R3" />
+			</tissue>
+			<tissue colorKey="#ffe747" id="Endosperm_18DAP" name="Endosperm 18DAP. PO:0009089 endosperm; PO:0007031 FR.02 mid stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="841,649,869,649,869,676,841,676" /> 
+				<sample name="18DAP_Endosperm_R1" />
+				<sample name="18DAP_Endosperm_R2" />
+				<sample name="18DAP_Endosperm_R3" />
+			</tissue>
+			<tissue colorKey="#ffe63d" id="Endosperm_20DAP" name="Endosperm 20DAP. PO:0009089 endosperm; PO:0007031 FR.02 mid stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="875,646,902,646,902,679,875,679" /> 
+				<sample name="20DAP_Endosperm_R1" />
+				<sample name="20DAP_Endosperm_R2" />
+				<sample name="20DAP_Endosperm_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffe42f" id="Endosperm_22DAP" name="Endosperm 22DAP. PO:0009089 endosperm; PO:0007031 FR.02 mid stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="914,646,943,646,943,678,914,678" /> 
+				<sample name="22DAP_Endosperm_R1" />
+				<sample name="22DAP_Endosperm_R2" />
+				<sample name="22DAP_Endosperm_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffe21c" id="Endosperm_24DAP" name="Endosperm 24DAP. PO:0009089 endosperm; PO:0007031 FR.02 mid stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="946,644,980,644,978,678,946,678" /> 
+				<sample name="24DAP_Endosperm_R1" />
+				<sample name="24DAP_Endosperm_R2" />
+				<sample name="24DAP_Endosperm_R3" /> 
+			</tissue>
+			<tissue colorKey="#fde39f" id="Seed_2DAP" name="Seed 2DAP. PO:0009001 fruit; PO:0001180 B proembryo stage; PO:0007042 5 fruit formation.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="592,714,616,714,616,738,592,738" /> 
+				<sample name="2DAP_Whole Seed_R1" />
+				<sample name="2DAP_Whole Seed_R2" />
+				<sample name="2DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffde89" id="Seed_4DAP" name="Seed 4DAP. PO:0009001 fruit; PO:0001180 B proembryo stage; PO:0007042 5 fruit formation.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="616,707,639,707,639,743,616,743" /> 
+				<sample name="4DAP_Whole Seed_R1" />
+				<sample name="4DAP_Whole Seed_R2" />
+				<sample name="4DAP_Whole Seed_R3" />  
+			</tissue>
+			<tissue colorKey="#ffda7c" id="Seed_6DAP" name="Seed 6DAP. PO:0009001 fruit; PO:0001180 B proembryo stage; PO:0007042 5 fruit formation; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="638,702,665,702,665,746,638,746" /> 
+				<sample name="6DAP_Whole Seed_R1" />
+				<sample name="6DAP_Whole Seed_R2" />
+				<sample name="6DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffd771" id="Seed_8DAP" name="Seed 8DAP. PO:0009001 fruit; PO:0001180 B proembryo stage; PO:0007042 5 fruit formation; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="667,702,697,702,692,747,667,747" /> 
+				<sample name="8DAP_Whole Seed_R1" />
+				<sample name="8DAP_Whole Seed_R2" />
+				<sample name="8DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffd66e" id="Seed_10DAP" name="Seed 10DAP. PO:0009001 fruit; PO:0001180 B proembryo stage; PO:0007042 5 fruit formation; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="695,698,725,698,725,743,695,743" /> 
+				<sample name="10DAP_Whole Seed_R1" />
+				<sample name="10DAP_Whole Seed_R2" />
+				<sample name="10DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffd467" id="Seed_12DAP" name="Seed 12DAP. PO:0009001 fruit; PO:0001094 coleoptilar stage; PO:0007001 FR.01 early stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="727,694,760,694,760,745,727,745" /> 
+				<sample name="12DAP_Whole Seed_R1" />
+				<sample name="12DAP_Whole Seed_R2" />
+				<sample name="12DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffd15d" id="Seed_14DAP" name="Seed 14DAP. PO:0009001 fruit; PO:0001095 true leaf formation; PO:0007001 FR.01 early stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="761,691,795,691,795,746,761,746" /> 
+				<sample name="14DAP_Whole Seed_R1" />
+				<sample name="14DAP_Whole Seed_R2" />
+				<sample name="14DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffcc4d" id="Seed_16DAP" name="Seed 16DAP. PO:0009001 fruit; PO:0001095 true leaf formation; PO:0007001 FR.01 early stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="797,693,832,693,832,744,797,744" /> 
+				<sample name="16DAP_Whole Seed_R1" />
+				<sample name="16DAP_Whole Seed_R2" />
+				<sample name="16DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffc941" id="Seed_18DAP" name="Seed 18DAP. PO:0009001 fruit; PO:0001095 true leaf formation; PO:0007031 FR.02 mid stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="849,668,868,701,853,737,832,726" /> 
+				<sample name="18DAP_Whole Seed_R1" />
+				<sample name="18DAP_Whole Seed_R2" />
+				<sample name="18DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#e6b538" id="Pericarp_18DAP" name="Pericarp 18DAP. PO:0009084 pericarp; PO:0007001 FR.01 early stage of fruit ripening.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="830,727,850,736,874,693,856,762" /> 
+				<sample name="18DAP_Pericarp_R1" />
+				<sample name="18DAP_Pericarp_R2" />
+				<sample name="18DAP_Pericarp_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffc32b" id="Seed_20DAP" name="Seed 20DAP. PO:0009001 fruit; PO:0001095 true leaf formation; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="871,695,904,696,904,745,871,745" /> 
+				<sample name="20DAP_Whole Seed_R1" />
+				<sample name="20DAP_Whole Seed_R2" />
+				<sample name="20DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffbe18" id="Seed_22DAP" name="Seed 22DAP. PO:0009001 fruit; PO:0001095 true leaf formation; PO:0007031 FR.02 mid stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="904,696,940,696,940,746,904,746" /> 
+				<sample name="22DAP_Whole Seed_R1" />
+				<sample name="22DAP_Whole Seed_R2" />
+				<sample name="22DAP_Whole Seed_R3" /> 
+			</tissue>
+			<tissue colorKey="#ffb700" id="Seed_24DAP" name="Seed 24DAP. PO:0009001 fruit; PO:0001095 true leaf formation; PO:0007031 FR.02 mid stage of fruit ripening; PO:0007633 endosperm development stages.">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=ZM37&amp;section=Expression" /> 
+				<area coords="942,695,975,696,975,748,696,748" /> 
+				<sample name="24DAP_Whole Seed_R1" />
+				<sample name="24DAP_Whole Seed_R2" />
+				<sample name="24DAP_Whole Seed_R3" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

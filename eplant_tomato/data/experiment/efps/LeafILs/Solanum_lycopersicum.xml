@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE specimen
+  SYSTEM 'http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd'>
+<specimen name="Tomato">
+	<view class="" db="tomato_ils" dbGroup="group1" img="ILs_Leaf_Chitwood_et_al_image.tga" name="all" table="sample_data">
+		<lookup db="None" geneid_col="None" table="None"/>
+		<coords graphHeight="41" graphWidth="132" graphX="658" graphY="46" legendX="747" legendY="384"/>
+		<extra coords="212,0,349,0,349,16,212,16" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No"/>
+		<extra coords="2,544,269,544,270,558,2,558" link="http://www.plantcell.org/content/25/7/2465.long" name="To Chitwood et al. reference" parameters="No"/>
+		<info>
+			<li>RNA-Seq-derived data from A quantitative genetic basis for leaf morphoogy in a set of precisely defined tomato introgression lines: Chitwood er al., 2013, The Plant Cell July 2013 25(7):2465-2481.</li>
+			<li>Seeds were washed in 50% bleach for ~2 minutes. Then seeds were placed in darkness for 3d before moving to 16-8 light cycle in growth chambers for 5d. Seedlings were then transported into 2×5 pots per tray. Seedlings were harvested 5d after transplanting. Cotyledons and mature leaves &gt;1cm in length were excluded, and remaining tissues above the hypocotyle midpoint were pooled.</li>
+		</info>
+		<group name="CTRL_MED">
+			<control sample="CTRL_MED"/>
+			<tissue colorKey="#ff0000" id="IL1_1" name="IL1.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,92,84,92,84,78,59,78"/>
+				<sample name="IL1.1"/>
+			</tissue>
+			<tissue colorKey="#FF1400" id="IL1_1_2" name="IL1.1.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,108,84,108,84,93,59,93"/>
+				<sample name="IL1.1.2"/>
+			</tissue>
+			<tissue colorKey="#FF2800" id="IL1_1_3" name="IL1.1.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,124,84,124,84,108,59,108"/>
+				<sample name="IL1.1.3"/>
+			</tissue>
+			<tissue colorKey="#FF3C00" id="IL1_2" name="IL1.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,140,84,140,84,123,59,123"/>
+				<sample name="IL1.2"/>
+			</tissue>
+			<tissue colorKey="#FF5100" id="IL1_3" name="IL1.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,156,84,156,84,138,59,138"/>
+				<sample name="IL1.3"/>
+			</tissue>
+			<tissue colorKey="#FF6500" id="IL1_4" name="IL1.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,172,84,172,84,153,59,153"/>
+				<sample name="IL1.4"/>
+			</tissue>
+			<tissue colorKey="#FF7900" id="IL1_4_18" name="IL1.4.18">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,188,84,188,84,168,59,168"/>
+				<sample name="IL1.4.18"/>
+			</tissue>
+			<tissue colorKey="#FF8D00" id="IL2_1" name="IL2.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,204,84,204,84,183,59,183"/>
+				<sample name="IL2.1"/>
+			</tissue>
+			<tissue colorKey="#FFA100" id="IL2_1_1" name="IL2.1.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,220,84,220,84,198,59,198"/>
+				<sample name="IL2.1.1"/>
+			</tissue>
+			<tissue colorKey="#FFB500" id="IL2_2" name="IL2.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,236,84,236,84,213,59,213"/>
+				<sample name="IL2.2"/>
+			</tissue>
+			<tissue colorKey="#FFC900" id="IL2_3" name="IL2.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,252,84,252,84,228,59,228"/>
+				<sample name="IL2.3"/>
+			</tissue>
+			<tissue colorKey="#FFDD00" id="IL2_4" name="IL2.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,268,84,268,84,243,59,243"/>
+				<sample name="IL2.4"/>
+			</tissue>
+			<tissue colorKey="#FFF200" id="IL2_5" name="IL2.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,284,84,284,84,258,59,258"/>
+				<sample name="IL2.5"/>
+			</tissue>
+			<tissue colorKey="#F8FF00" id="IL2_6" name="IL2.6">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,300,84,300,84,273,59,273"/>
+				<sample name="IL2.6"/>
+			</tissue>
+			<tissue colorKey="#E4FF00" id="IL2_6_5" name="IL2.6.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,316,84,316,84,288,59,288"/>
+				<sample name="IL2.6.5"/>
+			</tissue>
+			<tissue colorKey="#D0FF00" id="IL3_1" name="IL3.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,332,84,332,84,303,59,303"/>
+				<sample name="IL3.1"/>
+			</tissue>
+			<tissue colorKey="#BCFF00" id="IL3_2" name="IL3.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,348,84,348,84,318,59,318"/>
+				<sample name="IL3.2"/>
+			</tissue>
+			<tissue colorKey="#A8FF00" id="IL3_3" name="IL3.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,364,84,364,84,333,59,333"/>
+				<sample name="IL3.3"/>
+			</tissue>
+			<tissue colorKey="#94FF00" id="IL3_4" name="IL3.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,380,84,380,84,348,59,348"/>
+				<sample name="IL3.4"/>
+			</tissue>
+			<tissue colorKey="#80FF00" id="IL3_5" name="IL3.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,396,84,396,84,363,59,363"/>
+				<sample name="IL3.5"/>
+			</tissue>
+			<tissue colorKey="#6BFF00" id="IL4_1" name="IL4.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,412,84,412,84,378,59,378"/>
+				<sample name="IL4.1"/>
+			</tissue>
+			<tissue colorKey="#57FF00" id="IL4_1_1" name="IL4.1.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,428,84,428,84,393,59,393"/>
+				<sample name="IL4.1.1"/>
+			</tissue>
+			<tissue colorKey="#43FF00" id="IL4_2" name="IL4.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,444,84,444,84,408,59,408"/>
+				<sample name="IL4.2"/>
+			</tissue>
+			<tissue colorKey="#2FFF00" id="IL4_3" name="IL4.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,460,84,460,84,423,59,423"/>
+				<sample name="IL4.3"/>
+			</tissue>
+			<tissue colorKey="#1BFF00" id="IL4_3_2" name="IL4.3.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,476,84,476,84,438,59,438"/>
+				<sample name="IL4.3.2"/>
+			</tissue>
+			<tissue colorKey="#07FF00" id="IL4_4" name="IL4.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="59,492,84,492,84,453,59,453"/>
+				<sample name="IL4.4"/>
+			</tissue>
+			<tissue colorKey="#00FF0D" id="IL5_1" name="IL5.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,92,177,92,177,78,151,78"/>
+				<sample name="IL5.1"/>
+			</tissue>
+			<tissue colorKey="#00FF22" id="IL5_2" name="IL5.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,108,177,108,177,93,151,93"/>
+				<sample name="IL5.2"/>
+			</tissue>
+			<tissue colorKey="#00FF36" id="IL5_3" name="IL5.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,124,177,124,177,108,151,108"/>
+				<sample name="IL5.3"/>
+			</tissue>
+			<tissue colorKey="#00FF4A" id="IL5_4" name="IL5.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,140,177,140,177,123,151,123"/>
+				<sample name="IL5.4"/>
+			</tissue>
+			<tissue colorKey="#00FF5E" id="IL5_5" name="IL5.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,156,177,156,177,138,151,138"/>
+				<sample name="IL5.5"/>
+			</tissue>
+			<tissue colorKey="#00FF72" id="IL6_1" name="IL6.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,172,177,172,177,153,151,153"/>
+				<sample name="IL6.1"/>
+			</tissue>
+			<tissue colorKey="#00FF86" id="IL6_2" name="IL6.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,188,177,188,177,168,151,168"/>
+				<sample name="IL6.2"/>
+			</tissue>
+			<tissue colorKey="#00FF9A" id="IL6_2_2" name="IL6.2.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,204,177,204,177,183,151,183"/>
+				<sample name="IL6.2.2"/>
+			</tissue>
+			<tissue colorKey="#00FFAE" id="IL6_3" name="IL6.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,220,177,220,177,198,151,198"/>
+				<sample name="IL6.3"/>
+			</tissue>
+			<tissue colorKey="#00FFC3" id="IL6_4" name="IL6.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,236,177,236,177,213,151,213"/>
+				<sample name="IL6.4"/>
+			</tissue>
+			<tissue colorKey="#00FFD7" id="IL7_1" name="IL7.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,252,177,252,177,228,151,228"/>
+				<sample name="IL7.1"/>
+			</tissue>
+			<tissue colorKey="#00FFEB" id="IL7_2" name="IL7.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,268,177,268,177,243,151,243"/>
+				<sample name="IL7.2"/>
+			</tissue>
+			<tissue colorKey="#00FFFF" id="IL7_3" name="IL7.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,284,177,284,177,258,151,258"/>
+				<sample name="IL7.3"/>
+			</tissue>
+			<tissue colorKey="#00D7FF" id="IL7_4_1" name="IL7.4.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,316,177,316,177,288,151,288"/>
+				<sample name="IL7.4.1"/>
+			</tissue>
+			<tissue colorKey="#00C3FF" id="IL7_5" name="IL7.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,332,177,332,177,303,151,303"/>
+				<sample name="IL7.5"/>
+			</tissue>
+			<tissue colorKey="#00AEFF" id="IL7_5_5" name="IL7.5.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,348,177,348,177,318,151,318"/>
+				<sample name="IL7.5.5"/>
+			</tissue>
+			<tissue colorKey="#009AFF" id="IL8_1" name="IL8.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,364,177,364,177,333,151,333"/>
+				<sample name="IL8.1"/>
+			</tissue>
+			<tissue colorKey="#0086FF" id="IL8_1_1" name="IL8.1.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,380,177,380,177,348,151,348"/>
+				<sample name="IL8.1.1"/>
+			</tissue>
+			<tissue colorKey="#0072FF" id="IL8_1_5" name="IL8.1.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,396,177,396,177,363,151,363"/>
+				<sample name="IL8.1.5"/>
+			</tissue>
+			<tissue colorKey="#005EFF" id="IL8_2" name="IL8.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,412,177,412,177,378,151,378"/>
+				<sample name="IL8.2"/>
+			</tissue>
+			<tissue colorKey="#004AFF" id="IL8_2_1" name="IL8.2.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,428,177,428,177,393,151,393"/>
+				<sample name="IL8.2.1"/>
+			</tissue>
+			<tissue colorKey="#0036FF" id="IL8_3" name="IL8.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,444,177,444,177,408,151,408"/>
+				<sample name="IL8.3"/>
+			</tissue>
+			<tissue colorKey="#0022FF" id="IL8_3_1" name="IL8.3.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,460,177,460,177,423,151,423"/>
+				<sample name="IL8.3.1"/>
+			</tissue>
+			<tissue colorKey="#000DFF" id="IL9_1" name="IL9.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,476,177,476,177,438,151,438"/>
+				<sample name="IL9.1"/>
+			</tissue>
+			<tissue colorKey="#0700FF" id="IL9_1_2" name="IL9.1.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="151,492,177,492,177,453,151,453"/>
+				<sample name="IL9.1.2"/>
+			</tissue>
+			<tissue colorKey="#1B00FF" id="IL9_1_3" name="IL9.1.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,92,269,92,269,78,243,78"/>
+				<sample name="IL9.1.3"/>
+			</tissue>
+			<tissue colorKey="#2F00FF" id="IL9_2" name="IL9.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,108,269,108,269,93,243,93"/>
+				<sample name="IL9.2"/>
+			</tissue>
+			<tissue colorKey="#4300FF" id="IL9_2_5" name="IL9.2.5">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,124,269,124,269,108,243,108"/>
+				<sample name="IL9.2.5"/>
+			</tissue>
+			<tissue colorKey="#5700FF" id="IL9_2_6" name="IL9.2.6">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,140,269,140,269,123,243,123"/>
+				<sample name="IL9.2.6"/>
+			</tissue>
+			<tissue colorKey="#6B00FF" id="IL9_3" name="IL9.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,156,269,156,269,138,243,138"/>
+				<sample name="IL9.3"/>
+			</tissue>
+			<tissue colorKey="#8000FF" id="IL9_3_1" name="IL9.3.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,172,269,172,269,153,243,153"/>
+				<sample name="IL9.3.1"/>
+			</tissue>
+			<tissue colorKey="#9400FF" id="IL9_3_2" name="IL9.3.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,188,269,188,269,168,243,168"/>
+				<sample name="IL9.3.2"/>
+			</tissue>
+			<tissue colorKey="#A800FF" id="IL10_1" name="IL10.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,204,269,204,269,183,243,183"/>
+				<sample name="IL10.1"/>
+			</tissue>
+			<tissue colorKey="#BC00FF" id="IL10_1_1" name="IL10.1.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,220,269,220,269,198,243,198"/>
+				<sample name="IL10.1.1"/>
+			</tissue>
+			<tissue colorKey="#D000FF" id="IL10_2" name="IL10.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,236,269,236,269,213,243,213"/>
+				<sample name="IL10.2"/>
+			</tissue>
+			<tissue colorKey="#E400FF" id="IL10_2_2" name="IL10.2.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,252,269,252,269,228,243,228"/>
+				<sample name="IL10.2.2"/>
+			</tissue>
+			<tissue colorKey="#F800FF" id="IL10_3" name="IL10.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,268,269,268,269,243,243,243"/>
+				<sample name="IL10.3"/>
+			</tissue>
+			<tissue colorKey="#FF00F2" id="IL11_1" name="IL11.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,284,269,284,269,258,243,258"/>
+				<sample name="IL11.1"/>
+			</tissue>
+			<tissue colorKey="#FF00DD" id="IL11_2" name="IL11.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,300,269,300,269,273,243,273"/>
+				<sample name="IL11.2"/>
+			</tissue>
+			<tissue colorKey="#FF00C9" id="IL11_3" name="IL11.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,316,269,316,269,288,243,288"/>
+				<sample name="IL11.3"/>
+			</tissue>
+			<tissue colorKey="#FF00B5" id="IL11_4" name="IL11.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,332,269,332,269,303,243,303"/>
+				<sample name="IL11.4"/>
+			</tissue>
+			<tissue colorKey="#FF00A1" id="IL11_4_1" name="IL11.4.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,348,269,348,269,318,243,318"/>
+				<sample name="IL11.4.1"/>
+			</tissue>
+			<tissue colorKey="#FF008D" id="IL12_1" name="IL12.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,364,269,364,269,333,243,333"/>
+				<sample name="IL12.1"/>
+			</tissue>
+			<tissue colorKey="#FF0079" id="IL12_1_1" name="IL12.1.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,380,269,380,269,348,243,348"/>
+				<sample name="IL12.1.1"/>
+			</tissue>
+			<tissue colorKey="#FF0065" id="IL12_2" name="IL12.2">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,396,269,396,269,363,243,363"/>
+				<sample name="IL12.2"/>
+			</tissue>
+			<tissue colorKey="#FF0051" id="IL12_3" name="IL12.3">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,412,269,412,269,378,243,378"/>
+				<sample name="IL12.3"/>
+			</tissue>
+			<tissue colorKey="#FF003C" id="IL12_3_1" name="IL12.3.1">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,428,269,428,269,393,243,393"/>
+				<sample name="IL12.3.1"/>
+			</tissue>
+			<tissue colorKey="#FF0028" id="IL12_4" name="IL12.4">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="243,444,269,444,269,408,243,408"/>
+				<sample name="IL12.4"/>
+			</tissue>
+			<tissue colorKey="#ffccff" id="M82" name="M82">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="284,459,322,459,323,477,284,477"/>
+				<sample name="SLY"/>
+			</tissue>
+			<tissue colorKey="#ccccff" id="SPE" name="SPE">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="284,477,320,477,320,495,284,495"/>
+				<sample name="SPE"/>
+			</tissue>
+		</group>
+	</view>
+</specimen>

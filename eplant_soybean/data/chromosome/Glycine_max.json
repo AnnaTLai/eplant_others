@@ -1,0 +1,125 @@
+{
+    "chromosomes": [
+        {
+            "size": "56831624",
+            "centromeres": [],
+            "name": "Chr01",
+            "id": "Chr01"
+        },
+        {
+            "size": "48577505",
+            "centromeres": [],
+            "name": "Chr02",
+            "id": "Chr02"
+        },
+        {
+            "size": "45779781",
+            "centromeres": [],
+            "name": "Chr03",
+            "id": "Chr03"
+        },
+        {
+            "size": "52389146",
+            "centromeres": [],
+            "name": "Chr04",
+            "id": "Chr04"
+        },
+        {
+            "size": "42234498",
+            "centromeres": [],
+            "name": "Chr05",
+            "id": "Chr05"
+        },
+        {
+            "size": "51416486",
+            "centromeres": [],
+            "name": "Chr06",
+            "id": "Chr06"
+        },
+        {
+            "size": "44630646",
+            "centromeres": [],
+            "name": "Chr07",
+            "id": "Chr07"
+        },
+        {
+            "size": "47837940",
+            "centromeres": [],
+            "name": "Chr08",
+            "id": "Chr08"
+        },
+        {
+            "size": "50189764",
+            "centromeres": [],
+            "name": "Chr09",
+            "id": "Chr09"
+        },
+        {
+            "size": "51566898",
+            "centromeres": [],
+            "name": "Chr10",
+            "id": "Chr10"
+        },
+        {
+            "size": "34766867",
+            "centromeres": [],
+            "name": "Chr11",
+            "id": "Chr11"
+        },
+        {
+            "size": "40091314",
+            "centromeres": [],
+            "name": "Chr12",
+            "id": "Chr12"
+        },
+        {
+            "size": "45874162",
+            "centromeres": [],
+            "name": "Chr13",
+            "id": "Chr13"
+        },
+        {
+            "size": "49042192",
+            "centromeres": [],
+            "name": "Chr14",
+            "id": "Chr14"
+        },
+        {
+            "size": "51756343",
+            "centromeres": [],
+            "name": "Chr15",
+            "id": "Chr15"
+        },
+        {
+            "size": "37887014",
+            "centromeres": [],
+            "name": "Chr16",
+            "id": "Chr16"
+        },
+        {
+            "size": "41641366",
+            "centromeres": [],
+            "name": "Chr17",
+            "id": "Chr17"
+        },
+        {
+            "size": "58018742",
+            "centromeres": [],
+            "name": "Chr18",
+            "id": "Chr18"
+        },
+        {
+            "size": "50746916",
+            "centromeres": [],
+            "name": "Chr19",
+            "id": "Chr19"
+        },
+        {
+            "size": "47904181",
+            "centromeres": [],
+            "name": "Chr20",
+            "id": "Chr20"
+        }
+    ],
+    "species": "Glycine max"
+}

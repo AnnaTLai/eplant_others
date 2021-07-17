@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Maize">
+	<info>
+		<li>Data from Downs et al., Plant Physiol 161: 1830-1843</li>
+		<li>Based on the images in the original maize eFP Browser by drawn by G.Downs and C. Murphy</li>
+		<li>Vectorized image redrawn and programmed by Delvin So</li>
+	</info>
+	<view name="all" class="" db="maize_gdowns" img="Maize_2017_06_08.svg">
+		<group name="Med_CTRL">
+			<control sample="Med_CTRL"/>
+			<tissue id="Tassel_V4" name="V4_Tassel;_1mm_tassel_meristem_and_1mm_uppermost_stem_below_tassel" colorKey="#cfb658">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V4_tassel_1" />
+				<sample name="V4_tassel_2" />
+				<sample name="V4_tassel_3" />
+			</tissue>
+			<tissue id="Tassel_V5" name="V5_Tassel;_tassel_3-5mm" colorKey="#cfb659">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V5_tassel_1" />
+				<sample name="V5_tassel_2" />
+				<sample name="V5_tassel_3" />
+			</tissue>
+			<tissue id="Stalk_Below_Tassel_V5" name="V5_stalk_below_tassel;_stalk_below_tassel_(2_cm)" colorKey="#349843">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V5_stalk_below_tassel_1" />
+				<sample name="V5_stalk_below_tassel_2" />
+				<sample name="V5_stalk_below_tassel_3" />
+			</tissue>
+			<tissue id="Tassel_V7" name="V2_Tassel;_tassel_2_cm" colorKey="#cfb65a">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V7_tassel_1" />
+				<sample name="V7_tassel_2" />
+				<sample name="V7_tassel_3" />
+			</tissue>
+			<tissue id="Tassel_V8_V9" name="V8_V9_Tassel;_tassel_12_14cm" colorKey="#cfb65a">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V8_V9_tassel_1" />
+				<sample name="V8_V9_tassel_2" />
+				<sample name="V8_V9_tassel_3" />
+			</tissue>
+			<tissue id="Tassel_V10_V11" name="V10_Tassel;_top_10_cm_of_tassel_(~20_cm)" colorKey="#88a86f">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V10_tassel_1" />
+				<sample name="V10_tassel_2" />
+				<sample name="V10_tassel_3" />
+			</tissue>
+			<tissue id="Tassel_V13_V15" name="V15_tassel;_spikelet_of_tassel_(~22_cm)" colorKey="#88a870">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V15_tassel_1" />
+				<sample name="V15_tassel_2" />
+				<sample name="V15_tassel_3" />
+			</tissue>
+			<tissue id="Tassel_V15_V16" name="V16_tassel;_spikelet_of_tassel_(top_10_cm)" colorKey="#88a871">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V16_tassel_1" />
+				<sample name="V16_tassel_2" />
+				<sample name="V16_tassel_3" />
+			</tissue>
+			<tissue id="Anthers_VT" name="Anthers_VT_;_anther" colorKey="#f2f06b">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="VT_anthers_1" />
+				<sample name="VT_anthers_2" />
+				<sample name="VT_anthers_3" />
+			</tissue>
+			<tissue id="Ear_Top_Shoot_V7" name="Ear_Top_Shoot_V7;_top_ear_shoot" colorKey="#fdfb60">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V7_top_ear_shoot_1" />
+				<sample name="V7_top_ear_shoot_2" />
+				<sample name="V7_top_ear_shoot_3" />
+			</tissue>
+			<tissue id="Ear_V8_V9" name="V8_V9_ear;_top_ear_3-5mm" colorKey="#fdfb61">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V8_V9_ear_1" />
+				<sample name="V8_V9_ear_2" />
+				<sample name="V8_V9_ear_3" />
+			</tissue>
+			<tissue id="Ear_V10" name="V10_ear;_top_ear_1-1.5_cm" colorKey="#fdfb62">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V10_ear_1" />
+				<sample name="V10_ear_2" />
+				<sample name="V10_ear_3" />
+			</tissue>
+			<tissue id="Ear_V13_V15" name="V15_ear;_top_ear_3-3.5_cm" colorKey="#fdfb63">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V15_ear_1" />
+				<sample name="V15_ear_2" />
+				<sample name="V15_ear_3" />
+			</tissue>
+			<tissue id="Endosperm_10_DAP" name="10DAP_endosperm;_endosperm_of_top_ear" colorKey="#f3f1c9">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="10DAP_endosperm_1" />
+				<sample name="10DAP_endosperm_2" />
+				<sample name="10DAP_endosperm_3" />
+			</tissue>
+			<tissue id="Endosperm_17_DAP" name="17DAP_endosperm;_endosperm_of_top_ear" colorKey="#f3f1ca">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="17DAP_endosperm_1" />
+				<sample name="17DAP_endosperm_2" />
+				<sample name="17DAP_endosperm_3" />
+			</tissue>
+			<tissue id="Endosperm_24_DAP" name="24DAP_endosperm;_endosperm_of_top_ear" colorKey="#f3f1cb">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="24DAP_endosperm_1" />
+				<sample name="24DAP_endosperm_2" />
+				<sample name="24DAP_endosperm_3" />
+			</tissue>
+			<tissue id="Pericarp_17_DAP" name="17DAP_pericarp;_pericarp_of_top_ear" colorKey="#ceb16e">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="17DAP_pericarp_1" />
+				<sample name="17DAP_pericarp_2" />
+				<sample name="17DAP_pericarp_3" />
+			</tissue>
+			<tissue id="Pericarp_24_DAP" name="24DAP_pericarp;_pericarp_of_top_ear" colorKey="#ceb16f">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="24DAP_pericarp_1" />
+				<sample name="24DAP_pericarp_2" />
+				<sample name="24DAP_pericarp_3" />
+			</tissue>
+			<tissue id="Embryo_10_DAP" name="10DAP_embryo;_embryo_of_top_ear" colorKey="#fdfb65">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="10DAP_embryo_1" />
+				<sample name="10DAP_embryo_2" />
+				<sample name="10DAP_embryo_3" />
+			</tissue>
+			<tissue id="Embryo_17_DAP" name="17DAP_embryo;_embryo_of_top_ear" colorKey="#fdfb66">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="17DAP_embryo_1" />
+				<sample name="17DAP_embryo_2" />
+				<sample name="17DAP_embryo_3" />
+			</tissue>
+			<tissue id="Embryo_24_DAP" name="24DAP_embryo;_embryo_of_top_ear" colorKey="#fdfb67">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="24DAP_embryo_1" />
+				<sample name="24DAP_embryo_2" />
+				<sample name="24DAP_embryo_3" />
+			</tissue>
+			<tissue id="Embryo_31_DAP" name="31DAP_embryo;_embryo_of_top_ear" colorKey="#fdfb68">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="31DAP_embryo_1" />
+				<sample name="31DAP_embryo_2" />
+				<sample name="31DAP_embryo_3" />
+			</tissue>
+			<tissue id="Cob_V16" name="V16_cob;_top_ear_(5_cm)_cob" colorKey="#8dba8a">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V16_cob_1" />
+				<sample name="V16_cob_2" />
+				<sample name="V16_cob_3" />
+			</tissue>
+			<tissue id="Silk_V16" name="V16_silk;_top_ear_(5_cm)_silk" colorKey="#b5e2ab">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V16_silk_1" />
+				<sample name="V16_silk_2" />
+				<sample name="V16_silk_3" />
+			</tissue>
+			<tissue id="Floret_V16" name="V16_floret;_top_ear_(5_cm)_floret" colorKey="#fdfb70">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V16_floret_1" />
+				<sample name="V16_floret_2" />
+				<sample name="V16_floret_3" />
+			</tissue>
+			<tissue id="Cob_R1" name="R1_cob;_cob_of_top_ear" colorKey="#8dba8b">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="R1_cob_1" />
+				<sample name="R1_cob_2" />
+				<sample name="R1_cob_3" />
+			</tissue>
+			<tissue id="Ovule_R1" name="R1_ovule;_R1-ovule_of_top_ear" colorKey="#fdfb69">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="R1_ovule_1" />
+				<sample name="R1_ovule_2" />
+				<sample name="R1_ovule_3" />
+			</tissue>
+			<tissue id="Husk_R1" name="R1_husk;_most_inner_husk_of_top_ear" colorKey="#85b667">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="R1_husk_1" />
+				<sample name="R1_husk_2" />
+				<sample name="R1_husk_3" />
+			</tissue>
+			<tissue id="Silk_R1" name="R1_silk;_silk_of_top_ear" colorKey="#b5e2ac">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="R1_silk_1" />
+				<sample name="R1_silk_2" />
+				<sample name="R1_silk_3" />
+			</tissue>
+			<tissue id="Cob_5_DAP" name="5DAP_cob;_cob_of_top_ear" colorKey="#8dba80">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="5DAP_cob_1" />
+				<sample name="5DAP_cob_2" />
+				<sample name="5DAP_cob_3" />
+			</tissue>
+			<tissue id="Ovule_5_DAP" name="5DAP_ovule;_ovule_of_top_ear" colorKey="#fdfb64">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="5DAP_ovule_1" />
+				<sample name="5DAP_ovule_2" />
+				<sample name="5DAP_ovule_3" />
+			</tissue>
+			<tissue id="Leaf_VE" name="VE_leaf;_coleoptile" colorKey="#f3f1c8">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="VE_leaf_1" />
+				<sample name="VE_leaf_2" />
+				<sample name="VE_leaf_3" />
+			</tissue>
+			<tissue id="Root_VE" name="VE_root;_seminal_root" colorKey="#a2ac5e">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="VE_root_1" />
+				<sample name="VE_root_2" />
+				<sample name="VE_root_3" />
+			</tissue>
+			<tissue id="Leaf_V1" name="V1_leaf;_1st_and_2nd_leaf" colorKey="#34983A">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V1_leaf_1" />
+				<sample name="V1_leaf_2" />
+				<sample name="V1_leaf_3" />
+			</tissue>
+			<tissue id="Root_V1" name="V1_root;_seminal_root" colorKey="#a2ac5f">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V1_root_1" />
+				<sample name="V1_root_2" />
+				<sample name="V1_root_3" />
+			</tissue>
+			<tissue id="Leaf_V2" name="V2_leaf; _actively_growing_leaf:_fourth_leaf" colorKey="#34983B">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V2_leaf_1" />
+				<sample name="V2_leaf_2" />
+				<sample name="V2_leaf_3" />
+			</tissue>
+			<tissue id="Root_Seminal_V2" name="V2_seminal_root;_seminal_root" colorKey="#a2ac60">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V2_seminal_root_1" />
+				<sample name="V2_seminal_root_2" />
+				<sample name="V2_seminal_root_3" />
+			</tissue>
+			<tissue id="Stalk_V2" name="V2_stalk;_stalk" colorKey="#349842">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V2_stalk_1" />
+				<sample name="V2_stalk_2" />
+				<sample name="V2_stalk_3" />
+			</tissue>
+			<tissue id="Root_Nodal_V2" name="V2_nodal_root;_nodal_root" colorKey="#a2ac61">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V2_nodal_root_1" />
+				<sample name="V2_nodal_root_2" />
+				<sample name="V2_nodal_root_3" />
+			</tissue>
+			<tissue id="Root_Seminal_V5" name="V5_seminal_root;_seminal_root" colorKey="#a2ac62">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V5_seminal_root_1" />
+				<sample name="V5_seminal_root_2" />
+				<sample name="V5_seminal_root_3" />
+			</tissue>
+			<tissue id="Root_Nodal_V5" name="V5_nodal_root;_nodal_root" colorKey="#a2ac63">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V5_nodal_root_1" />
+				<sample name="V5_nodal_root_2" />
+				<sample name="V5_nodal_root_3" />
+			</tissue>
+			<tissue id="Leaf_V5" name="V5_leaf;_actively_growing_leaf:_eighth_leaf,_15_cm_including_tip" colorKey="#34983C">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="V5_leaf_1" />
+				<sample name="V5_leaf_2" />
+				<sample name="V5_leaf_3" />
+			</tissue>
+			<tissue id="Stalk_R1" name="R1_stalk;_R1-15_cm_stalk_below_tassel" colorKey="#349844">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="R1_stalk_1" />
+				<sample name="R1_stalk_2" />
+				<sample name="R1_stalk_3" />
+			</tissue>
+			<tissue id="Leaf_R1" name="R1_leaf;_15_cm_tip_of_2nd_leaf_above_top_ear" colorKey="#34983D">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="R1_leaf_1" />
+				<sample name="R1_leaf_2" />
+				<sample name="R1_leaf_3" />
+			</tissue>
+			<tissue id="Root_R1" name="R1_root;_adult_nodal_root" colorKey="#a2ac64">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="R1_root_1" />
+				<sample name="R1_root_2" />
+				<sample name="R1_root_3" />
+			</tissue>
+			<tissue id="Leaf_10_DAP" name="10DAP_leaf;_15_cm_tip_of_2nd_leaf_above_top_ear" colorKey="#34983E">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="10DAP_leaf_1" />
+				<sample name="10DAP_leaf_2" />
+				<sample name="10DAP_leaf_3" />
+			</tissue>
+			<tissue id="Leaf_17_DAP" name="17DAP_leaf;_15_cm_tip_of_2nd_leaf_above_top_ear" colorKey="#34983F">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="17DAP_leaf_1" />
+				<sample name="17DAP_leaf_2" />
+				<sample name="17DAP_leaf_3" />
+			</tissue>
+			<tissue id="Leaf_24_DAP" name="24DAP_leaf;_15_cm_tip_of_2nd_leaf_above_top_ear" colorKey="#339842">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="24DAP_leaf_1" />
+				<sample name="24DAP_leaf_2" />
+				<sample name="24DAP_leaf_3" />
+			</tissue>
+			<tissue id="Root_24_DAP" name="24DAP_root;_nodal_root" colorKey="#a2ac65">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="24DAP_root_1" />
+				<sample name="24DAP_root_2" />
+				<sample name="24DAP_root_3" />
+			</tissue>
+			<tissue id="Leaf_31_DAP" name="31DAP_leaf;_15_cm_tip_of_2nd_leaf_above_top_ear" colorKey="#349841">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE44743"/>
+				<sample name="31DAP_leaf_1" />
+				<sample name="31DAP_leaf_2" />
+				<sample name="31DAP_leaf_3" />
+			</tissue>
+		</group>
+	</view>
+</specimen>

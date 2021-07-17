@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE info SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_info.dtd">
+<info>
+	<service name="Click to go to Phytozome for further information about GENE" type="blank">
+		<connect url=''></connect>
+		<icon filename="phytozome.png"></icon>
+		<image filename="img/screenshot/linkout/phytozome.png"></image>
+		<link url="https://phytozome.jgi.doe.gov/pz/portal.html#!results?search=0&amp;crown=1&amp;star=1&amp;method=5240&amp;searchText=GENE&amp;offset=0" />
+		<result_regex pattern='' />
+		<external webservice = 'true' />
+	</service>
+</info>

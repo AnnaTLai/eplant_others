@@ -1,0 +1,59 @@
+{
+    "species": "Hordeum vulgare",
+    "chromosomes": [
+        {
+            "name": "chr1H",
+            "id": "chr1H",
+            "centromeres": [],
+            "size": "558535432"
+        },
+        {
+            "name": "chr2H",
+            "id": "chr2H",
+            "centromeres": [],
+            "size": "768075024"
+        },
+        {
+            "name": "chr3H",
+            "id": "chr3H",
+            "centromeres": [],
+            "size": "699711114"
+        },
+        {
+            "name": "chr4H",
+            "id": "chr4H",
+            "centromeres": [],
+            "size": "647060158"
+        },
+        {
+            "name": "chr5H",
+            "id": "chr5H",
+            "centromeres": [],
+            "size": "670030160"
+        },
+        {
+            "name": "chr6H",
+            "id": "chr6H",
+            "centromeres": [],
+            "size": "583380513"
+        },
+        {
+            "name": "chr7H",
+            "id": "chr7H",
+            "centromeres": [],
+            "size": "657224000"
+        },
+        {
+            "name": "chrUn",
+            "id": "chrUn",
+            "centromeres": [],
+            "size": "249774706"
+        },
+        {
+            "name": "Pt",
+            "id": "Pt",
+            "centromeres": [],
+            "size": "115974"
+        }
+    ]
+}

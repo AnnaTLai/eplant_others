@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<specimen name="Soybean">
+	<view name="all" db="soybean_severin" img="soybean_severin_image.tga">
+		<coords graphX="3" graphY="85" graphWidth="158" graphHeight="56" legendX="0" legendY="128" /> 
+		<extra name="eFP Browser paper in PLoS One" link="http://dx.doi.org/10.1371/journal.pone.0000718" parameters="No" coords="202,0,330,0,330,17,202,17" /> 
+		<extra name="To Severin et al. reference" link="http://www.biomedcentral.com/content/pdf/1471-2229-10-160.pdf" parameters="No" coords="197,581,563,582,563,599,197,599" />
+		<info>
+			<li>RNA-Seq derived data from RNA-Seq atlas of Glycine max: A guide to the soybean transcriptome: Severin et al., 2010, BMC Plant Biol: 10:160.</li>
+		</info>
+		<group name="Soybean Severin">
+			<control sample="SOYBEAN_CTRL" /> 
+			<tissue colorKey="#26dc26" name="Young Leaf" id="LeafYoung">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="123,93,241,93,240,186,123,186" /> 
+				<sample name="young_leaf" /> 
+			</tissue>
+			<tissue colorKey="#ebaddc" name="Flower" id="Flower">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="345,85,461,86,462,188,345,188" /> 
+				<sample name="flower" /> 
+			</tissue>
+			<tissue colorKey="#43b543" name="One CM Pod" id="Pod-7DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="126,226,226,225,226,323,126,323" /> 
+				<sample name="one_cm_pod" /> 
+			</tissue>
+			<tissue colorKey="#50b850" name="Pod Shell (10-13 DAF)" id="Pod-10-13DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="337,209,476,210,478,339,337,339" /> 
+				<sample name="pod_shell_10DAF" /> 
+			</tissue>
+			<tissue colorKey="#4ab64a" name="Pod Shell (14 - 17 DAF)" id="Pod-14-17DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="556,182,711,184,711,337,556,337" /> 
+				<sample name="pod_shell_14DAF" /> 
+			</tissue>
+			<tissue colorKey="#65dc3d" name="Nodule" id="Nodule">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="71,454,126,455,124,545,71,545" /> 
+				<sample name="nodule" /> 
+			</tissue>
+			<tissue colorKey="#946e40" name="Root"  id="Root">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="132,351,294,351,293,540,132,540" /> 
+				<sample name="root" /> 
+			</tissue>
+			<tissue colorKey="#f4ca33" name="Seed 10 - 13 DAF" id="Seed-10-13DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="374,424,409,424,408,455,374,455" /> 
+				<sample name="seed_10DAF" /> 
+			</tissue>
+			<tissue colorKey="#f6c71f" name="Seed 14 - 17 DAF" id="Seed-14-17DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="421,425,466,427,466,458,421,458" /> 
+				<sample name="seed_14DAF" /> 
+			</tissue>
+			<tissue colorKey="#f6c71f" name="Seed 21 DAF" id="Seed-21DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="474,421,520,421,519,463,474,463" /> 
+				<sample name="seed_21DAF" /> 
+			</tissue>
+			<tissue colorKey="#f6bd1f" name="Seed 25 DAF" id="Seed-25DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="526,424,570,423,571,464,526,464" /> 
+				<sample name="seed_25DAF" /> 
+			</tissue>
+			<tissue colorKey="#f6ad1f" name="Seed 28 DAF" id="Seed-28DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="578,424,629,423,630,464,578,464" /> 
+				<sample name="seed_28DAF" /> 
+			</tissue>
+			<tissue colorKey="#f6a11f" name="Seed 35 DAF" id="Seed-35DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="640,424,690,424,690,466,640,466" /> 
+				<sample name="seed_35DAF" /> 
+			</tissue>
+			<tissue colorKey="#f68b1f" name="Seed 42 DAF" id="Seed-42DAF">
+				<link url="http://soybase.org/soyseq/" /> 
+				<area coords="702,424,762,424,761,470,702,470" /> 
+				<sample name="seed_42DAF" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

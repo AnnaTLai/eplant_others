@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<specimen name="Tomato">
+	<info>
+		<li>Data are from The tomato genome sequence providing insights into fresh fruit evolution: Tomato Genome Consortium. Nature 2012 485 (7400): 635-641.</li>
+		<li>Data are Illumina-drived and RPKM-normalized.</li>
+	</info>
+	<view class="View_tomato" db="tomato_renormalized" img="Rose_Lab_Atlas_image.tga" name="all">
+		<coords graphHeight="0" graphWidth="0" graphX="0" graphY="0" legendX="0" legendY="328" /> 
+		<extra coords="212,0,347,0,347,18,212,14" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="193,575,353,575,353,586,194,586" link="http://www.plantcell.org/content/23/11/3893.abstract" name="To Matas et al. reference" parameters="No" />
+		<extra coords="360,590,520,590,520,599,360,599" link="http://dx.doi.org/10.1038/nature11119" name="To Tomato Genome Consortium reference" parameters="No" />
+		<extra check="data_tomato/array_alert_file.txt" checkColumn="0" coords="0,0,0,0,0,0,0,0" link="" name="" parameters="" />
+		<group name="Illumina">
+			<control sample="TOMATO_CTRL" />
+			<tissue colorKey="#99cc00" id="Unopened_Flower_Bud" name="Unopened Flower Bud">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="505,40,549,40,549,73,505,73" /> 
+				<sample name="Heinz_bud" /> 
+			</tissue>
+			<tissue colorKey="#f3f300" id="Fully_Opened_Flower" name="Fully Opened Flower">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="462,81,529,81,530,125,462,125" /> 
+				<sample name="Heinz_flower" /> 
+			</tissue>
+			<tissue colorKey="#336633" id="Leaves" name="Leaves">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="411,35,485,35,487,96,411,96" />
+				<area coords="548,38,628,38,628,261,548,261" />
+				<area coords="387,124,507,124,507,261,387,261" />
+				<area coords="425,276,447,255,487,285,425,285" />
+				<area coords="354,277,411,261,420,347,381,381" />
+				<area coords="564,275,613,292,539,358,527,354" />
+				<area coords="302,395,413,360,469,414,302,414" />
+				<area coords="525,375,559,375,559,407,525,407" /> 
+				<sample name="Heinz_leaf" />  
+			</tissue>
+			<tissue colorKey="#996633" id="Root" name="Root">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="412,450,547,451,547,544,412,544" /> 
+				<sample name="Heinz_root" />  
+			</tissue>
+			<tissue colorKey="#66cc66" id="1cm_Fruit" name="1cm Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="563,330,580,330,580,351,563,351" /> 
+				<sample name="Heinz_1cm_fruit" />  
+			</tissue>
+			<tissue colorKey="#8ac751" id="2cm_Fruit" name="2cm Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="584,308,611,308,611,338,584,338" /> 
+				<sample name="Heinz_2cm_fruit" />  
+			</tissue>
+			<tissue colorKey="#99ff33" id="3cm_Fruit" name="3cm Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="616,313,646,312,646,352,616,352" /> 
+				<sample name="Heinz_3cm_fruit" />  
+			</tissue>
+			<tissue colorKey="#66ff00" id="Mature_Green_Fruit" name="Mature Green Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="403,344,475,344,475,399,403,399" /> 
+				<sample name="Heinz_MG" />  
+			</tissue>
+			<tissue colorKey="#cccc33" id="Breaker_Fruit" name="Breaker Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="409,295,479,295,479,339,410,339" /> 
+				<sample name="Heinz_B" />
+			</tissue>
+			<tissue colorKey="#cc9933" id="Breaker_Fruit_10" name="Breaker Fruit + 10">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="495,258,560,258,560,307,495,307" /> 
+				<sample name="Heinz_B10" />
+			</tissue> 
+			<tissue colorKey="#00ff00" id="Pimpinellifolium_Immature_Green_Fruit" name="Pimpinellifolium Immature Green Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="584,463,626,463,627,508,584,508" /> 
+				<sample name="Pimp_IM" /> 
+			</tissue>
+			<tissue colorKey="#cccc33" id="Pimpinellifolium_Breaker_Fruit" name="Pimpinellifolium Breaker Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="663,466,703,467,703,508,663,508" /> 
+				<sample name="Pimp_B" /> 
+			</tissue>
+			<tissue colorKey="#ffcc33" id="Pimpinellifolium_Breaker_5_Fruit" name="Pimpinellifolium Breaker + 5 Fruit">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="748,469,786,470,787,508,748,508" /> 
+				<sample name="Pimp_B5" /> 
+			</tissue>
+			<tissue colorKey="#339933" id="Pimpinellifolium_Leaf" name="Pimpinellifolium Leaf">
+				<link url="http://solgenomics.net/ted/cgi-bin/TFGD/digital/data.cgi?ID=D004" /> 
+				<area coords="681,209,787,209,786,437,681,437" /> 
+				<sample name="Pimp_leaf" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

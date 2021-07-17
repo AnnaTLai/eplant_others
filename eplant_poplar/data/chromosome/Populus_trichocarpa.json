@@ -1,0 +1,119 @@
+{
+    "chromosomes": [
+        {
+            "centromeres": [], 
+            "size": "50495391", 
+            "id": "Chr01", 
+            "name": "Chr01"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "25263035", 
+            "id": "Chr02", 
+            "name": "Chr02"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "21816808", 
+            "id": "Chr03", 
+            "name": "Chr03"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "24267051", 
+            "id": "Chr04", 
+            "name": "Chr04"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "25890704", 
+            "id": "Chr05", 
+            "name": "Chr05"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "27912125", 
+            "id": "Chr06", 
+            "name": "Chr06"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "15610913", 
+            "id": "Chr07", 
+            "name": "Chr07"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "19465461", 
+            "id": "Chr08", 
+            "name": "Chr08"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "12948742", 
+            "id": "Chr09", 
+            "name": "Chr09"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "22580532", 
+            "id": "Chr10", 
+            "name": "Chr10"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "18501271", 
+            "id": "Chr11", 
+            "name": "Chr11"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "15760346", 
+            "id": "Chr12", 
+            "name": "Chr12"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "16320717", 
+            "id": "Chr13", 
+            "name": "Chr13"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "18920894", 
+            "id": "Chr14", 
+            "name": "Chr14"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "15278577", 
+            "id": "Chr15", 
+            "name": "Chr15"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "14494361", 
+            "id": "Chr16", 
+            "name": "Chr16"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "16080358", 
+            "id": "Chr17", 
+            "name": "Chr17"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "16958300", 
+            "id": "Chr18", 
+            "name": "Chr18"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "15942145", 
+            "id": "Chr19", 
+            "name": "Chr19"
+        }
+    ], 
+    "species": "Populus trichocarpa"
+}

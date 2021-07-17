@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Camelina">
+	<info>
+		<li>The developmental transcriptome atlas of DH55, a genotype used for reference genome sequencing of <i>Camelina sativa</i> (Kagale <i>et al.</i> 2014. The emerging biofuel crop <i>Camelina sativa</i> retains a highly undifferentiated hexaplod genome structure. Nature Communications 5:3706).</li>
+		<li>Triplicate samples were collected from both vegetative and reproductive growth stages and transcriptome analysis was carried out based on Illumina RNASeq data. </li>
+		<li>Normalized expression values, FPKM (fragments per kilobase of exon per million fragments mapped) or TPM (transcripts per kilobase million), were estimated using Tuxedo suite tools (Tophat and Cufflinks) or Kallisto, respectively.</li>
+		<li>Drawing were prepared by Yogendra Khedikar based on images adapted from online resources or botany books.</li>
+		<li>Image vectorized by Rohan Patel.</li>
+	</info>
+	<view class="" db="camelina" img="Developmental_Atlas_FPKM_image.png" name="all" table="sample_data">
+		<lookup db="None" geneid_col="None" table="None" />
+		<coords graphHeight="80" graphWidth="60" graphX="13" graphY="0" legendX="48" legendY="518" />
+		<extra coords="271,65,777,65,777,127,271,127" link="http://www.camelinadb.ca/index.html" name="Parkin Lab" parameters="No" />
+		<group name="Med_CTRL">
+			<control sample="Med_CTRL" />
+			<tissue colorKey="#ffcc98" id="Germinating_Seed" name="Germinating Seed">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472932" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="germinating_seed_1" />
+				<sample name="germinating_seed_2" />
+				<sample name="germinating_seed_3" />
+			</tissue>
+			<tissue colorKey="#99ff00" id="Cotyledon" name="Cotyledon">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472934" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="cotyledon_1" />
+				<sample name="cotyledon_2" />
+				<sample name="cotyledon_3" />
+			</tissue>
+			<tissue colorKey="#339933" id="Young_Leaf" name="Young Leaf">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472935" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="young_leaf_1" />
+				<sample name="young_leaf_2" />
+				<sample name="young_leaf_3" />
+			</tissue>
+			<tissue colorKey="#99cc66" id="Senescing_Leaf" name="Senescing Leaf">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472936" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="senescing_leaf_1" />
+				<sample name="senescing_leaf_2" />
+				<sample name="senescing_leaf_3" />
+			</tissue>
+			<tissue colorKey="#946e40" id="Root" name="Root">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472938" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="root_1" />
+				<sample name="root_2" />
+				<sample name="root_3" />
+			</tissue>
+			<tissue colorKey="#fb6b82" id="Stem" name="Stem">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472937" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="stem_1" />
+				<sample name="stem_2" />
+				<sample name="stem_3" />
+			</tissue>
+			<tissue colorKey="#83e6e7" id="Buds" name="Buds">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472939" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="bud_1" />
+				<sample name="bud_2" />
+				<sample name="bud_3" />
+			</tissue>
+			<tissue colorKey="#f1f743" id="Flower" name="Flower">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472941" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="flower_1" />
+				<sample name="flower_2" />
+				<sample name="flower_3" />
+			</tissue>
+			<tissue colorKey="#f4f4bf" id="Early_Seed_Development" name="Early Seed Development">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472942" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="early_seed_development_1" />
+				<sample name="early_seed_development_2" />
+				<sample name="early_seed_development_3" />
+			</tissue>
+			<tissue colorKey="#d6d6a1" id="Early-mid_Seed_Development" name="Early-mid Seed Development">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472943" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="early_mid_seed_development_1" />
+				<sample name="early_mid_seed_development_2" />
+				<sample name="early_mid_seed_development_3" />
+			</tissue>
+			<tissue colorKey="#cccc33" id="Late-mid_Seed_Development" name="Late-mid Seed Development">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472945" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="late_mid_seed_development_1" />
+				<sample name="late_mid_seed_development_2" />
+				<sample name="late_mid_seed_development_3" />
+			</tissue>
+			<tissue colorKey="#ceb49a" id="Late_Seed_Development" name="Late Seed Development">
+				<link url="http://www.ncbi.nlm.nih.gov/sra/?term=SRX472946" />
+				<area coords="271,65,777,65,777,127,271,127" />
+				<sample name="late_seed_development_1" />
+				<sample name="late_seed_development_2" />
+				<sample name="late_seed_development_3" />
+			</tissue>
+		</group>
+	</view>
+</specimen>

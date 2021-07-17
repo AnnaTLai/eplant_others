@@ -1,0 +1,77 @@
+{
+    "chromosomes": [
+        {
+            "centromeres": [], 
+            "size": "307041717", 
+            "id": "1", 
+            "name": "1"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "244442276", 
+            "id": "2", 
+            "name": "2"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "235667834", 
+            "id": "3", 
+            "name": "3"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "246994605", 
+            "id": "4", 
+            "name": "4"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "223902240", 
+            "id": "5", 
+            "name": "5"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "174033170", 
+            "id": "6", 
+            "name": "6"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "182381542", 
+            "id": "7", 
+            "name": "7"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "181122637", 
+            "id": "8", 
+            "name": "8"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "159769782", 
+            "id": "9", 
+            "name": "9"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "150982314", 
+            "id": "10", 
+            "name": "10"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "140384", 
+            "id": "Pt", 
+            "name": "Pt"
+        }, 
+        {
+            "centromeres": [], 
+            "size": "569630", 
+            "id": "Mt", 
+            "name": "Mt"
+        }
+    ], 
+    "species": "Zea mays"
+}

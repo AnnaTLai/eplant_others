@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<specimen name="Soybean">
+	<info>
+		<li>Data for root Hair series from Complete Transcriptome of Soybean Root Hair Cell, a Single Cell Model, and its alteration in response to <i>Bradyrhizobium japonicum</i> infection: Libault, M., Farmer, A., Brechnmacher, L et al (2010). Plant Phsyiol. 152, 541-552.</li>
+		<li>All other data from An integrated Transcriptome Atlas of the Crop Model Glycine Max, and its use in Comparative Analysis in Plants: Libault, M. et al (2010). The Plant Journal 63, 86-99.</li>
+		<li>Data is mRNA-Seq derived data and all samples were in triplicate.</li>
+		<li>Image vectorized by Rohan Patel.</li>
+	</info>
+	<view db="soybean" img="soybean_image.tga" name="all">
+		<coords graphHeight="59" graphWidth="171" graphX="15" graphY="115" legendX="0" legendY="128" /> 
+		<extra coords="211,8,338,8,338,30,211,30" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="272,559,675,560,675,574,272,574" link="http://www.plantphysiol.org/cgi/content/abstract/152/2/541" name="To M. Libault et al. reference" parameters="No" />
+		<extra coords="542,572,798,572,798,587,542,587" link="http://www3.interscience.wiley.com/cgi-bin/fulltext/123342086/HTMLSTART" name="To M. Libault et al. reference" parameters="No" />
+		<group name="Root Hair 12HAI">
+			<control sample="Roothair_12HAImock" /> 
+			<tissue colorKey="#af7925" id="Root_Hair_12HAI" name="Root Hair 12HAI">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="537,85,601,84,602,222,537,222" /> 
+				<sample name="Roothair_12HAI" /> 
+			</tissue>
+			<tissue colorKey="#a16f22" id="Roothair_12HAImock" name="Roothair_12HAImock">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="685,84,754,84,755,214,685,214" /> 
+				<sample name="Roothair_12HAImock" /> 
+			</tissue>
+		</group>
+		<group name="Root Hair 24HAI">
+			<control sample="Roothair_24HAImock" />
+			<tissue colorKey="#a06b18" id="Root_Hair_24_HAI" name="Root Hair 24 HAI">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="538,237,609,237,609,383,538,381" /> 
+				<sample name="Roothair_24HAI" /> 
+			</tissue>
+			<tissue colorKey="#98681e" id="Roothair_24HAImock" name="Roothair_24HAImock">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="686,251,749,251,749,380,686,380" /> 
+				<sample name="Roothair_24HAImock" /> 
+			</tissue>
+		</group>
+		<group name="Root Hair 48HAI">
+			<control sample="Roothair_48HAImock" />
+			<tissue colorKey="#946317" id="Root_Hair_48_HAI" name="Root Hair 48 HAI">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="529,408,602,408,604,542,530,543" /> 
+				<sample name="Roothair_48HAI" /> 
+			</tissue>
+			<tissue colorKey="#8a5f1c" id="Roothair_48HAImock" name="Roothair_48HAImock">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="689,409,751,409,751,539,689,539" /> 
+				<sample name="Roothair_48HAImock" /> 
+			</tissue>
+			<tissue colorKey="#875a14" id="Root_Hair_48_HAI_Stripped" name="Root Hair 48 HAI Stripped">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="446,413,474,412,475,541,446,541" /> 
+				<sample name="Root_stripped" /> 
+			</tissue>
+		</group>
+		<group name="StaceyTissues">
+			<control sample="SOYBEAN_CTRL" /> 
+			<control sample="SOYBEAN_CTRL" /> 
+			<tissue colorKey="#83e6e7" id="SAM" name="SAM">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="321,335,423,336,422,414,319,415" /> 
+				<sample name="SAM" /> 
+			</tissue>
+			<tissue colorKey="#ebaddc" id="Flower" name="Flower">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="244,82,334,82,335,152,244,152" /> 
+				<sample name="Flower" /> 
+			</tissue>
+			<tissue colorKey="#50b850" id="Green_Pods" name="Green_Pods">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="335,171,475,171,477,289,337,289" /> 
+				<sample name="Green_Pods" /> 
+			</tissue>
+			<tissue colorKey="#29dc29" id="Leaves" name="Leaves">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="129,130,281,129,279,381,130,382" /> 
+				<sample name="Leaves" /> 
+			</tissue>
+			<tissue colorKey="#65dc3d" id="Nodule" name="Nodule">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="96,412,158,414,159,506,96,506" /> 
+				<sample name="Nodule" /> 
+			</tissue>
+			<tissue colorKey="#78531d" id="Root" name="Root">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="200,412,245,412,245,540,200,540" /> 
+				<sample name="Root" /> 
+			</tissue>
+			<tissue colorKey="#dd83e7" id="Root_tip" name="Root_tip">
+				<link url="http://www.plexdb.org/modules/PD_browse/experiment_browser.php?experiment=BB3" /> 
+				<area coords="301,472,366,470,365,536,301,536" /> 
+				<sample name="Root_tip" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

@@ -1,0 +1,119 @@
+{
+    "chromosomes": [
+        {
+            "id": "HanXRQChr01",
+            "centromeres": [],
+            "name": "HanXRQChr01",
+            "size": "153905722"
+        },
+        {
+            "id": "HanXRQChr02",
+            "centromeres": [],
+            "name": "HanXRQChr02",
+            "size": "180951721"
+        },
+        {
+            "id": "HanXRQChr03",
+            "centromeres": [],
+            "name": "HanXRQChr03",
+            "size": "168485022"
+        },
+        {
+            "id": "HanXRQChr04",
+            "centromeres": [],
+            "name": "HanXRQChr04",
+            "size": "178899001"
+        },
+        {
+            "id": "HanXRQChr05",
+            "centromeres": [],
+            "name": "HanXRQChr05",
+            "size": "219053782"
+        },
+        {
+            "id": "HanXRQChr06",
+            "centromeres": [],
+            "name": "HanXRQChr06",
+            "size": "103887801"
+        },
+        {
+            "id": "HanXRQChr07",
+            "centromeres": [],
+            "name": "HanXRQChr07",
+            "size": "103871911"
+        },
+        {
+            "id": "HanXRQChr08",
+            "centromeres": [],
+            "name": "HanXRQChr08",
+            "size": "153252196"
+        },
+        {
+            "id": "HanXRQChr09",
+            "centromeres": [],
+            "name": "HanXRQChr09",
+            "size": "209865144"
+        },
+        {
+            "id": "HanXRQChr10",
+            "centromeres": [],
+            "name": "HanXRQChr10",
+            "size": "246315975"
+        },
+        {
+            "id": "HanXRQChr11",
+            "centromeres": [],
+            "name": "HanXRQChr11",
+            "size": "168460249"
+        },
+        {
+            "id": "HanXRQChr12",
+            "centromeres": [],
+            "name": "HanXRQChr12",
+            "size": "166489593"
+        },
+        {
+            "id": "HanXRQChr13",
+            "centromeres": [],
+            "name": "HanXRQChr13",
+            "size": "197258317"
+        },
+        {
+            "id": "HanXRQChr14",
+            "centromeres": [],
+            "name": "HanXRQChr14",
+            "size": "174509413"
+        },
+        {
+            "id": "HanXRQChr15",
+            "centromeres": [],
+            "name": "HanXRQChr15",
+            "size": "171247636"
+        },
+        {
+            "id": "HanXRQChr16",
+            "centromeres": [],
+            "name": "HanXRQChr16",
+            "size": "188620566"
+        },
+        {
+            "id": "HanXRQChr17",
+            "centromeres": [],
+            "name": "HanXRQChr17",
+            "size": "214723238"
+        },
+        {
+            "id": "HanXRQMT",
+            "centromeres": [],
+            "name": "HanXRQMT",
+            "size": "301004"
+        },
+        {
+            "id": "HanXRQCP",
+            "centromeres": [],
+            "name": "HanXRQCP",
+            "size": "151101"
+        }
+    ],
+    "species": "Helianthus annuus"
+}

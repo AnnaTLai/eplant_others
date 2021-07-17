@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<specimen name="Tomato">
+	<info>
+		<li>Data are from Tissue- and Cell-Type Specific Transcriptome Profiling of Expanding Tomato Fruit Provides insights into Metabolic and Regulatory Specialization and Cuticle Formation: Matas, A.J., Yeats, T.H., Buda, G. J. et al. Plant Cell 2011; 23(11):3893-3910.</li>
+		<li>Data are 454-derived and FPKM-normalized.</li>
+	</info>
+	<view class="View_tomato" db="tomato_renormalized" img="Rose_Lab_Atlas_image.tga" name="all">
+		<coords graphHeight="0" graphWidth="0" graphX="0" graphY="0" legendX="0" legendY="328" /> 
+		<extra coords="212,0,347,0,347,18,212,14" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="193,575,353,575,353,586,194,586" link="http://www.plantcell.org/content/23/11/3893.abstract" name="To Matas et al. reference" parameters="No" />
+		<extra coords="360,590,520,590,520,599,360,599" link="http://dx.doi.org/10.1038/nature11119" name="To Tomato Genome Consortium reference" parameters="No" />
+		<extra check="data_tomato/array_alert_file.txt" checkColumn="0" coords="0,0,0,0,0,0,0,0" link="" name="" parameters="" />
+		<group name="454">
+			<control sample="TOMATO_CTRL_454" /> 
+			<tissue colorKey="#ffcc66" id="epidermis" name="epidermis">
+				<link url="" /> 
+				<area coords="136,105,287,105,287,133,136,133" /> 
+				<sample name="epidermis" /> 
+			</tissue>
+			<tissue colorKey="#ffff00" id="collenchyma" name="collenchyma">
+				<link url="" /> 
+				<area coords="136,121,287,128,287,163,136,154" /> 
+				<sample name="collenchyma" /> 
+			</tissue>
+			<tissue colorKey="#33ff00" id="vascular" name="vascular">
+				<link url="" /> 
+				<area coords="135,265,200,265,200,314,135,314" /> 
+				<sample name="vascular" />  
+			</tissue>
+			<tissue colorKey="#66ffff" id="parenchyma" name="parenchyma">
+				<link url="" /> 
+				<area coords="125,144,295,144,295,500,125,500" /> 
+				<sample name="parenchyma" />  
+			</tissue>
+			<tissue colorKey="#669966" id="endodermis" name="endodermis">
+				<link url="" /> 
+				<area coords="132,481,288,481,288,508,132,508" /> 
+				<sample name="endodermis" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

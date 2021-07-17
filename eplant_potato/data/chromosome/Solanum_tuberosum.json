@@ -1,0 +1,83 @@
+{
+    "chromosomes": [
+        {
+            "id": "ST4.03ch01",
+            "size": "88663952",
+            "centromeres": [],
+            "name": "ST4.03ch01"
+        },
+        {
+            "id": "ST4.03ch02",
+            "size": "48614681",
+            "centromeres": [],
+            "name": "ST4.03ch02"
+        },
+        {
+            "id": "ST4.03ch03",
+            "size": "62290286",
+            "centromeres": [],
+            "name": "ST4.03ch03"
+        },
+        {
+            "id": "ST4.03ch04",
+            "size": "72208621",
+            "centromeres": [],
+            "name": "ST4.03ch04"
+        },
+        {
+            "id": "ST4.03ch05",
+            "size": "52070158",
+            "centromeres": [],
+            "name": "ST4.03ch05"
+        },
+        {
+            "id": "ST4.03ch06",
+            "size": "59532096",
+            "centromeres": [],
+            "name": "ST4.03ch06"
+        },
+        {
+            "id": "ST4.03ch07",
+            "size": "56760843",
+            "centromeres": [],
+            "name": "ST4.03ch07"
+        },
+        {
+            "id": "ST4.03ch08",
+            "size": "56938457",
+            "centromeres": [],
+            "name": "ST4.03ch08"
+        },
+        {
+            "id": "ST4.03ch09",
+            "size": "61540751",
+            "centromeres": [],
+            "name": "ST4.03ch09"
+        },
+        {
+            "id": "ST4.03ch10",
+            "size": "59756223",
+            "centromeres": [],
+            "name": "ST4.03ch10"
+        },
+        {
+            "id": "ST4.03ch11",
+            "size": "45475667",
+            "centromeres": [],
+            "name": "ST4.03ch11"
+        },
+        {
+            "id": "ST4.03ch12",
+            "size": "61165649",
+            "centromeres": [],
+            "name": "ST4.03ch12"
+        },
+        {
+            "id": "ST4.03ch00",
+            "size": "48012048",
+            "centromeres": [],
+            "name": "ST4.03ch00"
+        }
+    ],
+    "species": "Solanum tuberosum"
+}

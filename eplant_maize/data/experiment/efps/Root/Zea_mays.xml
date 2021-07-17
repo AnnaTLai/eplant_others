@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Maize">
+	<info>
+		<li>Root tissue data from Opitz et al. 2016 - 2-4cm primary roots were dissected into Meristematic zone, Elogation zone, Stele and Cortex and used for RNA-seq analysis.</li>
+		<li>Root hair data form Hey et al. 2017, root hairs were scraped off using liquid nitrogen. Root hairs and root hairless roots were used for RNA-seq analysis. </li>
+		<li>Root type data from Tai et al. 2016, 2-4cm primary roots, seminal roots and crown roots were used for RNA-seq analysis.</li>
+		<li>Root draught response data from Opitz et al. 2014, 2-4cm primary roots were subjected to PEG8000 treatment (-0.2 MPa and -0.8 MPa) or water control for 6h and 24h. Whole primary roots were used for RNA-seq analysis. </li>
+		<li>Based on the images in the original maize eFP Browser by drawn by G.Downs and C. Murphy</li>
+		<li>Vectorized image redrawn and programmed by Delvin So</li>
+	</info>
+	<view class="" db="maize_root" dbGroup="all" img="Maize_Root.png" name="all" table="sample_data">
+		<lookup db="None" geneid_col="None" table="None" />
+		<coords graphHeight="150" graphWidth="180" graphX="91" graphY="1667" legendX="88" legendY="1214" />
+		<group name="CTRL_med">
+			<control sample="CTRL_med" />
+			<tissue colorKey="#dccb97" id="Meristematic_zone" name="Meristematic zone ">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="171,893,220,893,204,961,180,961,170,892" />
+				<sample name="Meristematic_zone_(control):_mean_RPKM" />
+			</tissue>
+			<tissue colorKey="#f3eede" id="Primary_root" name="Primary root">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="739,365,755,365,755,474,739,474" />
+				<sample name="Primary_root_FPKM" />
+			</tissue>
+			<tissue colorKey="#e6ddbf" id="Elongation_zone" name="Elongation zone">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="163,682,223,683,212,884,173,883,163,682" />
+				<sample name="Elongation_zone_(control):_mean_RPKM" />
+			</tissue>
+			<tissue colorKey="#f8eecf" id="Root_hairs" name="Root hairs">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="410,450,455,457,471,756,411,450" />
+				<sample name="Root_hair_FPKM" />
+			</tissue>
+			<tissue colorKey="#f8f1db" id="Seminal_roots" name="Seminal roots">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="857,355,832,391,829,464,834,464,846,398,866,362,857,353" />
+				<area coords="878,351,870,363,918,452,926,444,878,349" />
+				<sample name="Seminal_root_FPKM" />
+			</tissue>
+			<tissue colorKey="#f2eee0" id="Crown_roots" name="Crown roots">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="1040,298,1041,315,1003,339,977,379,965,372,993,327,1039,298" />
+				<area coords="1110,390,1123,381,1094,322,1048,298,1048,316,1074,331,1108,387" />
+				<sample name="Crown_root_FPKM" />
+			</tissue>
+			<tissue colorKey="#efead8" id="Cortex" name="Cortex">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="98,245,166,246,167,674,108,677" />
+				<sample name="Cortex_(control):_mean_RPKM" />
+			</tissue>
+			<tissue colorKey="#f2e3b5" id="Root_hairless_root" name="Root hairless root">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="452,457,484,430,495,843,474,845,453,458" />
+				<sample name="root_FPKM" />
+			</tissue>
+			<tissue colorKey="#d6d0bc" id="Stele" name="Stele">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="223,255,248,256,246,672,224,672,222,253" />
+				<sample name="Stele_(control):_mean_RPKM" />
+			</tissue>
+		</group>
+		<group name="6h_control:_mean_RPKM">
+			<control sample="6h_control:_mean_RPKM" />
+			<tissue colorKey="#fef6da" id="Drought_6_hour_at_02_MPA" name="Drought 6 hour at -0.2 MPA">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="586,1197,636,1197,627,1355,610,1351" />
+				<sample name="6h_-0.2_MPa_(mild_stress):_mean_RPKM" />
+			</tissue>
+			<tissue colorKey="#f7f1dd" id="Drought_6_hr_control" name="Drought 6 hr control">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="395,1201,449,1201,438,1357,412,1357" />
+				<sample name="6h_control:_mean_RPKM" />
+			</tissue>
+			<tissue colorKey="#fff5dc" id="Drought_6_hour_at_08_MPa" name="Drought 6 hour at -0.8 MPa">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="777,1192,824,1196,812,1350,788,1347" />
+				<sample name="6h_-0.8_MPa_(severe_stress):_mean_RPKM" />
+			</tissue>
+		</group>
+		<group name="24h_control:_mean_RPKM">
+			<control sample="24h_control:_mean_RPKM" />
+			<tissue colorKey="#fff4dc" id="Drought_24_hr_control" name="Drought 24 hr control">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="405,1516,449,1514,440,1712,419,1708" />
+				<sample name="24h_control:_mean_RPKM" />
+			</tissue>
+			<tissue colorKey="#fff3de" id="Drought_24_hr_02_MPa" name="Drought 24 hr -0.2 MPa">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="594,1520,638,1516,632,1707,604,1703" />
+				<sample name="24h_-0.2_MPa_(mild_stress):_mean_RPKM" />
+			</tissue>
+			<tissue colorKey="#ffedd8" id="Drought_24_hr_at_08_MPa" name="Drought 24 hr at -0.8 MPa">
+				<link url="http://bar.utoronto.ca" />
+				<area coords="783,1519,825,1517,821,1710,799,1707" />
+				<sample name="24h_-0.8_MPa_(severe_stress):_mean_RPKM" />
+			</tissue>
+		</group>
+	</view>
+</specimen>

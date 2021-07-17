@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<specimen name="Medicago">- 
+  <view db="medicago_mas" img="medicago_mas_image.tga" name="all">
+    <coords graphHeight="56" graphWidth="109" graphX="5" graphY="99" legendX="0" legendY="443"/>
+    <extra coords="223,11,346,11,346,27,223,27" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No"/>
+    <extra coords="135,569,391,568,391,580,135,580" link="http://www3.interscience.wiley.com/journal/120123739/abstract" name="To Udvardi et al. reference" parameters="No"/>
+    <info>
+      <li>Data from A gene expression atlas of the model legume Medicago truncatula: Udvardi et al., 2008, The Plant Journal 55:504-513. Data normalized by MAS 5.0 and RMA methods. TGT value of 100. All tissues sampled in triplicate.</li>
+      <li>Experiment 1: M. truncatula cv. Jermalong seeds were scarified with concentrated sulfuric acid, rinsed, sterilized with 2% sodium hypochlorite, and vernalized ay 4°C for 3 days. Germinated seedlings were transplanted and placed in a growth chamber with the following conditions: 16h/8h light/dark regime, 200 μE m-2, s-1 light irradiance, 24°C, and 40% relative humidity. Vegetative organs were harvested from multiple plants 28 days after planting and pooled. All experiments were performed with three replicates on separate days. For flowers and pods, plants were vernalized for 2 weeks to decrease flowering time. Flowers were harvested on the first day they were opened fully. Pods were collected at different developmental stages within 21 days after the appearance of the floral bud. All organs harvest ~3 hours before 'dawn' to avoid diurnal changes in gene expression. All harvested material was frozen immediately in liquid nitrogen.</li>
+      <li>Experiment 2: Nodule development series was harvested from plants grown aeroponically at 22°C, 75% hygrometry, 200 μE m-2, s-1 light irradiance, and 16h/8h light/dark regime. Plants were grown initially for 11 days using nitrogen rich medium, and then deprived of nitrogen for 4 days before being inoculated with S. meliloti strain 2011. Roots harvested at 0, 4, 10, and 14 days post-inoculation. </li>
+      <li>Experiment 3: Seed development series was harvested from plants grown at 22°C/19°C day/night, 16h photoperiod at 200μE m-2, s-1 light irradiance, and 60-70% relative humidity. Seeds excised from pods at 10, 12, 16, 20, 24, and 36 days after pollination.</li></info>- 
+    <group name="Seed">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#f6c71f" id="E3-Seed-10d" name="Seed 10d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="450,490,491,490,491,521,450,521"/>
+        <sample name="Seed10d_rep1"/>
+        <sample name="Seed10d_rep2"/>
+        <sample name="Seed10d_rep3"/></tissue>
+      <tissue colorKey="#f6c71f" id="E3-Seed-12d" name="Seed 12d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="503,487,545,488,545,418,503,418"/>
+        <sample name="Seed12d_rep1"/>
+        <sample name="Seed12d_rep2"/>
+        <sample name="Seed12d_rep3"/></tissue>- 
+      <tissue colorKey="#f6bd1f" id="E3-Seed-16d" name="Seed 16d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="563,486,605,486,605,519,563,519"/>
+        <sample name="Seed16d_rep1"/>
+        <sample name="Seed16d_rep2"/>
+        <sample name="Seed16d_rep3"/></tissue>
+      <tissue colorKey="#f6ad1f" id="E3-Seed-20d" name="Seed 20d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="615,484,664,484,664,518,615,518"/>
+        <sample name="Seed20d_rep1"/>
+        <sample name="Seed20d_rep2"/>
+        <sample name="Seed20d_rep3"/></tissue>
+      <tissue colorKey="#f6a11f" id="E3-Seed-24d" name="Seed 24d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="673,487,722,487,722,524,673,524"/>
+        <sample name="Seed24d_rep1"/>
+        <sample name="Seed24d_rep2"/>
+        <sample name="Seed24d_rep3"/></tissue>
+      <tissue colorKey="#f68b1f" id="E3-Seed-36d" name="Seed 36d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="725,485,781,485,781,530,725,530"/>
+        <sample name="Seed36d_rep1"/>
+        <sample name="Seed36d_rep2"/>
+        <sample name="Seed36d_rep3"/></tissue>
+    </group>
+    <group name="Flower">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#f1f743" id="E1-Flower" name="Flower">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="264,158,373,153,369,258,264,258"/>
+        <sample name="Flower_rep1"/>
+        <sample name="Flower_rep2"/>
+        <sample name="Flower_rep3"/></tissue>
+    </group> 
+    <group name="Nodule">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#b5ec00" id="E2-Nodule-4d" name="Nodule 4d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="471,377,507,378,507,433,471,433"/>
+        <sample name="Nod4d_rep1"/>
+        <sample name="Nod4d_rep2"/>
+        <sample name="Nod4d_rep3"/></tissue>
+      <tissue colorKey="#bee53c" id="E2-Nodule-10d" name="Nodule 10d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="517,374,552,373,552,432,517,432"/>
+        <sample name="Nod10d_rep1"/>
+        <sample name="Nod10d_rep2"/>
+        <sample name="Nod10d_rep3"/></tissue>
+      <tissue colorKey="#99e900" id="E2-Nodule-14d" name="Nodule 14d">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="551,349,599,349,599,428,551,428"/>
+        <sample name="Nod14d_rep1"/>
+        <sample name="Nod14d_rep2"/>
+        <sample name="Nod14d_rep3"/></tissue>
+      <tissue colorKey="#84e900" id="E1-NoduleMature" name="Nodule Mature (4w)">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="312,440,360,440,360,521,312,521"/>
+        <sample name="Nodule_rep1"/>
+        <sample name="Nodule_rep2"/>
+        <sample name="Nodule_rep3"/></tissue>
+    </group>
+    <group name="Pod">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#ff2035" id="E1-Pod" name="Pod">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="143,45,382,46,383,122,143,122"/>
+        <sample name="Pod_rep1"/>
+        <sample name="Pod_rep2"/>
+        <sample name="Pod_rep3"/></tissue> </group>
+    <group name="Vegetative Bud">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#84e900" id="E1-VegetativeBud" name="Vegetative Bud">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="275,310,403,310,283,479,224,466"/>
+        <sample name="Vegetative Bud_rep1"/>
+        <sample name="Vegetative Bud_rep2"/>
+        <sample name="Vegetative Bud_rep3"/></tissue></group>
+    <group name="Petiole">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#23771c" id="E1-Petiole" name="Petiole">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="127,232,166,230,177,232,126,258"/>
+        <area coords="90,189,122,200,121,223,87,192"/>
+        <area coords="126,165,148,159,149,162,127,181"/>
+        <sample name="Petiole_rep1"/>
+        <sample name="Petiole_rep2"/>
+        <sample name="Petiole_rep3"/></tissue> </group>
+    <group name="Stem">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#3ba239" id="E1-Stem" name="Stem">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="116,156,130,156,130,300,119,300"/>
+        <sample name="Stem_rep1"/>
+        <sample name="Stem_rep2"/>
+        <sample name="Stem_rep3"/></tissue> </group>
+    <group name="Leaf with Petiolules">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue colorKey="#23771c" id="E1-LeafWithPetiolules" name="Leaf with Petiolules">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="150,196,243,204,221,279,167,280"/>
+        <area coords="26,162,113,162,69,219,40,219"/>
+        <area coords="125,141,189,126,186,181,163,184"/>
+        <sample name="Leaf_rep1"/>
+        <sample name="Leaf_rep2"/>
+        <sample name="Leaf_rep3"/></tissue></group>
+    <group name="Root">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue id="E1-Root"  colorKey="#946e40" name="Root">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="5,300,256,300,180,544,34,544"/>
+        <sample name="Root_rep1"/>
+        <sample name="Root_rep2"/>
+        <sample name="Root_rep3"/></tissue></group>
+    <group name="Non-inoculated root">
+      <control sample="MED_CTRL"/>
+      <control sample="MED_CTRL"/>
+      <tissue id="E2-Root"  colorKey="#946e40" name="Non-inoculated root">
+        <link url="http://www.ebi.ac.uk/microarray-as/aer/result?queryFor=Experiment&amp;eAccession=E-MEXP-1097"/>
+        <area coords="628,256,789,257,789,446,628,446"/>
+        <sample name="Root0d_rep1"/>
+        <sample name="Root0d_rep2"/>
+        <sample name="Root0d_rep3"/></tissue>
+    </group></view>
+</specimen>

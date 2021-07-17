@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen
+  SYSTEM 'http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd'>
+<specimen name="Tomato">
+	<view class="" db="tomato_s_pennellii" dbGroup="group1" img="M82_S_pennellii_Atlases_Koenig_et_al_image.tga" name="all" table="sample_data">
+		<lookup db="None" geneid_col="None" table="None"/>
+		<coords graphHeight="145" graphWidth="164" graphX="578" graphY="85" legendX="700" legendY="444"/>
+		<extra coords="212,0,347,0,347,18,212,14" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No"/>
+		<extra coords="40,977,257,977,257,989,40,989" link="http://www.pnas.org/content/110/28/E2655.long" name="To Koenig et al. reference" parameters="No"/>
+		<info>
+			<li>Data from Comparative transcriptomics reveals patterns of selection in Domesticated and Wild Tomato: Koenig et al., 2013, PNAS 110(28):E2655-62. </li>
+			<li>For seedlings, tomato seeds were germinated on MS plates in the dark for 3 days with 5 seeds per plate. Plants were then exposed to light and grown on plates at 22°C under a mixture of cool-white and far-red fluorescent lights in a complete randomized design. Shoot tissue was collected from seedlings 10d after sowing on plates. In transcriptome experiments, S. lycopersicum and S. pennellii were grown as above. After 10 days, seedlings were transferred to soil and kept in the same conditions until anthesis. Roots and aerial tissues were collected from seedlings 10 days after germination. Vegetative  meristems were collected when the 3rd leaf reached 1mm (30-37 days post-germination). Stem between 4th and 5th leaves and inflorescence meristems were collected when the meristem were fully formed (50d post-germination for M82 and 56d post-germination for S. pennellii).</li>
+		</info>
+		<group name="CTRL_MED">
+			<control sample="CTRL_MED"/>
+			<tissue colorKey="#bf9539" id="M82-Flower" name="M82.floral">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="259,75,342,76,342,178,259,178"/>
+				<sample name="M82.floral"/>
+			</tissue>
+			<tissue colorKey="#4e8e8d" id="M82-Stem" name="M82.stem">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="245,222,271,222,272,312,245,312"/>
+				<sample name="M82.stem"/>
+			</tissue>
+			<tissue colorKey="#60a046" id="M82-Leaves" name="M82.leaf">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="6,291,245,291,252,410,6,410"/>
+				<sample name="M82.leaf"/>
+			</tissue>
+			<tissue colorKey="#C05178" id="M82-VegetativeMeristem" name="M82.veg">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="497,30,575,30,575,204,497,204"/>
+				<sample name="M82.veg"/>
+			</tissue>
+			<tissue colorKey="#714D2C" id="M82-SeedlingShoot" name="M82.sdling">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="431,216,705,216,705,380,431,380"/>
+				<sample name="M82.sdling"/>
+			</tissue>
+			<tissue colorKey="#7773ad" id="M82-SeedlingRoot" name="M82.root">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="529,378,639,378,640,519,529,519"/>
+				<sample name="M82.root"/>
+			</tissue>
+			<tissue colorKey="#ff0000" id="M82-MatureFruit" name="M82.MatureFruit">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="265,346,416,346,418,482,265,482"/>
+				<sample name="M82.MatureFruit"/>
+			</tissue>
+			<tissue colorKey="#99ff00" id="M82-DevelopingFruit" name="M82.DevelopingFruit">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="131,193,247,246,237,311,79,254"/>
+				<sample name="M82.DevelopingFruit"/>
+			</tissue>
+			<tissue colorKey="#dab35c" id="S_pennellii-Flower" name="penn.floral">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="288,623,364,623,365,681,288,681"/>
+				<sample name="penn.floral"/>
+			</tissue>
+			<tissue colorKey="#89c8c7" id="S_pennellii-Stem" name="penn.stem">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="267,754,293,754,294,806,267,806"/>
+				<sample name="penn.stem"/>
+			</tissue>
+			<tissue colorKey="#6d9f59" id="S_pennellii-Leaves" name="penn.leaf">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="288,762,462,762,463,864,288,864"/>
+				<sample name="penn.leaf"/>
+			</tissue>
+			<tissue colorKey="#cc9999" id="S_pennellii-VegetativeMeristem" name="penn.veg">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="444,597,603,596,604,746,444,746"/>
+				<sample name="penn.veg"/>
+			</tissue>
+			<tissue colorKey="#7f4612" id="S_pennellii-SeedlingShoot" name="penn.sdling">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="464,793,644,792,645,944,464,944"/>
+				<sample name="penn.sdling"/>
+			</tissue>
+			<tissue colorKey="#3d388a" id="S_pennellii-SeedlingRoot" name="penn.root">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="532,946,738,946,738,1050,532,1050"/>
+				<sample name="penn.root"/>
+			</tissue>
+			<tissue colorKey="#ff3333" id="S_pennellii-MatureFruit" name="penn.MatureFruit">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="67,896,195,896,195,945,67,945"/>
+				<sample name="penn.MatureFruit"/>
+			</tissue>
+			<tissue colorKey="#66ff00" id="S_pennellii-DevelopingFruit" name="penn.DevelopingFruit">
+				<link url="http://bar.utoronto.ca"/>
+				<area coords="203,794,251,794,251,848,203,848"/>
+				<sample name="penn.DevelopingFruit"/>
+			</tissue>
+		</group>
+	</view>
+</specimen>

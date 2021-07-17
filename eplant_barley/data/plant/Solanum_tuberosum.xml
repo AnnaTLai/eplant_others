@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Solanum tuberosum">
+	<view class="" db="potato_dev" dbGroup="all" img="Potato_Developmental_image.png" name="all" table="sample_data">
+		<coords graphHeight="80" graphWidth="60" graphX="460" graphY="161" legendX="330" legendY="65" />
+		<extra coords="9,702,888,702,888,764,9,764" link="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0026801" name="The Transcriptome of the Reference Potato Genome Solanum tuberosum Group Phureja Clone DM1-3 516R44" parameters="No" />
+		<group name="Potato">
+			<control sample="POTATO_CTRL" />
+			<tissue colorKey="#ffff00" id="BV_P_X" name="BV_P_X [Stamens]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="210,191,217,188,227,191,227,177,222,170,214,171,212,175" />
+				<sample name="BV_P_X" />
+			</tissue>
+			<tissue colorKey="#66ff44" id="STD_AE" name="STD_AE [Mature whole fruit]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="70,204,235,204,235,381,70,381" />
+				<sample name="STD_AE" />
+			</tissue>
+			<tissue colorKey="#f7902a" id="BV_P_S" name="BV_P_S [Tubers (Whole, Sample 2)]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="95,601,141,601,141,629,95,629" />
+				<sample name="BV_P_S" />
+			</tissue>
+			<tissue colorKey="#e97f16" id="BV_P_R" name="BV_P_R [Tubers (Whole, Sample 1)]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="89,573,148,573,148,602,89,602" />
+				<sample name="BV_P_R" />
+			</tissue>
+			<tissue colorKey="#bc7936" id="S8" name="S8 [Mature Tuber]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="570,543,545,553,540,573,550,593,557,606,565,615,570,614,579,608,588,592,591,581,587,563,578,557" />
+				<sample name="S8" />
+			</tissue>
+			<tissue colorKey="#66ff66" id="STD_AF" name="STD_AF [Immature whole fruit]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="77,207,231,207,231,374,77,374" />
+				<sample name="STD_AF" />
+			</tissue>
+			<tissue colorKey="#cc00cc" id="BV_W" name="BV_W [Petals]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="215,170,214,162,220,160,222,165,222,169,227,175,227,182,227,186,227,190,227,195,227,198,223,204,226,206,229,200,232,194,238,183,245,175,250,171,259,166,264,162,262,158,255,156,251,157,248,157,245,154,245,150,238,151,229,154,225,156,220,155,217,153,212,152,210,152,198,151,196,152,192,155,189,156,186,157,179,157,178,157,172,156,171,156,170,156,164,155,164,157,166,159,175,163,181,166,194,177,197,185,199,191,200,193,202,197,203,201,207,205,213,206,211,201,209,199,208,195,210,192,209,186,210,182,211,179,211,178,212,175,214,173" />
+				<sample name="BV_W" />
+			</tissue>
+			<tissue colorKey="#8a5827" id="S9" name="S9 [Root]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="466,585,490,570,517,570,538,586,543,610,535,625,523,635,504,642,484,639,467,625,461,602" />
+				<sample name="S9" />
+			</tissue>
+			<tissue colorKey="#ffff66" id="BV_Y" name="BV_Y [Carpels]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="212,159,224,159,224,171,212,171" />
+				<sample name="BV_Y" />
+			</tissue>
+			<tissue colorKey="#6be76b" id="S14" name="S14 [Whole in vitro Plant]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="630,569,714,569,714,678,630,678" />
+				<sample name="S14" />
+			</tissue>
+			<tissue colorKey="#dd9d5e" id="S7" name="S7 [Young Tuber]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="454,502,488,502,488,541,454,541" />
+				<sample name="S7" />
+			</tissue>
+			<tissue colorKey="#ca7bca" id="BV_T" name="BV_T [Whole Mature Flowers]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="161,71,265,71,265,141,161,141" />
+				<sample name="BV_T" />
+			</tissue>
+			<tissue colorKey="#946637" id="BV_N" name="BV_N [Roots (in vitro, Media B)]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="155,580,210,580,210,661,209,668,110,667" />
+				<sample name="BV_N" />
+			</tissue>
+			<tissue colorKey="#dbdb18" id="BV_P_P" name="BV_P_P [Callus (10 and 11 wks old, Leaves and Stems, in vitro, Media D)]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="264,592,352,592,352,698,264,698" />
+				<sample name="BV_P_P" />
+			</tissue>
+			<tissue colorKey="#bbffbb" id="STD_AH" name="STD_AH [Inside of fruit (mesocarp and endocarp)]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="227,223,314,223,314,338,227,338" />
+				<sample name="STD_AH" />
+			</tissue>
+			<tissue colorKey="#c7894b" id="S6" name="S6 [Stolon]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="437,457,628,457,628,620,437,620" />
+				<sample name="S6" />
+			</tissue>
+			<tissue colorKey="#ce8840" id="BV_Q_1" name="BV_Q [Stolons (below ground)]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="132,552,165,552,165,570,132,570" />
+				<sample name="BV_Q" />
+			</tissue>
+			<tissue colorKey="#bb854e" id="BV_Q" name="BV_Q [Stolons (above )]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="188,546,254,546,254,512,188,512" />
+				<sample name="BV_Q" />
+			</tissue>
+			<tissue colorKey="#00ff33" id="BV_P_V" name="BV_P_V [Sepals]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="200,191,210,208,224,208,235,189,236,197,225,220,222,239,215,238,213,222,206,210,199,192" />
+				<sample name="BV_P_V" />
+			</tissue>
+			<tissue colorKey="#ffff33" id="S10" name="S10 [Stamen]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="608,144,751,144,751,244,608,244" />
+				<sample name="S10" />
+			</tissue>
+			<tissue colorKey="#b55f09" id="S13" name="S13 [Tuber Peel]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="559,503,620,503,620,579,559,579" />
+				<sample name="S13" />
+			</tissue>
+			<tissue colorKey="#979999" id="S4" name="S4 [Shoot Apex]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="744,524,823,524,823,568,744,568" />
+				<sample name="S4" />
+			</tissue>
+			<tissue colorKey="#ee69ee" id="S1" name="S1 [Flower]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="695,75,847,75,847,182,695,182" />
+				<sample name="S1" />
+			</tissue>
+			<tissue colorKey="#33ff66" id="S15" name="S15 [Tuber Sprout]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="803,340,838,340,838,371,803,371" />
+				<sample name="S15" />
+			</tissue>
+			<tissue colorKey="#33cc33" id="BV_L" name="BV_L [Leaves]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="202,408,225,432,205,515,169,506,135,470,147,415" />
+				<sample name="BV_L" />
+			</tissue>
+			<tissue colorKey="#cc9966" id="BV_U" name="BV_U [Petioles]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="195,401,228,401,228,428,195,428" />
+				<sample name="BV_U" />
+			</tissue>
+			<tissue colorKey="#34e434" id="BV_O" name="BV_O [Shoots (in vitro, Media B)]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="122,517,164,517,164,544,122,544" />
+				<sample name="BV_O" />
+			</tissue>
+			<tissue colorKey="#339933" id="S2" name="S2 [Leaf]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="759,237,760,247,784,287,757,283,787,306,749,319,780,380,773,404,766,443,741,441,707,430,656,396,652,406,624,361,641,311,668,258,706,249" />
+				<sample name="S2" />
+			</tissue>
+			<tissue colorKey="#a67748" id="S3" name="S3 [Petiole]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="537,468,584,468,584,495,537,495" />
+				<sample name="S3" />
+			</tissue>
+			<tissue colorKey="#996633" id="S5" name="S5 [Stem]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="778,221,838,221,838,314,778,314" />
+				<sample name="S5" />
+			</tissue>
+			<tissue colorKey="#ffff9a" id="S16" name="S16 [Tuber Cortex]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="808,563,835,585,833,634,813,660,775,657,781,577,800,568,807,580,793,597,788,615,786,639,793,645,807,644,817,636,819,618,819,593,819,581" />
+				<sample name="S16" />
+			</tissue>
+			<tissue colorKey="#d9d96f" id="S12" name="S12 [Tuber Pith]">
+				<link url="http://potatogenomics.plantbiology.msu.edu/index.html" />
+				<area coords="807,572,780,590,778,608,779,637,784,657,807,659,827,642,831,623,831,604,827,575,814,568,817,576,819,580,816,582,814,585,812,588,819,589,822,593,821,610,821,614,823,620,822,621,809,624,808,624,809,630,815,632,815,635,815,645,812,647,804,647,804,640,801,622,802,612,809,612,809,600,809,591,808,579,800,590,798,592,796,596,804,603,798,609,798,615,790,615,792,617,792,624,793,635,795,640,797,646,790,644,784,625,782,605,788,593,797,583,803,571,811,569" />
+				<sample name="S12" />
+			</tissue>
+		</group>
+	</view>
+</specimen>

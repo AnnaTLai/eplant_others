@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specimen name="PoplarTreatment">
+<view name="all" db="poplar" img="PoplarTreatment_image.tga">
+<coords graphX="627" graphY="171" graphWidth="64" graphHeight="87" legendX="750" legendY="36"/>
+<extra name="Poplar drought paper in The Plant Journal" link="http://dx.doi.org/10.1111/j.1365-313X.2009.03993.x" parameters="No" coords="19,25,19,244,38,244,38,25"/>
+<info>
+	<li>Data from the Campbell Laboratory. Affymetrix expression data normalized by the GCOS method, with a TGT value of 500. Triplicate leaf samples were analyzed from greenhouse-grown material. All material was grown under a diurnal cycle of 16h/8h light/dark and the first full-expanded leaves were sampled at midday - MD, late day - LD, midnight - MN, and predawn - PD for droughted and well-watered clones of DN34 and NM6 poplar saplings.</li>
+	<li>Poplar clones DN34 and NM6 were grown in 100 mm by 914 mm pots until leaf water potential in these plants exhibited a significant difference from the watered control plants. At this point, leaf samples for RNA preparation were taken over the course of the day, at midday, late day, midnight, and predawn. Stomatal conductance was measured on plants not used for sampling and is shown above for DN34 and below for NM6. RNA was prepared by the Trizol method, and labeled using the standard Affymetrix protocol. Labeled cRNA was hybridized to the Affymetrix Poplar Whole Genome Array.</li>
+</info>
+<group name="DN34 Midday">
+	<control sample="GSM377381"/>
+	<control sample="GSM377382"/>
+	<control sample="GSM377383"/>
+
+	<tissue colorKey="5e6600" name="DN34 Midday Well Watered" id="DN34-Midday-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="348,353,399,299,424,309,421,348,354,360"/> 
+	<sample name="GSM377381"/> 
+	<sample name="GSM377382"/> 
+	<sample name="GSM377383"/> 
+	</tissue>
+
+	<tissue colorKey="ff6600" name="DN34 Midday Droughted" id="DN34-Midday-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="348,577,399,523,424,533,421,572,354,584"/> 
+	<sample name="GSM377384"/> 
+	<sample name="GSM377385"/> 
+	<sample name="GSM377386"/> 
+	</tissue>
+</group>
+
+<group name="DN34 Late Day">
+	<control sample="GSM377390"/>
+	<control sample="GSM377392"/>
+	<control sample="GSM377393"/>
+
+	<tissue colorKey="664100" name="DN34 Late Day Well Watered" id="DN34-LateDay-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="511,353,562,299,587,309,584,348,517,360"/> 
+	<sample name="GSM377390"/> 
+	<sample name="GSM377392"/> 
+	<sample name="GSM377393"/> 
+	</tissue>
+
+	<tissue colorKey="ffa800" name="DN34 Late Day Droughted" id="DN34-LateDay-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="511,577,562,523,587,533,584,572,517,584"/> 
+	<sample name="GSM377394"/> 
+	<sample name="GSM377395"/> 
+	<sample name="GSM377391"/> 
+	</tissue>
+</group>
+
+<group name="DN34 Midnight">
+	<control sample="GSM377359"/>
+	<control sample="GSM377360"/>
+	<control sample="GSM377361"/>
+
+	<tissue colorKey="661a00" name="DN34 Midnight Well Watered" id="DN34-Midnight-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="672,353,723,299,748,309,745,348,678,360"/> 
+	<sample name="GSM377359"/> 
+	<sample name="GSM377360"/> 
+	<sample name="GSM377361"/> 
+	</tissue>
+
+	<tissue colorKey="fcff00" name="DN34 Midnight Droughted" id="DN34-Midnight-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="672,577,723,523,748,533,745,572,678,584"/> 
+	<sample name="GSM377362"/> 
+	<sample name="GSM377363"/> 
+	<sample name="GSM377364"/> 
+	</tissue>
+</group>
+
+<group name="DN34 Predawn">
+	<control sample="GSM377365"/>
+	<control sample="GSM377367"/>
+	<control sample="GSM377366"/>
+
+	<tissue colorKey="ff4200" name="DN34 Predawn Well Watered" id="DN34-Predawn-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="831,353,882,299,907,309,904,348,837,360"/> 
+	<sample name="GSM377365"/> 
+	<sample name="GSM377367"/> 
+	<sample name="GSM377366"/> 
+	</tissue>
+
+	<tissue colorKey="b4ff00" name="DN34 Predawn Droughted" id="DN34-Predawn-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="831,577,882,523,907,533,904,572,837,584"/> 
+	<sample name="GSM377378"/> 
+	<sample name="GSM377380"/> 
+	<sample name="GSM377379"/> 
+	</tissue>
+</group>
+
+<group name="NM6 Midday">
+	<control sample="GSM378180"/>
+	<control sample="GSM378181"/>
+	<control sample="GSM378182"/>
+
+	<tissue colorKey="2aff00" name="NM6 Midday Well Watered" id="NM6-Midday-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="348,921,399,867,424,877,421,916,354,928"/> 
+	<sample name="GSM378180"/> 
+	<sample name="GSM378181"/> 
+	<sample name="GSM378182"/> 
+	</tissue>
+
+	<tissue colorKey="0066ff" name="NM6 Midday Droughted" id="NM6-Midday-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="348,1142,399,1088,424,1098,421,1137,354,1149"/> 
+	<sample name="GSM378183"/> 
+	<sample name="GSM378184"/> 
+	<sample name="GSM378185"/> 
+	</tissue>
+</group>
+
+<group name="NM6 Late Day">
+	<control sample="GSM378186"/>
+	<control sample="GSM378187"/>
+	<control sample="GSM378188"/>
+
+	<tissue colorKey="00ff6c" name="NM6 Late Day Well Watered" id="NM6-LateDay-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="511,921,562,867,587,877,584,916,517,928"/> 
+	<sample name="GSM378186"/> 
+	<sample name="GSM378187"/> 
+	<sample name="GSM378188"/> 
+	</tissue>
+
+	<tissue colorKey="0006ff" name="NM6 Late Day Droughted" id="NM6-LateDay-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="511,1142,562,1088,587,1098,584,1137,517,1149"/> 
+	<sample name="GSM378189"/> 
+	<sample name="GSM378190"/> 
+	<sample name="GSM378191"/> 
+	</tissue>
+</group>
+
+<group name="NM6 Midnight">
+	<control sample="GSM377396"/>
+	<control sample="GSM377409"/>
+	<control sample="GSM380346"/>
+
+	<tissue colorKey="00ffc6" name="NM6 Midnight Well Watered" id="NM6-Midnight-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="672,921,723,867,748,877,745,916,678,928"/> 
+	<sample name="GSM377396"/> 
+	<sample name="GSM377409"/> 
+	<sample name="GSM380346"/> 
+	</tissue>
+
+	<tissue colorKey="8400ff" name="NM6 Midnight Droughted" id="NM6-Midnight-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="672,1142,723,1088,748,1098,745,1137,678,1149"/> 
+	<sample name="GSM377408"/> 
+	<sample name="GSM377397"/> 
+	<sample name="GSM377410"/> 
+	</tissue>
+</group>
+
+<group name="NM6 Predawn">
+	<control sample="GSM377412"/>
+	<control sample="GSM377415"/>
+	<control sample="GSM377418"/>
+
+	<tissue colorKey="00c0ff" name="NM6 Predawn Well Watered" id="NM6-Predawn-WellWatered">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="831,921,882,867,907,877,904,916,837,928"/> 
+	<sample name="GSM377412"/> 
+	<sample name="GSM377415"/> 
+	<sample name="GSM377418"/> 
+	</tissue>
+
+	<tissue colorKey="ff00d2" name="NM6 Predawn Droughted" id="NM6-Predawn-Droughted">
+	<link url="http://www.bar.utoronto.ca/ebpop/cgi-bin/pop_db_proj_viewer.cgi?proj=GEO:GSE15242"/>
+	<area coords="831,1142,882,1088,907,1098,904,1137,837,1149"/> 
+	<sample name="GSM378177"/> 
+	<sample name="GSM378178"/> 
+	<sample name="GSM378179"/> 
+	</tissue>
+</group>
+
+</view>
+</specimen>
+

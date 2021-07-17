@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+
+<specimen name="Rice">
+	<info>
+		<li>Data from Li et al. Plant Physiol 2007 Aug;144(4):1797-812</li>
+		<li>Data was normalized by MAS 5.0 and RMA methods with a TGT value of 100 being used.</li>
+		<li>Stigma and ovary tissues were sampled in triplicate with all other tissues having 1 replicate. </li>
+		<li>Based on the images in the original rice eFP Browser drawn by R.Patel</li>
+		<li>Vectorized image redrawn and programmed by Delvin So</li>
+	</info>
+
+	<view db="rice_mas" img="ricestigma_mas_image.tga" name="all">
+		<coords graphHeight="122" graphWidth="164" graphX="15" graphY="227" legendX="0" legendY="327" /> 
+		<extra coords="187,8,312,8,312,25,188,25" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="334,560,534,560,534,572,334,572" link="http://www.ncbi.nlm.nih.gov/pubmed/17556504?dopt=Abstract" name="To Kong Z et al. reference" parameter="No" />
+		<group name="Stigma">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#fdf4bd" id="Stigma" name="Stigma">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="518,29,729,29,702,249,588,249" /> 
+				<sample name="Stigma_Rep1" /> 
+				<sample name="Stigma_Rep2" />
+				<sample name="Stigma_Rep3" /> 
+			</tissue>
+		</group>
+		<group name="Ovary">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#f2e7a7" id="Ovary" name="Ovary">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="612,249,696,249,690,353,616,353" /> 
+				<sample name="Ovary_Rep1" /> 
+				<sample name="Ovary_Rep2" />
+				<sample name="Ovary_Rep3" /> 
+			</tissue>
+		</group>
+		<group name="SuspensionCell">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#00ccff" id="Suspension_Cell" name="Suspension Cell">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="373,212,504,211,505,297,373,297" /> 
+				<sample name="SuspensionCell_Rep1" /> 
+			</tissue>
+		</group>
+		<group name="Shoot">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#31891f" id="Shoot" name="Shoot">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="188,74,309,84,228,202,207,207" /> 
+				<sample name="Shoot_Rep1" /> 
+			</tissue>
+		</group>
+		<group name="Root">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#5a2d20" id="Root" name="Root">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="186,204,286,203,286,285,186,284" /> 
+				<sample name="Root_Rep1" /> 
+			</tissue>
+		</group>
+		<group name="Anther">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#ffe503" id="Anther" name="Anther">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="599,387,712,388,712,525,599,525" /> 
+				<sample name="Anther_Rep1" /> 
+			</tissue>
+		</group>
+		<group name="Embryo">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#a7d5ff" id="Embryo" name="Embryo">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="425,500,439,491,446,526,413,531" /> 
+				<sample name="Embryo_Rep1" /> 
+			</tissue>
+		</group>
+		<group name="Endosperm">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#53acff" id="Endosperm" name="Endosperm">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="383,371,473,371,473,531,383,531" /> 
+				<sample name="Endosperm_Rep1" /> 
+			</tissue>
+		</group>
+		<group name="5d-seed">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#c6ff00" id="5d-seed" name="5d-seed">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7951" /> 
+				<area coords="205,349,276,348,277,525,205,525" />
+				<sample name="5d-seed_Rep1" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

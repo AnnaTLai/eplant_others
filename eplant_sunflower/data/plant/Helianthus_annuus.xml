@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Sunflower">
+	<view name="all" class="" db="sunflower" dbGroup="all" img="Sunflower.png" table="sample_data">
+		<lookup db="None" table="None" geneid_col="None"/>
+		<coords graphX="13" graphY="0" graphWidth="60" graphHeight="80" legendX="25" legendY="785"/>
+		<group name="Med_CTRL">
+			<control sample="Med_CTRL"/>
+			<tissue colorKey="#fffd5a" name="Stem"  id="Stem">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Stem"/>
+			</tissue>
+			<tissue colorKey="#747e6a" name="Bract" id="Bract">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Bract" />
+			</tissue>
+			<tissue colorKey="#1ed2af" name="Leaves" id="Leaves">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Leaves" />
+			</tissue>
+			<tissue colorKey="#efa810" name="Ligule" id="Ligule">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Ligule" />
+			</tissue>
+			<tissue colorKey="#ffeeaa" name="Corolla" id="Corolla">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Corolla" />
+			</tissue>
+			<tissue colorKey="#ff0066" name="Ovary" id="Ovary">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Ovary" />
+			</tissue>
+			<tissue colorKey="#c98987" name="Seed" id="Seed">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Seed" />
+			</tissue>
+			<tissue colorKey="#ffaacc" name="Stamen" id="Stamen">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Stamen" />
+			</tissue>
+			<tissue colorKey="#9be76b" name="Pollen" id="Pollen">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Pollen" />
+			</tissue>
+			<tissue colorKey="#ffd42a" name="Pistil" id="Pistil">
+				<link url="http://bar.utoronto.ca"/>
+				<sample name="Style" />
+			</tissue>
+		</group>
+	</view>
+</specimen>

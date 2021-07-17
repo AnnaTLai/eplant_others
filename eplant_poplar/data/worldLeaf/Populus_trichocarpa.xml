@@ -1,0 +1,582 @@
+<?xml version="1.0" ?>
+<specimen name="Poplar">
+	<view class="View_leaf" db="poplar_leaf" img="poplar_leaf.svg" name="all">
+		<group name="leaf">
+			<control sample="Med_CTRL"/>
+			<tissue colorKey="#ffffff" id="CSYJ283" name="CSYJ283">
+				<sample name="CSYJ283"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CSYJ281" name="CSYJ281">
+				<sample name="CSYJ281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LNZK282" name="LNZK282">
+				<sample name="LNZK282"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LNZK283" name="LNZK283">
+				<sample name="LNZK283"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="FNYI281" name="FNYI281">
+				<sample name="FNYI281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="FNYI284" name="FNYI284">
+				<sample name="FNYI284"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CNYH281" name="CNYH281">
+				<sample name="CNYH281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CNYH285" name="CNYH285">
+				<sample name="CNYH285"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="BLCG281" name="BLCG281">
+				<sample name="BLCG281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CMBF283" name="CMBF283">
+				<sample name="CMBF283"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CMBF282" name="CMBF282">
+				<sample name="CMBF282"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CMBF281" name="CMBF281">
+				<sample name="CMBF281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SLMC283" name="SLMC283">
+				<sample name="SLMC283"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SLMC282" name="SLMC282">
+				<sample name="SLMC282"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SLMD283" name="SLMD283">
+				<sample name="SLMD283"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SLMD281" name="SLMD281">
+				<sample name="SLMD281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SLMB281" name="SLMB281">
+				<sample name="SLMB281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SLMB283" name="SLMB283">
+				<sample name="SLMB283"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="WHTE284" name="WHTE284">
+				<sample name="WHTE284"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="WHTE282" name="WHTE282">
+				<sample name="WHTE282"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="WHTE281" name="WHTE281">
+				<sample name="WHTE281"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MEMA285" name="MEMA285">
+				<sample name="MEMA285"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MEMA283" name="MEMA283">
+				<sample name="MEMA283"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LONG295" name="LONG295">
+				<sample name="LONG295"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LONG292" name="LONG292">
+				<sample name="LONG292"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LONG291" name="LONG291">
+				<sample name="LONG291"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PITS291" name="PITS291">
+				<sample name="PITS291"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CARS292" name="CARS292">
+				<sample name="CARS292"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="NBON291" name="NBON291">
+				<sample name="NBON291"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LAFY302" name="LAFY302">
+				<sample name="LAFY302"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="JEFF302" name="JEFF302">
+				<sample name="JEFF302"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HALS302" name="HALS302">
+				<sample name="HALS302"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="JASP305" name="JASP305">
+				<sample name="JASP305"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CARS294" name="CARS294">
+				<sample name="CARS294"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="NBON292" name="NBON292">
+				<sample name="NBON292"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="NBON294" name="NBON294">
+				<sample name="NBON294"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LAFY301" name="LAFY301">
+				<sample name="LAFY301"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="JEFF303" name="JEFF303">
+				<sample name="JEFF303"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HALS304" name="HALS304">
+				<sample name="HALS304"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="JASP304" name="JASP304">
+				<sample name="JASP304"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="JASP303" name="JASP303">
+				<sample name="JASP303"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="JASP301" name="JASP301">
+				<sample name="JASP301"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCMN273" name="MCMN273">
+				<sample name="MCMN273"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MTSM271" name="MTSM271">
+				<sample name="MTSM271"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="VNDL273" name="VNDL273">
+				<sample name="VNDL273"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="VNDL275" name="VNDL275">
+				<sample name="VNDL275"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CHWK273" name="CHWK273">
+				<sample name="CHWK273"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CHWK274" name="CHWK274">
+				<sample name="CHWK274"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CHWI274" name="CHWI274">
+				<sample name="CHWI274"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HRSP274" name="HRSP274">
+				<sample name="HRSP274"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HRSP273" name="HRSP273">
+				<sample name="HRSP273"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HRSP271" name="HRSP271">
+				<sample name="HRSP271"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HRSO271" name="HRSO271">
+				<sample name="HRSO271"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HRSO274" name="HRSO274">
+				<sample name="HRSO274"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HRSO272" name="HRSO272">
+				<sample name="HRSO272"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOPG272" name="HOPG272">
+				<sample name="HOPG272"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOPF275" name="HOPF275">
+				<sample name="HOPF275"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOPF271" name="HOPF271">
+				<sample name="HOPF271"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="YALD274" name="YALD274">
+				<sample name="YALD274"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="YALE271" name="YALE271">
+				<sample name="YALE271"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="YALD275" name="YALD275">
+				<sample name="YALD275"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="YALD273" name="YALD273">
+				<sample name="YALD273"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="WELC274" name="WELC274">
+				<sample name="WELC274"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="WELC273" name="WELC273">
+				<sample name="WELC273"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="WELC272" name="WELC272">
+				<sample name="WELC272"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="TNZA41" name="TNZA41">
+				<sample name="TNZA41"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKNN102" name="SKNN102">
+				<sample name="SKNN102"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KTMC123" name="KTMC123">
+				<sample name="KTMC123"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKNP109" name="SKNP109">
+				<sample name="SKNP109"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKNP108" name="SKNP108">
+				<sample name="SKNP108"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKNC102" name="SKNC102">
+				<sample name="SKNC102"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HAZH102" name="HAZH102">
+				<sample name="HAZH102"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KTMC125" name="KTMC125">
+				<sample name="KTMC125"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HIRD122" name="HIRD122">
+				<sample name="HIRD122"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KTMA121" name="KTMA121">
+				<sample name="KTMA121"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KTMA124" name="KTMA124">
+				<sample name="KTMA124"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="ZYMJ105" name="ZYMJ105">
+				<sample name="ZYMJ105"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="TLKH115" name="TLKH115">
+				<sample name="TLKH115"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNG203" name="KLNG203">
+				<sample name="KLNG203"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNG206" name="KLNG206">
+				<sample name="KLNG206"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNG202" name="KLNG202">
+				<sample name="KLNG202"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNG204" name="KLNG204">
+				<sample name="KLNG204"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PHLA222" name="PHLA222">
+				<sample name="PHLA222"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PHLA225" name="PHLA225">
+				<sample name="PHLA225"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PHLC222" name="PHLC222">
+				<sample name="PHLC222"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PHLC223" name="PHLC223">
+				<sample name="PHLC223"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PHLC224" name="PHLC224">
+				<sample name="PHLC224"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PHLC225" name="PHLC225">
+				<sample name="PHLC225"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="PHLC221" name="PHLC221">
+				<sample name="PHLC221"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="ALAA204" name="ALAA204">
+				<sample name="ALAA204"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="ALAA203" name="ALAA203">
+				<sample name="ALAA203"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMC211" name="HOMC211">
+				<sample name="HOMC211"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMC213" name="HOMC213">
+				<sample name="HOMC213"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMA211" name="HOMA211">
+				<sample name="HOMA211"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMA214" name="HOMA214">
+				<sample name="HOMA214"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMA212" name="HOMA212">
+				<sample name="HOMA212"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMB211" name="HOMB211">
+				<sample name="HOMB211"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMB213" name="HOMB213">
+				<sample name="HOMB213"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMD215" name="HOMD215">
+				<sample name="HOMD215"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMD212" name="HOMD212">
+				<sample name="HOMD212"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMD213" name="HOMD213">
+				<sample name="HOMD213"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HOMD214" name="HOMD214">
+				<sample name="HOMD214"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="STHA215" name="STHA215">
+				<sample name="STHA215"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="STHA212" name="STHA212">
+				<sample name="STHA212"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="STHB214" name="STHB214">
+				<sample name="STHB214"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="STHB212" name="STHB212">
+				<sample name="STHB212"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SHEL151" name="SHEL151">
+				<sample name="SHEL151"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SHEL154" name="SHEL154">
+				<sample name="SHEL154"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SHEL155" name="SHEL155">
+				<sample name="SHEL155"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="WLOW153" name="WLOW153">
+				<sample name="WLOW153"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HIXN161" name="HIXN161">
+				<sample name="HIXN161"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QFRS161" name="QFRS161">
+				<sample name="QFRS161"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QFRS165" name="QFRS165">
+				<sample name="QFRS165"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QFRS162" name="QFRS162">
+				<sample name="QFRS162"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QLKE163" name="QLKE163">
+				<sample name="QLKE163"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QLKE161" name="QLKE161">
+				<sample name="QLKE161"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QLKE164" name="QLKE164">
+				<sample name="QLKE164"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QCTN164" name="QCTN164">
+				<sample name="QCTN164"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QCTN161" name="QCTN161">
+				<sample name="QCTN161"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QBKR162" name="QBKR162">
+				<sample name="QBKR162"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QBKR164" name="QBKR164">
+				<sample name="QBKR164"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QBKR163" name="QBKR163">
+				<sample name="QBKR163"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="QAUS163" name="QAUS163">
+				<sample name="QAUS163"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KIMB163" name="KIMB163">
+				<sample name="KIMB163"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KIMB162" name="KIMB162">
+				<sample name="KIMB162"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNA205" name="KLNA205">
+				<sample name="KLNA205"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNA203" name="KLNA203">
+				<sample name="KLNA203"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCFA206" name="MCFA206">
+				<sample name="MCFA206"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCFA203" name="MCFA203">
+				<sample name="MCFA203"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCFA202" name="MCFA202">
+				<sample name="MCFA202"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCHB193" name="MCHB193">
+				<sample name="MCHB193"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCHB191" name="MCHB191">
+				<sample name="MCHB191"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCHB192" name="MCHB192">
+				<sample name="MCHB192"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCHA195" name="MCHA195">
+				<sample name="MCHA195"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCHA194" name="MCHA194">
+				<sample name="MCHA194"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="MCHA192" name="MCHA192">
+				<sample name="MCHA192"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CHKC191" name="CHKC191">
+				<sample name="CHKC191"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CHKD194" name="CHKD194">
+				<sample name="CHKD194"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="CHKD192" name="CHKD192">
+				<sample name="CHKD192"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNE204" name="KLNE204">
+				<sample name="KLNE204"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNE205" name="KLNE205">
+				<sample name="KLNE205"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLNE203" name="KLNE203">
+				<sample name="KLNE203"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLND202" name="KLND202">
+				<sample name="KLND202"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLND201" name="KLND201">
+				<sample name="KLND201"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="KLND203" name="KLND203">
+				<sample name="KLND203"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="BELA183" name="BELA183">
+				<sample name="BELA183"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="BELA184" name="BELA184">
+				<sample name="BELA184"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="BELC184" name="BELC184">
+				<sample name="BELC184"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="BELC181" name="BELC181">
+				<sample name="BELC181"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="BELC182" name="BELC182">
+				<sample name="BELC182"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="DENA172" name="DENA172">
+				<sample name="DENA172"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="DENB172" name="DENB172">
+				<sample name="DENB172"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="DEND175" name="DEND175">
+				<sample name="DEND175"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="DEND173" name="DEND173">
+				<sample name="DEND173"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="DENC175" name="DENC175">
+				<sample name="DENC175"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="DENC174" name="DENC174">
+				<sample name="DENC174"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="DENC172" name="DENC172">
+				<sample name="DENC172"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="TOBA233" name="TOBA233">
+				<sample name="TOBA233"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="TOBB233" name="TOBB233">
+				<sample name="TOBB233"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="TOBB232" name="TOBB232">
+				<sample name="TOBB232"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKWA243" name="SKWA243">
+				<sample name="SKWA243"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKWE245" name="SKWE245">
+				<sample name="SKWE245"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKWE243" name="SKWE243">
+				<sample name="SKWE243"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKWF244" name="SKWF244">
+				<sample name="SKWF244"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKWC241" name="SKWC241">
+				<sample name="SKWC241"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKWD244" name="SKWD244">
+				<sample name="SKWD244"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SKWD243" name="SKWD243">
+				<sample name="SKWD243"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="ELAD254" name="ELAD254">
+				<sample name="ELAD254"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="ELAD252" name="ELAD252">
+				<sample name="ELAD252"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SQMC255" name="SQMC255">
+				<sample name="SQMC255"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SQMC252" name="SQMC252">
+				<sample name="SQMC252"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SQMB253" name="SQMB253">
+				<sample name="SQMB253"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SQMA251" name="SQMA251">
+				<sample name="SQMA251"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SQMA255" name="SQMA255">
+				<sample name="SQMA255"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="SQMA253" name="SQMA253">
+				<sample name="SQMA253"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HARB265" name="HARB265">
+				<sample name="HARB265"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HARB264" name="HARB264">
+				<sample name="HARB264"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HARB263" name="HARB263">
+				<sample name="HARB263"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HARB261" name="HARB261">
+				<sample name="HARB261"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="GLCB261" name="GLCB261">
+				<sample name="GLCB261"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="GLCB264" name="GLCB264">
+				<sample name="GLCB264"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HARC262" name="HARC262">
+				<sample name="HARC262"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="HARC261" name="HARC261">
+				<sample name="HARC261"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="NHTB271" name="NHTB271">
+				<sample name="NHTB271"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LILB262" name="LILB262">
+				<sample name="LILB262"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LILB261" name="LILB261">
+				<sample name="LILB261"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LILB265" name="LILB265">
+				<sample name="LILB265"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LILC265" name="LILC265">
+				<sample name="LILC265"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LILC262" name="LILC262">
+				<sample name="LILC262"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LILC261" name="LILC261">
+				<sample name="LILC261"/>
+			</tissue>
+			<tissue colorKey="#ffffff" id="LILD263" name="LILD263">
+				<sample name="LILD263"/>
+			</tissue>
+		</group>
+	</view>
+</specimen>
+

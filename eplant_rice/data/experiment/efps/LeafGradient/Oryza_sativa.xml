@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <specimen name="Rice">
+- <view name="all" db="rice_leaf_gradient" img="rice_leaf_gradient_image.tga">
+  <coords graphX="9" graphY="163" graphWidth="176" graphHeight="93" legendX="0" legendY="277" /> 
+    <extra name="eFP Browser paper in PLoS One" link="http://dx.doi.org/10.1371/journal.pone.0000718" parameters="No" coords="177,8,310,8,310,28,177,28" /> 
+  <info>
+    <li>Data were provided by Lin Wang and Thomas Brutnell at Boyce Thompson Institute for Plant Research, Cornell University.</li>
+    <li>Data were normalized using the RPKM method.</li>
+  </info>
+- <group name="Rice">
+  <control sample="RICE_CTRL" /> 
+- <tissue colorKey="#b6b700" name="R1" id="LeafDistal1">
+  <link url="http://Baselink" /> 
+  <area coords="0,234,72,234,72,259,0,259" /> 
+  <sample name="R1" /> 
+  </tissue>
+- <tissue colorKey="#b6ba00" name="R2" id="LeafDistal2">
+  <link url="http://Baselink" /> 
+  <area coords="72,237,145,237,145,259,72,259" /> 
+  <sample name="R2" /> 
+  </tissue>
+- <tissue colorKey="#96ac01" name="R3" id="LeafDistal3">
+  <link url="http://Baselink" /> 
+  <area coords="145,237,217,237,217,258,145,258" /> 
+  <sample name="R3" /> 
+  </tissue>
+- <tissue colorKey="#8ba000" name="R4" id="LeafDistal4">
+  <link url="http://Baselink" /> 
+  <area coords="217,237,290,234,290,256,217,256" /> 
+  <sample name="R4" />
+  </tissue> 
+- <tissue colorKey="#457f00" name="R5" id="LeafDistal5">
+  <link url="http://Baselink" /> 
+  <area coords="290,234,362,234,362,261,290,261" /> 
+  <sample name="R5" /> 
+  </tissue>
+- <tissue colorKey="#366f00" name="R6" id="LeafDistal6">
+  <link url="http://Baselink" /> 
+  <area coords="362,234,436,234,436,261,362,261" /> 
+  <sample name="R6" /> 
+  </tissue>
+- <tissue colorKey="#316600" name="R7" id="LeafDistal7">
+  <link url="http://Baselink" /> 
+  <area coords="436,234,509,234,509,263,436,263" /> 
+  <sample name="R7" /> 
+  </tissue>
+- <tissue colorKey="#2c5c00" name="R8" id="LeafDistal8">
+  <link url="http://Baselink" /> 
+  <area coords="509,234,581,238,581,261,509,261" /> 
+  <sample name="R8" /> 
+  </tissue>
+- <tissue colorKey="#275001" name="R9" id="LeafDistal9">
+  <link url="http://Baselink" /> 
+  <area coords="581,238,653,238,653,262,581,262" /> 
+  <sample name="R9" /> 
+  </tissue>
+- <tissue colorKey="#244b00" name="R10" id="LeafDistal10">
+  <link url="http://Baselink" /> 
+  <area coords="653,238,726,239,726,256,653,256" /> 
+  <sample name="R10" /> 
+  </tissue>
+- <tissue colorKey="#1d3d00" name="R11" id="LeafDistal11">
+  <link url="http://Baselink" /> 
+  <area coords="726,239,799,239,799,261,726,261" /> 
+  <sample name="R11" /> 
+  </tissue>                
+- </group>
+- </view>
+  </specimen>

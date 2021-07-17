@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Poplar">
+	<info>
+		<li>Data from the Campbell Laboratory.</li>
+		<li>Affymetrix expression data normalized by the GCOS method, with a TGT value of 500.</li>
+		<li>Duplicate or triplicate samples were analyzed from greenhouse-grown or field-grown material (in the case of the catkins).</li>
+		<li>The seedings were grown on mooist filter paper.</li>
+		<li>All materials were grown under a diurnal cycle of 12h light/dark and sampled at midday, except for the xylem samples, which were sampled at midnight.</li>
+		<li>Original images by Josephine McKeever and Nicholas Provart were vertorized by Rohan Patel</li>
+	</info>
+	<view db="poplar" img="Poplar_image.tga" name="all">
+		<coords graphHeight="87" graphWidth="64" graphX="559" graphY="108" legendX="680" legendY="6" />
+		<extra coords="24,20,257,20,257,36,24,36" link="http://dx.doi.org/10.1104/pp.108.132795" name="Poplar eFP Browser paper in Plant Physiology" parameters="No" />
+
+		<group name="Poplar">
+			<control sample="POP_CTRL" /> 
+
+			<tissue colorKey="#00FF00" id="Mature_Leaf" name="Mature Leaf">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="454,721,572,450,658,739" /> 
+				<sample name="bot0894" /> 
+				<sample name="bot0895" /> 
+				<sample name="bot0896" />
+			</tissue>
+
+			<tissue colorKey="#7FF16D" id="Young_Leaf" name="Young Leaf">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="345,709,311,612,365,513,421,624,358,709" /> 
+				<sample name="bot0882" /> 
+				<sample name="bot0883" /> 
+				<sample name="bot0884" /> 
+			</tissue>
+
+			<tissue colorKey="#FF00E4" id="Root" name="Root">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="735,400,690,538,684,894,760,891,795,519,761,393" /> 
+				<sample name="bot0885" /> 
+				<sample name="bot0886" /> 
+				<sample name="bot0887" /> 
+			</tissue>
+
+			<tissue colorKey="#DAEAD8" id="Dark-grown_seedling_etiolated" name="Dark-grown seedling,  etiolated">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="42,555,44,736,93,734,81,550" /> 
+				<sample name="bot1125" /> 
+				<sample name="bot1126" /> 
+			</tissue>
+
+			<tissue colorKey="#B1DEAA" id="Dark-grown_seedling_etiolated_exposed_to_light_for_3hr" name="Dark-grown seedling, etiolated, exposed to light for 3hr">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="97,552,106,735,155,733,141,547" /> 
+				<sample name="bot1123" /> 
+				<sample name="bot1124" /> 
+			</tissue>
+
+			<tissue colorKey="#58F13F" id="Continuous_light-_grown_seedling" name="Continuous light- grown seedling">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="171,578,176,708,212,704,280,594,268,575" /> 
+				<sample name="bot1116" /> 
+				<sample name="bot1117rh" /> 
+				<sample name="bot1118" /> 
+			</tissue>
+
+			<tissue colorKey="#B09742" id="female_catkins" name="female catkins">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="108,285,363,172,375,220,119,332" /> 
+				<sample name="bot0945" /> 
+				<sample name="bot0946" /> 
+				<sample name="bot0947" /> 
+			</tissue>
+
+			<tissue colorKey="#F76C83" id="male_catkins" name="male catkins">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="95,450,313,330,370,361,353,382,108,488" /> 
+				<sample name="bot0948" /> 
+				<sample name="bot0949" /> 
+				<sample name="bot0950" /> 
+			</tissue>
+
+			<tissue colorKey="#49BBF0" id="xylem" name="xylem">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13990" />
+				<area coords="655,423,478,299,484,191,563,166,673,236,697,363" /> 
+				<sample name="bot1017" /> 
+				<sample name="bot1018" /> 
+				<sample name="bot1019rh" /> 
+			</tissue>
+
+		</group>
+
+	</view>
+</specimen>

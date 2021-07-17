@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Rice">
+	<info>
+		<li>Data from Jain et al., Plant Physiol. 2007 Apr;143(4):1467-83</li>
+		<li>Data was normalized by MAS 5.0 and RMA methods with a TGT value of 100 being used and all tissues sampled in triplicate</li>
+		<li>Based on the images in the original rice eFP Browser drawn by R.Patel</li>
+		<li>Vectorized image redrawn and programmed by Delvin So</li>
+	</info>
+
+	<view db="rice_mas" img="ricestress_mas_image.tga" name="all">
+		<coords graphHeight="71" graphWidth="221" graphX="16" graphY="137" legendX="0" legendY="328" /> 
+		<extra coords="167,4,304,4,301,30,167,30" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="12,576,399,567,399,581,12,581" link="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1851844/?report=abstract" name="To Jain et al. reference" parameters="No" />
+		<group name="Control_stress_Seedling">
+			<control sample="RICE_CTRL_STRESS" /> 
+			<control sample="RICE_CTRL_STRESS" />
+			<control sample="RICE_CTRL_STRESS" /> 
+			<tissue colorKey="#4e9453" id="Control_Shoot" name="Control_Shoot">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="47,184,211,184,211,376,47,376" /> 
+				<sample name="RICE_CTRL_STRESS" />
+				<sample name="RICE_CTRL_STRESS" />
+				<sample name="RICE_CTRL_STRESS" />
+			</tissue>
+			<tissue colorKey="#5b3d02" id="Control_Root" name="Control_Root">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="34,372,190,372,191,498,34,498" /> 
+				<sample name="RICE_CTRL_STRESS" />
+				<sample name="RICE_CTRL_STRESS" />
+				<sample name="RICE_CTRL_STRESS" />
+			</tissue>
+		</group>
+		<group name="Drought_stress_Seedling">
+			<control sample="RICE_CTRL_STRESS" /> 
+			<control sample="RICE_CTRL_STRESS" /> 
+			<control sample="RICE_CTRL_STRESS" />
+			<tissue colorKey="#409245" id="Drought_Shoot" name="Drought_Shoot">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="225,188,372,188,372,375,225,375" /> 
+				<sample name="Drought_stress_rep1" />
+				<sample name="Drought_stress_rep2" />
+				<sample name="Drought_stress_rep3" /> 
+			</tissue>
+			<tissue colorKey="#583b03" id="Drought_Root" name="Drought_Root">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="215,370,355,370,356,489,215,489" /> 
+				<sample name="Drought_stress_rep1" />
+				<sample name="Drought_stress_rep2" />
+				<sample name="Drought_stress_rep3" /> 
+			</tissue>
+		</group>
+		<group name="Salt_stress_Seedling">
+			<control sample="RICE_CTRL_STRESS" /> 
+			<control sample="RICE_CTRL_STRESS" />
+			<control sample="RICE_CTRL_STRESS" />
+			<tissue colorKey="#49934e" id="Salt_Shoot" name="Salt_Shoot">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="418,187,559,186,559,377,418,377" /> 
+				<sample name="Salt_stress_rep1" />
+				<sample name="Salt_stress_rep2" />
+				<sample name="Salt_stress_rep3" /> 
+			</tissue>
+			<tissue colorKey="#452e03" id="Salt_Root" name="Salt_Root">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="416,372,536,372,535,494,416,494" /> 
+				<sample name="Salt_stress_rep1" />
+				<sample name="Salt_stress_rep2" />
+				<sample name="Salt_stress_rep3" /> 
+			</tissue>
+		</group>
+		<group name="Cold_stress_Seedling">
+			<control sample="RICE_CTRL_STRESS" /> 
+			<control sample="RICE_CTRL_STRESS" />
+			<control sample="RICE_CTRL_STRESS" />
+			<tissue colorKey="#418045" id="Cold_Shoot" name="Cold_Shoot">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="585,185,733,186,732,376,584,376" /> 
+				<sample name="Cold_stress_rep1" />
+				<sample name="Cold_stress_rep2" />
+				<sample name="Cold_stress_rep3" /> 
+			</tissue>
+			<tissue colorKey="#463107" id="Cold_Root" name="Cold_Root">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6901" /> 
+				<area coords="584,366,710,366,711,498,584,498" /> 
+				<sample name="Cold_stress_rep1" />
+				<sample name="Cold_stress_rep2" />
+				<sample name="Cold_stress_rep3" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

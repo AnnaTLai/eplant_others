@@ -1,0 +1,82 @@
+[{
+		"view": "Chromosome Viewer",
+		"source": "Data for this view come from <a href=\"https://phytozome.jgi.doe.gov\" target=\"_new\" >Phytozome</a>.",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Publication Viewer",
+		"source": "Data for this view comes from NCBI <a href=\"ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz\" target=\"_new\">Gene2Pubmed</a>. Data for Gene RIFs comes from NCBI <a href=\"ftp://ftp.ncbi.nih.gov/gene/GeneRIF/generifs_basic.gz\" target=\"_new\">Gene RIFs</a>. The lookup data comes from NCBI <a href=\"ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/gene_info.gz\" target=\"_new\">gene_info</a>.",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Gene Info Viewer",
+		"source": "Data for this view come from the <i>araport11_gene_structure_by_locus</i>, <i>gene_summary_by_locus</i>, <i>get_protein_sequence_by_identifier</i>, <i>get_sequence_by_identifier</i> and <i>generifs_by_locus</i> webservices at <a href='https://www.araport.org/api-explorer' target='_new'>Araport</a>.",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Interaction Viewer",
+		"source": "Data for this view come from Musungu et al., 2015. A predicted protein interactome identifies conserved global networks and disease resistance subnetworks in maize. Front Genet. 2015; 6: 201.",
+		"notes": "This viewer was built with CytoscapeJS.",
+		"URL": ""
+	}, {
+		"view": "World eFP",
+		"source": "The data come from Weigel Lab (Lempe <i>et al.</i>, 2005, PLOS Genetics 1:e6)",
+		"notes": "Aerial parts of 4 day old seedlings greenhouse-grown in soil at 23C under continuous light were sampled. Data normalized by GCOS method, TGT value of 100. Note that plants were grown together in a single growth chamber and are depicted here according to their collection location for visualization purposes only.<br><br>Historical climate data comes from: Jones, P. D., and I. Harris, 2013: CRU TS3.21: Climatic Research Unit (CRU) Time Series (TS) Version 3.21 of High Resolution Gridded Data of Month‐by‐month Variation of Climate (Jan. 1901‐Dec. 2012). 3.21 ed., U. o. E. Anglia, Ed., NCAS British Atmospheric Data Centre.<br><br>Climate data map tiles come from: http://sdwebx.worldbank.org/climateportal/",
+		"URL": ""
+	}, {
+		"view": "Plant eFP",
+		"source": "",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Cell eFP", 
+		"source": "The data come from Tanz SK, Castleden I, Hooper CM, Vacher M, Small I; Millar, AH (2013) SUBA3: a database for integrating experimentation and prediction to define the SUBcellular location of proteins in Arabidopsis. Nucleic Acids Res. 41: D1185-91",
+		"notes": "The SUBA3 database contains information on the computationally predicted and experimentally documented subcellular localization of many Arabidopsis proteins. We apply the formula indicated in the Material and Methods section of Winter et al. 2007 (doi: 10.1371/journal.pone.0000718) to generate a confidence score for each distinct subcellular compartment or region, with experimentally-determined localizations being weighted five times more than predicted ones. The higher the confidence score for a given subcellular compartment, the more intense the red colour in the Cell eFP Browser output. <br><br> See further details at SUBA: <a href='http://suba.plantenergy.uwa.edu.au/flatfile.php?id={GENEID}'>http://suba.plantenergy.uwa.edu.au/flatfile.php?id={GENEID}</a>",
+		"URL": ""
+	}, {
+		"view": "Molecule Viewer",
+		"source": "The 3D molecule data come from Phyre2: Kelley LA et al. Nature Protocols 10, 845-858 (2015).<br><br>SNP data come from Joshi HJ, Christiansen KM, Fitz J, Cao J, Lipzen A, Martin J, Smith-Moritz AM, Pennacchio L, Schackwitz WS, Weigel D, Heazlewood JL (2012) 1001 Proteomes: A functional proteomics portal for the analysis of Arabidopsis thaliana accessions. Bioinformatics 28: 1303-1306. doi: 10.1093/bioinformatics/bts133.<br><br>Pfam domain data come from Finn et al., (2014). CDD feature hits come from Marchler-Bauer et al., (2015). ",
+		"notes": "This viewer was built with JSmol.",
+		"URL": ""
+	}, {
+		"view": "Sequence Viewer",
+		"source": "This is an implementation of JBrowse using data provided by Phytozome. (Goodstein DM et al., 2012, Nucleic Acids Research, DOI: 10.1093/nar/gkr944)",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Experimental Viewer",
+		"source": "",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Heat Map Viewer",
+		"source": "The Affymetrix ATH1 array data come from:<br>* Developmental Map: Schmid et al., 2005, Nature Genetics 37:501<br>* Developmental Map (dry & imbibed seeds): Nakabayashi et al., 2005, The Plant Journal, Vol 41:697<br>* Microgametogenesis: Honeys & Twell, 2004, Genome Biology 5:R85<br>* Embryo Development: Casson et al., 2005, The Plant Journal 42:111<br>* Guard And Mesophyl Cells: Yang et al., 2008, Plant Methods 4:6<br>* Stem Epidermis: Suh et al., 2005, Plant Physiology 139:1649<br>* Stigma and Ovaries: Swanson et al, 2005, Plant Sexual Reproduction, 18:163<br>* Pollen Germination: Quin et al., 2009, PLOS Genetics 5:e1000621<br>* Shoot Apical Meristem: Yadav et al., 2009, Procedings of the National Academy of Sciences USA, 106:4941<br>* Trichomes: Marks et al., 2009, Molecular Plant 2:803; Gilding & Marks, 2010, The Plant Journal, 64:304<br>* Root: Birnbaum et al., 2003, Science 302:1956; Nawy et al., 2005, Plant Cell 17:1908<br>* Hormone and Chemical: Goda et al., 2008, The Plant Journal, 55:526<br>* Guard Cell Mutant and Wild Type Guard Cell ABA Response: Pandey et al., 2010, Molecular Systems Biology 6:372<br>* Guard Cell Meristemoids: Pillitteri et al., 2011, The Plant Cell, DOI: 10.1105/tpc.111.088583<br>* Abiotic Stress: Kilian et al., 2007, The Plant Journal, 50:347<br>* Xylem & Cork: Malcolm Campbell lab (unpublished)<br>* Subcellular Localization: Tanz et al., 2013, Nucleic Acids Research 41:D1185-91.<br>",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Root eFP",
+		"source": "",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Sekhon Atlas eFP",
+		"source": "",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Tassel And Ear Primordia eFP",
+		"source": "",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Leaf Gradient eFP",
+		"source": "",
+		"notes": "",
+		"URL": ""
+	}, {
+		"view": "Leaf, Mesocotyl, and Bundle Sheath eFP",
+		"source": "",
+		"notes": "",
+		"URL": ""
+	}
+]

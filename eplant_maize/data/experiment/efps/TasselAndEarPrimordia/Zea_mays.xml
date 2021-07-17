@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE specimen SYSTEM "//bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Maize">
+	<info>
+		<li>Data from Regulatory modules controlling maize inflorescence architecture. Eveland et al. (2014). Genome Res. 24(3): 431-43.</li>
+		<li>Data were normalized using FPKM method.</li>
+		<li>Reads were aligned to v5b.60 of the maize genome.</li>
+		<li>Based on the images in the original maize eFP Browser drawn by D. Jackson at Cold Spring Harbor Laboratory.</li>
+		<li>Vectorized image redawn and programmed by Delvin So</li>
+	</info>
+	<view db="maize_ears" img="Tassel_and_Ear_Primordia_image.tga" name="all">
+		<coords graphHeight="61" graphWidth="136" graphX="5" graphY="87" legendX="0" legendY="271" /> 
+		<extra coords="170,1,287,1,287,17,170,17" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="337,562,487,564,488,578,337,578" link="http://genome.cshlp.org/content/24/3/431.abstract" name="Eveland et al., Genome Res. 24(3):431-43." parameters="No" />
+		<group name="Ear Development and Tassel Primordia">
+			<control sample="MAIZE_CTRL" /> 
+			<tissue colorKey="#faf843" id="ear_base" name="ear_base">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="71,308,205,308,205,416,71,416" /> 
+				<sample name="ear_tip" /> 
+			</tissue>
+			<tissue colorKey="#f4a949" id="ear_mid" name="ear_mid">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="101,181,175,181,174,252,101,252" /> 
+				<sample name="ear_mid" /> 
+			</tissue>
+			<tissue colorKey="#ea3e2b" id="ear_tip" name="ear_tip">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="116,118,158,118,158,162,116,162" /> 
+				<sample name="ear_tip" /> 
+			</tissue>
+			<tissue colorKey="#f9604b" id="tassel_2mm" name="tassel_2mm">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="369,281,446,281,444,407,369,407" /> 
+				<sample name="tassel_2mm" /> 
+			</tissue>
+			<tissue colorKey="#7afa30" id="tassel_3_4mm" name="tassel_3-4mm">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="466,181,578,180,578,412,466,412" /> 
+				<sample name="tassel_3-4mm" /> 
+			</tissue>
+			<tissue colorKey="#edee66" id="tassel_5_7mm" name="tassel_5-7mm">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="615,67,754,66,752,415,615,415" /> 
+				<sample name="tassel_5-7mm" /> 
+			</tissue>
+			<tissue colorKey="#6fcddd" id="2mm_ear" name="2mm_ear">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="234,435,261,433,261,519,234,519" /> 
+				<sample name="2mm_ear" /> 
+			</tissue> 
+			<tissue colorKey="#cc6699" id="1mm_ear" name="1mm_ear">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51050" /> 
+				<area coords="298,473,318,472,319,520,298,520" /> 
+				<sample name="1mm_ear" /> 
+			</tissue> 
+		</group>
+	</view>
+</specimen>

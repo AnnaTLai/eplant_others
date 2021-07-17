@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<specimen name="Medicago">- 
+  <view db="medicago_seed" img="medicago_seed_image.tga" name="all">
+    <coords graphHeight="65" graphWidth="146" graphX="838" graphY="76" legendX="980" legendY="246"/>
+    <extra coords="223,11,346,11,346,27,223,27" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No"/>
+    <extra coords="25,94,182,94,182,636,25,636" link="data_medicago/medicago_seed_graphs.PDF" name="Graphs for Medicago Seed eFP" parameters="No"/>
+    <extra coords="705,745,1040,745,1040,760,705,760" link="http://dx.doi.org/10.1105/tpc.15.00632" name="eFP Medicago Seed paper in The Plant Cell" parameters="No"/>
+    <info>
+      <li>Transcriptional profiling of seeds of Medicago truncatula during maturation. To identify genes that are regulated during seed maturation in the first model legume, plants were grown and seeds collected from 1 DAP to DS stage. For each data point of seed development and for each repetition, 50 seeds were collected and the total RNA was extracted.</li>
+      <li>Using the Medicago NimbleGen chip, a transcriptomic analysis was performed to follow the differential expression of genes during seed developement. Data were RMA-normalized and then linearized before being scaled by 2.14 such that the expression levels of guide genes (MEDTR2G030130, MEDTR4G070860, MEDDTR5G021270, MEDTR7G016600, MEDTR7G104190, MEDTR7G104480, MEDTR8G043960, MT3_5S031063, MT3_5S042061, AC225518_13.1, MEDTR1G072320) were approximately consistent between an original view and this view.</li>
+      <li>Seeds under all conditions were developed under a 16h light/dark regime unless otherwise indicated. The seeds were developed under the following conditions: 26/24°C  (high temperature condition), 14/11°C  (low temperature condition), 20/18°C (standard temperature condition), 20/18°C -0.1 MPa (osmotic stress condition), or under greenhouse conditions (16-30°C, variable photoperiod).</li></info>- 
+    <group name="Seed 14c">
+      <control sample="Med_CTRL_14C"/>
+      <tissue colorKey="#021ab9" id="14C-22DAP" name="Seed 22DAP 14C">
+        <link url=""/>
+        <area coords="266,209,305,209,305,245,266,245"/>
+        <sample name="22_DAP_14C"/></tissue>- 
+      <tissue colorKey="#021fe8" id="14C-28DAP" name="Seed 28DAP 14C">
+        <link url=""/>
+        <area coords="323,207,362,207,362,245,323,245"/>
+        <sample name="28_DAP_14C"/></tissue>- 
+      <tissue colorKey="#0b29fd" id="14C-34DAP" name="Seed 34DAP 14C">
+        <link url=""/>
+        <area coords="388,199,436,200,435,250,388,250"/>
+        <sample name="34_DAP_14C"/></tissue>- 
+      <tissue colorKey="#2440fd" id="14C-40DAP" name="Seed 40DAP 14C">
+        <link url=""/>
+        <area coords="455,198,500,198,498,255,455,255"/>
+        <sample name="40_DAP_14C"/></tissue>- 
+      <tissue colorKey="#435afe" id="14C-46DAP" name="Seed 46DAP 14C">
+        <link url=""/>
+        <area coords="510,198,554,198,554,253,510,253"/>
+        <sample name="46_DAP_14C"/></tissue>- 
+      <tissue colorKey="#4175fe" id="14C-52DAP" name="Seed 52DAP 14C">
+        <link url=""/>
+        <area coords="565,204,615,204,615,250,565,250"/>
+        <sample name="52_DAP_14C"/></tissue>- 
+      <tissue colorKey="#5c89fe" id="14C-58DAP" name="Seed 58DAP 14C">
+        <link url=""/>
+        <area coords="630,207,681,208,680,250,630,250"/>
+        <sample name="58_DAP_14C"/></tissue>- 
+      <tissue colorKey="#81a3fe" id="14C-65DAP" name="Seed 65DAP 14C">
+        <link url=""/>
+        <area coords="709,201,772,202,770,252,709,252"/>
+        <sample name="65_DAP_14C"/></tissue>- 
+      <tissue colorKey="#9eb9fe" id="14C-Abs" name="Seed ABS 14C">
+        <link url=""/>
+        <area coords="864,197,920,198,919,251,864,251"/>
+        <sample name="Abs_DAP_14C"/></tissue>- 
+      <tissue colorKey="#bacdfe" id="14C-DS" name="Seed DS 14C">
+        <link url=""/>
+        <area coords="929,199,980,199,979,248,929,248"/>
+        <sample name="DS_DAP_14C"/></tissue>
+    </group>
+    <group name="Seed 20c">
+      <control sample="Med_CTRL_20C"/>
+      <tissue colorKey="#1bc512" id="20C-8DAP" name="Seed 8DAP 20C">
+        <link url=""/>
+        <area coords="233,112,262,112,261,136,233,136"/>
+        <sample name="8_DAP_20C"/></tissue>- 
+      <tissue colorKey="#21ce09" id="20C-11DAP" name="Seed 11DAP 20C">
+        <link url=""/>
+        <area coords="267,104,303,104,302,138,267,138"/>
+        <sample name="11_DAP_20C"/></tissue>- 
+      <tissue colorKey="#30ce09" id="20C-14DAP" name="Seed 14DAP 20C">
+        <link url=""/>
+        <area coords="310,105,342,105,342,139,310,139"/>
+        <sample name="14_DAP_20C"/></tissue>- 
+      <tissue colorKey="#51d601" id="20C-17DAP" name="Seed 17DAP 20C">
+        <link url=""/>
+        <area coords="349,107,386,106,386,138,349,138"/>
+        <sample name="17_DAP_20C"/></tissue>- 
+      <tissue colorKey="#60fc01" id="20C-20DAP" name="Seed 20DAP 20C">
+        <link url=""/>
+        <area coords="400,105,443,105,443,141,400,141"/>
+        <sample name="20_DAP_20C"/></tissue>- 
+      <tissue colorKey="#72fe1d" id="20C-23DAP" name="Seed 23DAP 20C">
+        <link url=""/>
+        <area coords="457,103,498,103,497,142,457,142"/>
+        <sample name="23_DAP_20C"/></tissue>- 
+      <tissue colorKey="#affe1d" id="20C-26DAP" name="Seed 26DAP 20C">
+        <link url=""/>
+        <area coords="503,103,549,103,549,139,503,139"/>
+        <sample name="26_DAP_20C"/></tissue>- 
+      <tissue colorKey="#d5fd35" id="20C-29DAP" name="Seed 29DAP 20C">
+        <link url=""/>
+        <area coords="561,102,602,103,603,137,561,137"/>
+        <sample name="29_DAP_20C"/></tissue>- 
+      <tissue colorKey="#defd64" id="20C-32DAP" name="Seed 32DAP 20C">
+        <link url=""/>
+        <area coords="611,102,654,102,656,137,613,137"/>
+        <sample name="32_DAP_20C"/></tissue>- 
+      <tissue colorKey="#f1f968" id="20C-35DAP" name="Seed 35DAP 20C">
+        <link url=""/>
+        <area coords="659,96,709,97,708,144,659,144"/>
+        <sample name="35_DAP_20C"/></tissue>- 
+      <tissue colorKey="#f1f959" id="20C-38DAP" name="Seed 38DAP 20C">
+        <link url=""/>
+        <area coords="712,96,757,96,757,142,712,142"/>
+        <sample name="38_DAP_20C"/></tissue>- 
+      <tissue colorKey="#f0f94f" id="20C-41DAP" name="Seed 41DAP 20C">
+        <link url=""/>
+        <area coords="757,98,806,98,806,139,757,139"/>
+        <sample name="41_DAP_20C"/></tissue>- 
+      <tissue colorKey="#eff93c" id="20C-44DAP" name="Seed 44DAP 20C">
+        <link url=""/>
+        <area coords="809,98,860,99,861,142,809,142"/>
+        <sample name="44_DAP_20C"/></tissue>- 
+      <tissue colorKey="#eff92f" id="20C-Abs" name="Seed ABS 20C">
+        <link url=""/>
+        <area coords="867,95,916,96,917,142,867,142"/>
+        <sample name="Abs_DAP_20C"/></tissue>- 
+      <tissue colorKey="#eef91e" id="20C-DS" name="Seed DS 20C">
+        <link url=""/>
+        <area coords="929,98,977,97,978,140,929,140"/>
+        <sample name="DS_DAP_20C"/></tissue>
+    </group>
+    <group name="Seed 26C">
+      <control sample="Med_CTRL_26C"/>
+      <tissue colorKey="#961d07" id="26C-7DAP" name="Seed 7DAP 26C">
+        <link url=""/>
+        <area coords="269,308,298,308,298,334,269,334"/>
+        <sample name="7_DAP_26C"/></tissue>- 
+      <tissue colorKey="#ae2109" id="26C-9DAP" name="Seed 9DAP 26C">
+        <link url=""/>
+        <area coords="313,308,344,309,343,334,313,334"/>
+        <sample name="9_DAP_26C"/></tissue>- 
+      <tissue colorKey="#c8270b" id="26C-11DAP" name="Seed 11DAP 26C">
+        <link url=""/>
+        <area coords="371,303,410,304,411,337,371,337"/>
+        <sample name="11_DAP_26C"/></tissue>- 
+      <tissue colorKey="#e32d0d" id="26C-14DAP" name="Seed 14DAP 26C">
+        <link url=""/>
+        <area coords="438,305,482,306,481,336,438,336"/>
+        <sample name="14_DAP_26C"/></tissue>- 
+      <tissue colorKey="#de442e" id="26C-17DAP" name="Seed 17DAP 26C">
+        <link url=""/>
+        <area coords="508,299,554,299,554,337,508,337"/>
+        <sample name="17_DAP_26C"/></tissue>- 
+      <tissue colorKey="#e46856" id="26C-20DAP" name="Seed 20DAP 26C">
+        <link url=""/>
+        <area coords="561,298,613,298,613,340,561,340"/>
+        <sample name="20_DAP_26C"/></tissue>- 
+      <tissue colorKey="#e97e70" id="26C-Abs" name="Seed ABS 26C">
+        <link url=""/>
+        <area coords="865,293,915,293,918,339,865,339"/>
+        <sample name="Abs_DAP_20C"/></tissue>- 
+      <tissue colorKey="#ed9487" id="26C-DS" name="Seed DS 26C">
+        <link url=""/>
+        <area coords="926,299,980,297,980,344,926,344"/>
+        <sample name="DS_DAP_20C"/></tissue>
+    </group>- 
+    <group name="Greenhouse">
+      <control sample="Med_CTRL_GH"/>
+      <tissue colorKey="#8e1b9e" id="Greenhouse-16DAP" name="16DAP Greenhouse">
+        <link url=""/>
+        <area coords="328,416,363,416,362,443,328,443"/>
+        <sample name="16_DAP_GH"/></tissue>- 
+      <tissue colorKey="#a31fb6" id="Greenhouse-20DAP" name="20DAP Greenhouse">
+        <link url=""/>
+        <area coords="398,412,438,411,439,442,398,442"/>
+        <sample name="20_DAP_GH"/></tissue>- 
+      <tissue colorKey="#c024d7" id="Greenhouse-24DAP" name="24DAP Greenhouse">
+        <link url=""/>
+        <area coords="459,407,509,406,508,444,459,444"/>
+        <sample name="24_DAP_GH"/></tissue>- 
+      <tissue colorKey="#ca3ade" id="Greenhouse-28DAP" name="28DAP Greenhouse">
+        <link url=""/>
+        <area coords="541,407,590,408,590,441,541,441"/>
+        <sample name="28_DAP_GH"/></tissue>- 
+      <tissue colorKey="#d257e3" id="Greenhouse-32DAP" name="32DAP Greenhouse">
+        <link url=""/>
+        <area coords="603,407,647,408,647,440,603,440"/>
+        <sample name="32_DAP_GH"/></tissue>- 
+      <tissue colorKey="#d973e8" id="Greenhouse-36DAP" name="36DAP Greenhouse">
+        <link url=""/>
+        <area coords="687,404,737,404,736,442,687,442"/>
+        <sample name="36_DAP_GH"/></tissue>- 
+      <tissue colorKey="#e18fed" id="Greenhouse-40DAP" name="40DAP Greenhouse">
+        <link url=""/>
+        <area coords="774,400,825,401,824,442,774,442"/>
+        <sample name="40_DAP_GH"/></tissue>- 
+      <tissue colorKey="#e79ff0" id="Greenhouse-Abs" name="ABS Greenhouse">
+        <link url=""/>
+        <area coords="863,403,919,404,919,444,863,444"/>
+        <sample name="Abs_DAP_GH"/></tissue>- 
+      <tissue colorKey="#efbdf4" id="Greenhouse-DS" name="DS Greenhouse">
+        <link url=""/>
+        <area coords="931,402,976,402,976,443,931,443"/>
+        <sample name="DS_DAP_GH"/></tissue>- </group>- 
+    <group name="Osmotic Stress">
+      <control sample="Med_CTRL_OS"/>
+      <tissue colorKey="#ba6005" id="OsmoticStress-12DAP" name="12DAP Osmotic">
+        <link url=""/>
+        <area coords="273,520,305,520,305,546,273,546"/>
+        <sample name="12_DAP_OS"/></tissue>- 
+      <tissue colorKey="#db7106" id="OsmoticStress-15DAP" name="15DAP Osmotic">
+        <link url=""/>
+        <area coords="357,515,394,515,394,549,357,549"/>
+        <sample name="15_DAP_OS"/></tissue>- 
+      <tissue colorKey="#f9820b" id="OsmoticStress-20DAP" name="20DAP Osmotic">
+        <link url=""/>
+        <area coords="424,517,469,518,469,550,424,550"/>
+        <sample name="20_DAP_OS"/></tissue>- 
+      <tissue colorKey="#fa9229" id="OsmoticStress-25DAP" name="25DAP Osmotic">
+        <link url=""/>
+        <area coords="535,505,586,506,585,555,535,555"/>
+        <sample name="25_DAP_OS"/></tissue>- 
+      <tissue colorKey="#fb9e42" id="OsmoticStress-30DAP" name="30DAP Osmotic">
+        <link url=""/>
+        <area coords="676,507,727,507,726,554,676,554"/>
+        <sample name="30_DAP_OS"/></tissue>- 
+      <tissue colorKey="#fcb065" id="OsmoticStress-Abs" name="ABS Osmotic">
+        <link url=""/>
+        <area coords="868,501,916,502,916,557,868,557"/>
+        <sample name="Abs_DAP_OS"/></tissue>- 
+      <tissue colorKey="#fdc084" id="OsmoticStress-DS" name="DS Osmotic">
+        <link url=""/>
+        <area coords="928,507,976,505,977,551,928,551"/>
+        <sample name="DS_DAP_OS"/></tissue>- </group>- </view>
+</specimen>

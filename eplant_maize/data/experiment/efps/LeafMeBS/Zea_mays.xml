@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<specimen name="Zea mays B73">- 
+  <view db="maize_iplant" img="maize_iplant_image.tga" name="all">
+    <coords graphHeight="66" graphWidth="141" graphX="15" graphY="102" legendX="0" legendY="271"/>
+    <extra coords="170,1,287,1,287,17,170,17" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No"/>
+    <extra coords="71,18,329,18,329,34,71,34" link="http://dx.doi.org/10.1038/ng.703" name="Li et al., Nature Genetics, DOI: 10.1038/ng.703." parameters="No"/>
+    <info>
+      <li>Data were provided by Lin Wang and Thomas Brutnell at Boyce Thomas Institute for Plant Research. </li>
+      <li>Data were normalized using the RPKM method.</li>
+    </info>- 
+    <group name="Leaf developmental gradient - 4 sections">
+      <control sample="MAIZE_CTRL"/>
+      <tissue colorKey="#f2fed8" id="LeafDistal1" name="Base">
+        <link url="http://base link"/>
+        <area coords="2,147,56,147,56,207,2,200"/>
+        <sample name="Base"/>
+      </tissue>- 
+      <tissue colorKey="#e0ebc8" id="LeafDistal4" name="-1 from ligule">
+        <link url="http://-1 link"/>
+        <area coords="162,142,214,141,214,220,161,219"/>
+        <sample name="Ligule+4"/>
+      </tissue>- 
+      <tissue colorKey="#adb993" id="LeafDistal9" name="+4 from ligule">
+        <link url="http://+4 link"/>
+        <area coords="427,149,480,150,480,218,427,220"/>
+        <sample name="Ligule+9"/>
+      </tissue>- 
+      <tissue colorKey="#484d3d" id="LeafDistal14" name="-1 from tip">
+        <link url="http://tip link"/>
+        <area coords="693,166,746,171,746,197,693,199"/>
+        <sample name="Tip_-1"/>
+      </tissue>
+    </group>- 
+    <group name="LCM ME vs BS at tip">
+      <control sample="MAIZE_CTRL"/>
+      <tissue colorKey="#2929a5" id="TipBS" name="Tip - Bundle Sheath">
+        <link url="http://tip BS"/>
+        <area coords="668,334,780,334,780,437,668,437"/>
+        <sample name="Tip_BS"/>
+      </tissue>- 
+      <tissue colorKey="#28a594" id="TipME" name="Tip - Mesocotyl">
+        <link url="http://tip ME"/>
+        <area coords="686,291,797,324,795,459,645,464"/>
+        <sample name="Tip_ME"/>
+      </tissue>
+    </group>
+  </view>
+</specimen>

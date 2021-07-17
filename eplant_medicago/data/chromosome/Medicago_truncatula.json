@@ -1,0 +1,53 @@
+{
+    "species": "Medicago truncatula",
+    "chromosomes": [
+        {
+            "centromeres": [],
+            "name": "chr1",
+            "size": "52991155",
+            "id": "chr1"
+        },
+        {
+            "centromeres": [],
+            "name": "chr2",
+            "size": "45729672",
+            "id": "chr2"
+        },
+        {
+            "centromeres": [],
+            "name": "chr3",
+            "size": "55515152",
+            "id": "chr3"
+        },
+        {
+            "centromeres": [],
+            "name": "chr4",
+            "size": "56582383",
+            "id": "chr4"
+        },
+        {
+            "centromeres": [],
+            "name": "chr5",
+            "size": "43630510",
+            "id": "chr5"
+        },
+        {
+            "centromeres": [],
+            "name": "chr6",
+            "size": "35275713",
+            "id": "chr6"
+        },
+        {
+            "centromeres": [],
+            "name": "chr7",
+            "size": "49172423",
+            "id": "chr7"
+        },
+        {
+            "centromeres": [],
+            "name": "chr8",
+            "size": "45569985",
+            "id": "chr8"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "species": "Oryza sativa",
+    "chromosomes": [
+        {
+            "centromeres": [],
+            "name": "Pt",
+            "id": "Pt",
+            "size": "134525"
+        },
+        {
+            "centromeres": [],
+            "name": "Mt",
+            "id": "Mt",
+            "size": "490520"
+        },
+        {
+            "centromeres": [],
+            "name": "Sy",
+            "id": "Sy",
+            "size": "526915"
+        },
+        {
+            "centromeres": [],
+            "name": "Un",
+            "id": "Un",
+            "size": "862499"
+        },
+        {
+            "centromeres": [],
+            "name": "9",
+            "id": "9",
+            "size": "23011239"
+        },
+        {
+            "centromeres": [],
+            "name": "10",
+            "id": "10",
+            "size": "23134759"
+        },
+        {
+            "centromeres": [],
+            "name": "12",
+            "id": "12",
+            "size": "27497214"
+        },
+        {
+            "centromeres": [],
+            "name": "8",
+            "id": "8",
+            "size": "28439308"
+        },
+        {
+            "centromeres": [],
+            "name": "11",
+            "id": "11",
+            "size": "28512666"
+        },
+        {
+            "centromeres": [],
+            "name": "7",
+            "id": "7",
+            "size": "29696629"
+        },
+        {
+            "centromeres": [],
+            "name": "5",
+            "id": "5",
+            "size": "29894789"
+        },
+        {
+            "centromeres": [],
+            "name": "6",
+            "id": "6",
+            "size": "31246789"
+        },
+        {
+            "centromeres": [],
+            "name": "4",
+            "id": "4",
+            "size": "35278225"
+        },
+        {
+            "centromeres": [],
+            "name": "2",
+            "id": "2",
+            "size": "35930381"
+        },
+        {
+            "centromeres": [],
+            "name": "3",
+            "id": "3",
+            "size": "36406689"
+        },
+        {
+            "centromeres": [],
+            "name": "1",
+            "id": "1",
+            "size": "43268879"
+        }
+    ]
+}

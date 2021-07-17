@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE specimen SYSTEM "http://www.bar.utoronto.ca/efp/cgi-bin/data/efp_config.dtd">
+<specimen name="Solanum tuberosum">
+<view name="all" class="" db="potato_stress" dbGroup="all" img="Potato_Stress_image.png" table="sample_data">
+<coords graphX="912" graphY="279" graphWidth="60" graphHeight="80" legendX="829" legendY="125"/>
+<extra name="The Transcriptome of the Reference Potato Genome Solanum tuberosum Group Phureja Clone DM1-3 516R44" link="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0026801 " parameters="No" coords="372,272,606,272,606,302,372,302"/>
+<info>
+	<li>Data provided by the Buell Lab from The transcriptome of the reference potato genome Solanum tuberosum Group Phujero Clone DM1-3 516R44: Massa et al., 2011, PLoS One 6(10):e26801.</li>
+	<li>Plant material from Solanum tuberosum group Phureha Clone DM1-3 516R44 was analyzed.</li>
+	<li>Biotic stress was carried out using greenhouse grown plants while abiotic and hormone experiments were carried out using magenta in vitro grown plants.</li>
+	<li>Biotic stress conditions were induced with Phytophthora infestans inoculum and two chemical inducers: acibenzolar-S-methyl (BTH) and DL-Beta-amino-n-butyric acid (BABA, 2mg/ml).</li>
+	<li>Biotic stress was carried out using detached leaves and pooled samples at 24h, 36h, and 72h.</li>
+	<li>Wounded, primary, and secondary leaves were included to mimic herbivoty.</li>
+	<li> Abiotic conditions were carried out by 24h treatment of in vitro grown plants with heat (35°C) and mannitol (260μM).</li>
+	<li>Hormone stress response of in vitro grown plants was induced by treatment with abscisic acid (ABA, 50μM), indole-3-acetic acid (IAA, 10 μM), giberilic acid (GA3, 50μM), and 6-benzylaminopurine (BAP, 10μM) for 24 hours.</li>
+	<li>The RNA seq data were normalized by FPKM normalization.</li>
+</info>
+<group name="STD_AA">
+<control sample="STD_AA"/>
+<tissue colorKey="#33cc33" name="STD_AA [Control (Biotic Stress)]" id="BioticStress-Control">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="44,368,124,368,124,466,44,466"/>
+<sample name="STD_AA" />
+</tissue>
+<tissue colorKey="#33cc44" name="STD_AB [P. infestans Infected Leaves (24hr/48hr/72hr)]" id="BioticStress-P_infestansInoculum">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="179,369,251,369,251,464,179,464"/>
+<sample name="STD_AB" />
+</tissue>
+<tissue colorKey="#33cc55" name="STD_AD [BTH Treated Leaves (24hr/48hr/72hr)]" id="BioticStress-BTH">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="328,372,394,372,394,466,328,466"/>
+<sample name="STD_AD" />
+</tissue>
+<tissue colorKey="#33cc66" name="STD_AC [BABA Treated Leaves (24hr/48hr/72hr)]" id="BioticStress-BABA">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="457,369,520,369,520,465,457,465"/>
+<sample name="STD_AC" />
+</tissue>
+</group>
+<group name="BV_Z">
+<control sample="BV_Z"/>
+<tissue colorKey="#33cc77" name="BV_Z [Leaves - Wounding Primary Tissue]" id="BioticStress-WoundingPrimaryTissue">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="688,371,758,371,758,466,688,466"/>
+<sample name="BV_Z" />
+</tissue>
+</group>
+<group name="PE_BV_P_M">
+<control sample="PE_BV_P_M"/>
+<tissue colorKey="#33cc88" name="PE_BV_P_M [Leaves - Wounding Secondary Tissue [paired ends]]" id="BioticStress-WoundingSecondaryTissue">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="870,359,940,359,940,467,870,467"/>
+<sample name="PE_BV_P_M" />
+</tissue>
+</group>
+<group name="BV_A">
+<control sample="BV_A"/>
+<tissue colorKey="#45cd77" name="BV_A [Control (Salt; Mannitol, Whole Plant in vitro, Media B)]" id="AbioticStress-Control2">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="383,570,444,570,444,667,383,667"/>
+<sample name="BV_A" />
+</tissue>
+<tissue colorKey="#45cd99" name="BV_B [Salt - 150mM NaCl, 24hr]" id="AbioticStress-SaltTreatment">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="728,573,781,573,781,670,728,670"/>
+<sample name="BV_B" />
+</tissue>
+<tissue colorKey="#45cd88" name="BV_P_C [Mannitol - 260uM, 24hr]" id="AbioticStress-MannitolTreatment">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="537,571,605,571,605,670,537,670"/>
+<sample name="BV_P_C" />
+</tissue>
+</group>
+<group name="BV_P_I">
+<control sample="BV_P_I"/>
+<tissue colorKey="#45cd55" name="BV_P_I [Control (35C treatment, Whole Plant in vitro, Media A)]" id="AbioticStress-Control1">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="53,569,118,569,118,669,53,669"/>
+<sample name="BV_P_I" />
+</tissue>
+<tissue colorKey="#45cd66" name="BV_K [Heat - 24hr, 35C]" id="AbioticStress-HeatTreatment">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="207,569,271,569,271,671,207,671"/>
+<sample name="BV_K" />
+</tissue>
+</group>
+<group name="BV_D">
+<control sample="BV_D"/>
+<tissue colorKey="#6bee33" name="BV_D [Control (IAA; GA3; BAP; ABA, Whole Plant in vitro, Media C)]" id="AbioticStress-Control3">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="47,742,118,742,118,844,47,844"/>
+<sample name="BV_D" />
+</tissue>
+<tissue colorKey="#6bee66" name="BV_P_F [IAA - 24hr, 10uM]" id="AbioticStress-IAA">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="512,745,576,745,576,846,512,846"/>
+<sample name="BV_P_F" />
+</tissue>
+<tissue colorKey="#6bee55" name="BV_P_E [ABA - 24hr, 50uM]" id="AbioticStress-ABA">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="355,743,419,743,419,846,355,846"/>
+<sample name="BV_P_E" />
+</tissue>
+<tissue colorKey="#6bee77" name="BV_P_G [GA3 - 24hr, 50uM]" id="AbioticStress-GA3">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="661,747,720,747,720,845,661,845"/>
+<sample name="BV_P_G" />
+</tissue>
+<tissue colorKey="#6bee44" name="BV_H [BAP - 24hr, 10uM]" id="AbioticStress-BAP">
+<link url="http://potatogenomics.plantbiology.msu.edu/index.html"/>
+<area coords="209,743,269,743,269,846,209,846"/>
+<sample name="BV_H" />
+</tissue>
+</group>
+</view>
+</specimen>

@@ -1,0 +1,83 @@
+{
+    "species": "Solanum lycopersicum",
+    "chromosomes": [
+        {
+            "name": "SL2.50ch00",
+            "centromeres": [],
+            "id": "SL2.50ch00",
+            "size": "21805821"
+        },
+        {
+            "name": "SL2.50ch01",
+            "centromeres": [],
+            "id": "SL2.50ch01",
+            "size": "98543444"
+        },
+        {
+            "name": "SL2.50ch02",
+            "centromeres": [],
+            "id": "SL2.50ch02",
+            "size": "55340444"
+        },
+        {
+            "name": "SL2.50ch03",
+            "centromeres": [],
+            "id": "SL2.50ch03",
+            "size": "70787664"
+        },
+        {
+            "name": "SL2.50ch04",
+            "centromeres": [],
+            "id": "SL2.50ch04",
+            "size": "66470942"
+        },
+        {
+            "name": "SL2.50ch05",
+            "centromeres": [],
+            "id": "SL2.50ch05",
+            "size": "65875088"
+        },
+        {
+            "name": "SL2.50ch06",
+            "centromeres": [],
+            "id": "SL2.50ch06",
+            "size": "49751636"
+        },
+        {
+            "name": "SL2.50ch07",
+            "centromeres": [],
+            "id": "SL2.50ch07",
+            "size": "68045021"
+        },
+        {
+            "name": "SL2.50ch08",
+            "centromeres": [],
+            "id": "SL2.50ch08",
+            "size": "65866657"
+        },
+        {
+            "name": "SL2.50ch09",
+            "centromeres": [],
+            "id": "SL2.50ch09",
+            "size": "72482091"
+        },
+        {
+            "name": "SL2.50ch10",
+            "centromeres": [],
+            "id": "SL2.50ch10",
+            "size": "65527505"
+        },
+        {
+            "name": "SL2.50ch11",
+            "centromeres": [],
+            "id": "SL2.50ch11",
+            "size": "56302525"
+        },
+        {
+            "name": "SL2.50ch12",
+            "centromeres": [],
+            "id": "SL2.50ch12",
+            "size": "67145203"
+        }
+    ]
+}

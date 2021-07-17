@@ -1,0 +1,139 @@
+<specimen name="Rice">
+	<info>
+		<li>Data from Jain et al., Plant Physiol. 2007 Apr;143(4):1467-83</li>
+		<li>Data was normalized by MAS 5.0 and RMA methods with a TGT value of 100 being used and all tissues sampled in triplicate</li>
+		<li>Based on the images in the original rice eFP Browser drawn by R.Patel</li>
+		<li>Vectorized image redrawn and programmed by Delvin So</li>
+	</info>
+
+	<view db="rice_mas" img="rice_mas_image.tga" name="all">
+		<coords graphHeight="76" graphWidth="137" graphX="16" graphY="177" legendX="0" legendY="177" /> 
+		<extra coords="177,8,310,8,310,28,177,28" link="http://dx.doi.org/10.1371/journal.pone.0000718" name="eFP Browser paper in PLoS One" parameters="No" /> 
+		<extra coords="19,567,397,567,397,577,19,577" link="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1851844/?tool=pubmed" name="To Jain et al. reference" parameter="No" />
+		<group name="Seedling Root">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#583b03" id="Seedling_Root" name="Seedling Root">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="663,240,759,241,759,320,665,320" /> 
+				<sample name="Seedling_Root_Rep1" /> 
+				<sample name="Seedling_Root_Rep2" />
+				<sample name="Seedling_Root_Rep3" /> 
+			</tissue>
+		</group>
+		<group name="Leaf">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#a1fe33" id="Mature_Leaf" name="Mature Leaf">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="564,395,616,395,616,514,564,514" /> 
+				<sample name="MatureLeaf_Rep1" /> 
+				<sample name="MatureLeaf_Rep2" />
+				<sample name="MatureLeaf_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#c3f686" id="Young_Leaf" name="Young Leaf">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="496,415,528,415,528,491,495,491" /> 
+				<sample name="YoungLeaf_Rep1" /> 
+				<sample name="YoungLeaf_Rep2" />
+				<sample name="YoungLeaf_Rep3" /> 
+			</tissue>
+		</group>
+		<group name="SAM">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#33ccfe" id="SAM" name="SAM">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="623,413,751,413,749,507,623,507" /> 
+				<sample name="SAM_Rep1" /> 
+				<sample name="SAM_Rep2" />
+				<sample name="SAM_Rep3" /> 
+			</tissue>
+		</group>
+		<group name="Inflorescence">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#fcfb93" id="Young_Inflorescence" name="Young Inflorescence">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="75,255,115,255,115,349,75,349" /> 
+				<sample name="YoungInflorescence_Rep1" /> 
+				<sample name="YoungInflorescence_Rep2" /> 
+				<sample name="YoungInflorescence_Rep3" />
+			</tissue>
+			<tissue colorKey="#fcfb71" id="Inflorescence_P2" name="Inflorescence P2">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="165,226,207,226,206,351,165,351" /> 
+				<sample name="InflorescenceP2_Rep1" /> 
+				<sample name="InflorescenceP2_Rep2" />
+				<sample name="InflorescenceP2_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#fffd4a" id="Inflorescence_P3" name="Inflorescence P3">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="260,134,320,133,321,355,260,350" /> 
+				<sample name="InflorescenceP3_Rep1" /> 
+				<sample name="InflorescenceP3_Rep2" />
+				<sample name="InflorescenceP3_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#fffd09" id="Inflorescence_P4" name="Inflorescence P4">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="354,75,413,75,413,354,364,355" /> 
+				<sample name="InflorescenceP4_Rep1" /> 
+				<sample name="InflorescenceP4_Rep2" />
+				<sample name="InflorescenceP4_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#d6fd3b" id="Inflorescence_P5" name="Inflorescence P5">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="443,37,528,37,526,344,443,343" />
+				<sample name="InflorescenceP5_Rep1" /> 
+				<sample name="InflorescenceP5_Rep2" />
+				<sample name="InflorescenceP5_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#ccfd06" id="Inflorescence_P6" name="Inflorescence P6">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="563,20,623,20,623,345,563,345" /> 
+				<sample name="InflorescenceP6_Rep1" /> 
+				<sample name="InflorescenceP6_Rep2" />
+				<sample name="InflorescenceP6_Rep3" /> 
+			</tissue>
+		</group>
+		<group name="Seed">
+			<control sample="RICE_CTRL" /> 
+
+			<tissue colorKey="#c2fbce" id="Seed_S1" name="Seed S1">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="51,390,124,390,123,523,51,523" />
+				<sample name="Seed_S1_Rep1" /> 
+				<sample name="Seed_S1_Rep2" />
+				<sample name="Seed_S1_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#92fe83" id="Seed_S2" name="Seed S2">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="132,371,188,371,187,520,132,520" /> 
+				<sample name="Seed_S2_Rep1" /> 
+				<sample name="Seed_S2_Rep2" />
+				<sample name="Seed_S2_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#73fb60" id="Seed_S3" name="Seed S3">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="192,382,260,382,260,514,192,514" /> 
+				<sample name="Seed_S3_Rep1" /> 
+				<sample name="Seed_S3_Rep2" />
+				<sample name="Seed_S3_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#51fd3a" id="Seed_S4" name="Seed S4">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="272,375,349,375,349,511,272,511" /> 
+				<sample name="Seed_S4_Rep1" /> 
+				<sample name="Seed_S4_Rep2" />
+				<sample name="Seed_S4_Rep3" /> 
+			</tissue>
+			<tissue colorKey="#1eff00" id="Seed_S5" name="Seed S5">
+				<link url="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6893" /> 
+				<area coords="369,366,461,366,460,512,369,512" /> 
+				<sample name="Seed_S5_Rep1" /> 
+				<sample name="Seed_S5_Rep2" />
+				<sample name="Seed_S5_Rep3" /> 
+			</tissue>
+		</group>
+	</view>
+</specimen>

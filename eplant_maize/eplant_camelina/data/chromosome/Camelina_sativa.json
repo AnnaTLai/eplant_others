@@ -1,0 +1,125 @@
+{
+    "species": "Camelina sativa",
+    "chromosomes": [
+        {
+            "id": "Chr1",
+            "name": "Chr1",
+            "size": "23241285",
+            "centromeres": []
+        },
+        {
+            "id": "Chr2",
+            "name": "Chr2",
+            "size": "29139806",
+            "centromeres": []
+        },
+        {
+            "id": "Chr3",
+            "name": "Chr3",
+            "size": "28500605",
+            "centromeres": []
+        },
+        {
+            "id": "Chr4",
+            "name": "Chr4",
+            "size": "30110606",
+            "centromeres": []
+        },
+        {
+            "id": "Chr5",
+            "name": "Chr5",
+            "size": "34971402",
+            "centromeres": []
+        },
+        {
+            "id": "Chr6",
+            "name": "Chr6",
+            "size": "26391736",
+            "centromeres": []
+        },
+        {
+            "id": "Chr7",
+            "name": "Chr7",
+            "size": "33617777",
+            "centromeres": []
+        },
+        {
+            "id": "Chr8",
+            "name": "Chr8",
+            "size": "27720346",
+            "centromeres": []
+        },
+        {
+            "id": "Chr9",
+            "name": "Chr9",
+            "size": "38094978",
+            "centromeres": []
+        },
+        {
+            "id": "Chr10",
+            "name": "Chr10",
+            "size": "25316904",
+            "centromeres": []
+        },
+        {
+            "id": "Chr11",
+            "name": "Chr11",
+            "size": "49703607",
+            "centromeres": []
+        },
+        {
+            "id": "Chr12",
+            "name": "Chr12",
+            "size": "33044737",
+            "centromeres": []
+        },
+        {
+            "id": "Chr13",
+            "name": "Chr13",
+            "size": "24101694",
+            "centromeres": []
+        },
+        {
+            "id": "Chr14",
+            "name": "Chr14",
+            "size": "31758599",
+            "centromeres": []
+        },
+        {
+            "id": "Chr15",
+            "name": "Chr15",
+            "size": "30521352",
+            "centromeres": []
+        },
+        {
+            "id": "Chr16",
+            "name": "Chr16",
+            "size": "29110212",
+            "centromeres": []
+        },
+        {
+            "id": "Chr17",
+            "name": "Chr17",
+            "size": "35492130",
+            "centromeres": []
+        },
+        {
+            "id": "Chr18",
+            "name": "Chr18",
+            "size": "20869551",
+            "centromeres": []
+        },
+        {
+            "id": "Chr19",
+            "name": "Chr19",
+            "size": "26736940",
+            "centromeres": []
+        },
+        {
+            "id": "Chr20",
+            "name": "Chr20",
+            "size": "30099736",
+            "centromeres": []
+        }
+    ]
+}
