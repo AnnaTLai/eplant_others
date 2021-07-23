@@ -42,7 +42,7 @@
             $(this.labelDom).empty();
             this.viewNameDom = document.createElement("span");
             query = this.geneticElement.identifier;
-            species = "Arabidopsis"; // change for other species
+            species = "Rice"; // change for other species
             labelText = this.geneticElement.identifier;
             if (this.geneticElement.aliases && this.geneticElement.aliases.length && this.geneticElement.aliases[0].length) {
                 labelText += " / " + this.geneticElement.aliases.join(", ");

@@ -44,7 +44,7 @@
             $(this.labelDom).empty();
             this.viewNameDom = document.createElement("span");
             query = this.geneticElement.identifier;
-            species = "Medicago"; // change for other species
+            species = "medicago"; // change for other species
             labelText = this.geneticElement.identifier;
             if (this.geneticElement.aliases && this.geneticElement.aliases.length && this.geneticElement.aliases[0].length) {
                 labelText += " / " + this.geneticElement.aliases.join(", ");
@@ -135,8 +135,10 @@
             url: '//bar.utoronto.ca/webservices/eplant_navigator/cgi-bin/eplant_navigator_service.cgi?primaryGene=' + query + '&species=' + species + '&dataset=Developmental&checkedspecies=arabidopsis_poplar_medicago_soybean_rice_barley_maize_potato_tomato_grape',
             dataType: "json",
             success: function (data) {
-                console.log(data);
+                console.log(data.tree); //prints the data
                 this.newick = Newick.parse(data.tree);
+                console.log('the tree parsed is now');
+                console.log(this.newick);
                 this.newickNodes = [];
                 this.eFPLinks = data["efp_links"];
                 this.seq = data["sequence_similarity"];
