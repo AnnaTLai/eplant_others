@@ -967,7 +967,7 @@ if (!d3) {
 
         var gramene = icons.append("a")
             .attr("xlink:href", function (d) {
-                if (d.name !== query) {
+                // if (d.name !== query) {
                     current_eplant = genomes[d.name];
                     eplant_gramname_dict = {
                         "ARABIDOPSIS": "Arabidopsis_thaliana",
@@ -975,18 +975,43 @@ if (!d3) {
                         "SOYBEAN": "Glycine_max",
                         "POP": "Populus_trichocarpa",
                         "POPLAR": "Populus_trichocarpa",
-                        "MED": "medicago",
-                        "POTATO": "solanum_tuberosum",
-                        "TOMATO": "solanum_lycopersicum",
-                        "RICE": "oryza_sativa",
-                        "MAIZE": "zea_mays",
-                        "BARLEY": "hordeum _ulgare"
+                        "MED": "Medicago_truncatula",
+                        "MEDTR":"Medicago_truncatula",
+                        "POTATO": "Solanum_tuberosum",
+                        "TOMATO": "Solanum_lycopersicum",
+                        "RICE": "Oryza_sativa",
+                        "MAIZE": "Zea_mays",
+                        "BARLEY": "Hordeum _ulgare"
                     };
-                    grameneURL = "http://ensembl.gramene.org/" + eplant_gramname_dict[current_eplant] + "/Gene/Summary?g=";
-                    //new_name = d.name.replace(/\./g, "_");
-                    new_name = d.name.split('.').join('_');
-                    return grameneURL + new_name;
-                }
+
+                    let new_name = d.name;
+
+                    if (new_name.substr(0, 2) == "1_") {
+                      // sometimes genes have 1_ in front of the gene name. Get ride of it.
+                      new_name = new_name.split("1_").pop();
+                      d.name = new_name;
+                    }
+
+                    if (current_eplant == "POPLAR" || current_eplant ==  "POP") {
+                      new_name = new_name.split('.').join('_');
+                    } else {
+                      // sometimes genes have 1_ in front of the gene name. Get ride of it.
+                      new_name = new_name;
+                    }
+
+                    if (current_eplant == "POPLAR" || current_eplant ==  "POP" || current_eplant == "SOYBEAN") {
+                      //new_name = d.name.replace(/\./g, "_");
+                      new_name = new_name.split('.').join('_');
+                    } else{
+                      // sometimes genes have 1_ in front of the gene name. Get ride of it.
+                      new_name = new_name;
+                    }
+
+
+                // } // if query statement
+
+                grameneURL = "http://ensembl.gramene.org/" + eplant_gramname_dict[current_eplant] + "/Gene/Summary?g=";
+                return grameneURL + new_name;
             })
             .attr("target", "_blank")
             .append("svg:text")
