@@ -71,9 +71,6 @@
     d3.phylogram.rightAngleDiagonal for radial layouts.
 */
 
-//TODO: delete this if this is not needed at all
-//import {eplant_name_dict,eplant_dict} from './eplant_properties';
-
 if (!d3) {
     throw "d3 wasn't included!"
 }
@@ -976,8 +973,8 @@ if (!d3) {
                         "ARABIDOPSIS": "Arabidopsis_thaliana",
                         "ATHL": "Arabidopsis_thaliana",
                         "SOYBEAN": "Glycine_max",
-                        "POP": "populus",
-                        "POPLAR": "populus",
+                        "POP": "Populus_trichocarpa",
+                        "POPLAR": "Populus_trichocarpa",
                         "MED": "medicago",
                         "POTATO": "solanum_tuberosum",
                         "TOMATO": "solanum_lycopersicum",
