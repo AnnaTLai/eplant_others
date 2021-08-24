@@ -994,6 +994,7 @@ if (!d3) {
 
                     if (current_eplant == "POPLAR" || current_eplant ==  "POP") {
                       new_name = new_name.split('.').join('_');
+                      new_name = new_name.split("POTRI").join('POPTR');
                     } else {
                       // sometimes genes have 1_ in front of the gene name. Get ride of it.
                       new_name = new_name;
